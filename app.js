@@ -496,14 +496,14 @@
     var nCore = blocks.filter(function (b) { return b && b.core; }).length;
     var ctxBase = secId + '/' + page.id;
 
-    var h = '<article class="page' + (state.coreOnly ? ' core-only' : '') + '">' +
+    var h = '<article class="page' + (state.coreOnly && nCore ? ' core-only' : '') + '">' +
       '<nav class="crumbs" aria-label="Vị trí"><a href="#/' + secId + '">' + esc(sectionShort(secId)) + '</a>' +
       (group ? ' <span aria-hidden="true">›</span> ' + esc(group.title) : '') + '</nav>' +
       '<h1>' + esc(plain(page.title)) + '</h1>' +
       '<div class="page-meta">' + (page.source === 'supplement' ? supplementBadge() : '') + usesLabel(page) + '</div>' +
       (page.summary ? '<p class="summary">' + md(page.summary) + '</p>' : '') +
       '<div class="page-tools"><label class="switch switch-sm" title="Chỉ hiện các khối lõi để liếc 2 phút trước khi viết">' +
-      '<input type="checkbox" id="coreToggle"' + (state.coreOnly ? ' checked' : '') + (nCore ? '' : ' disabled') + '>' +
+      '<input type="checkbox" id="coreToggle"' + (state.coreOnly && nCore ? ' checked' : '') + (nCore ? '' : ' disabled') + '>' +
       '<span class="switch-track" aria-hidden="true"></span><span class="switch-label">Trước khi viết</span></label>' +
       '<span class="core-info">' + (nCore ? 'Phần lõi: ' + nCore + '/' + blocks.length + ' khối' : 'Trang này không đánh dấu phần lõi') + '</span></div>' +
       '<div class="blocks">' + blocks.map(function (b, bi) {

@@ -1,38 +1,70 @@
 {
   "id": "gre",
   "title": "GRE Writing (Issue)",
-  "description": "Mục tiêu 4.0–4.5: một khung cố định, thesis có điều kiện, một đoạn phản biện. Từ vựng dùng chung với Task 2.",
+  "description": "Mục tiêu 4.0–4.5: một bài Issue 30 phút. Khung Task 2 cộng thesis có điều kiện, một đoạn phản biện và ví dụ thật. Dùng chung kỹ năng và từ vựng với Task 2.",
   "groups": [
-    { "id": "nen-tang", "title": "Nền tảng" }
+    { "id": "nen-tang", "title": "Nền tảng" },
+    { "id": "viet-bai", "title": "Viết bài" },
+    { "id": "luyen-tap", "title": "Luyện tập" }
   ],
   "pages": [
     {
       "id": "khung-bai",
       "group": "nen-tang",
       "title": "Khung bài",
-      "summary": "30 phút, 450–550 từ, 5 đoạn. Khung Task 2 cộng một đoạn phản biện.",
+      "summary": "1 đề Issue, 30 phút, 450–500 từ, 5 đoạn. Khung Task 2 cộng một đoạn phản biện.",
       "source": "supplement",
       "blocks": [
         {
           "kind": "table",
+          "title": "Đề thi",
+          "columns": ["Mục", "Thông tin"],
+          "rows": [
+            ["Vị trí", "Analytical Writing luôn là phần đầu tiên của bài thi."],
+            ["Nhiệm vụ", "Một bài *Analyze an Issue*. Bài *Argument* đã bị bỏ từ tháng 9/2023."],
+            ["Thời gian", "30 phút."],
+            ["Đề", "Một nhận định ngắn kèm **instruction** riêng. Đề rút từ bộ đề Issue mà ETS công bố sẵn."],
+            ["Công cụ", "Trình soạn thảo cơ bản: chèn, xóa, cắt, dán, hoàn tác. **Không có kiểm tra chính tả và ngữ pháp.**"],
+            ["Chấm", "0–6, bước 0,5. Chấm tổng thể (một điểm duy nhất), bởi người chấm và máy chấm e-rater."]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Mục tiêu 4.0–4.5 nghĩa là gì",
+          "core": true,
+          "columns": ["Điểm", "Đặc điểm (diễn giải thang chấm ETS)"],
+          "rows": [
+            ["6", "Phân tích sâu và tinh; lý do, ví dụ thuyết phục; ngôn ngữ chính xác, đa dạng."],
+            ["5", "Phân tích chu đáo; lý do và ví dụ tốt; tổ chức chặt; ngôn ngữ tốt, lỗi nhỏ."],
+            ["**4 (mục tiêu)**", "Lập trường rõ; có lý do và ví dụ liên quan; tổ chức ổn; ngôn ngữ đủ kiểm soát, có lỗi nhưng không cản trở việc hiểu."],
+            ["3", "Có quan điểm nhưng phát triển yếu, hoặc làm lệch instruction; lỗi bắt đầu gây khó hiểu."]
+          ]
+        },
+        {
+          "kind": "text",
+          "md": "Bài 4.0–4.5 **không cần sâu sắc**. Nó cần bốn thứ: làm đúng instruction, thesis có điều kiện rõ ràng, hai ví dụ cụ thể có phân tích, và ngôn ngữ sạch lỗi. Đây đều là kỹ năng đã luyện ở Task 2."
+        },
+        {
+          "kind": "table",
           "title": "Bố cục",
           "core": true,
-          "columns": ["Đoạn", "Nhiệm vụ"],
+          "columns": ["Đoạn", "Nhiệm vụ", "Độ dài"],
           "rows": [
-            ["Mở bài", "Thesis có điều kiện: đúng khi nào, không đúng khi nào"],
-            ["Thân bài 1", "Luận điểm ủng hộ + cơ chế + ví dụ cụ thể"],
-            ["Thân bài 2", "Luận điểm ủng hộ thứ hai + ví dụ"],
-            ["Thân bài 3", "Phản biện mạnh nhất, rồi phản hồi hoặc giới hạn lại thesis"],
-            ["Kết bài", "Kết luận tinh hơn thesis ban đầu"]
+            ["Mở bài", "Một câu bối cảnh, rồi thesis có điều kiện: đúng khi nào, không đúng khi nào", "60–80 từ"],
+            ["Thân bài 1", "Luận điểm ủng hộ + cơ chế + ví dụ thật có phân tích", "100–120 từ"],
+            ["Thân bài 2", "Luận điểm ủng hộ thứ hai + ví dụ", "100–120 từ"],
+            ["Thân bài 3", "Phản biện mạnh nhất, nhượng bộ phần đúng, rồi dùng nó để giới hạn lại thesis", "90–110 từ"],
+            ["Kết bài", "Kết luận tinh hơn thesis ban đầu, không chỉ nhắc lại", "50–60 từ"]
           ]
         },
         {
           "kind": "list",
           "title": "Phân bổ 30 phút",
+          "core": true,
           "items": [
-            "3 phút: đọc instruction, chốt thesis, dàn ý.",
-            "24 phút: viết.",
-            "3 phút: soát lỗi."
+            "3–4 phút: đọc instruction, chốt thesis, chọn hai ví dụ, dàn ý từng đoạn bằng vài chữ.",
+            "23 phút: viết. Mỗi đoạn khoảng 4–5 phút.",
+            "3 phút: soát theo checklist, ưu tiên lỗi chính tả."
           ]
         },
         {
@@ -42,13 +74,20 @@
           "items": [
             "Giống viết paper: claim chính + scope conditions + xử lý phản biện + không overclaim.",
             "Nhưng lập trường phải cứng, chỉ rào ở đúng chỗ cần rào.",
-            "Bám sát instruction của đề: lập luận sâu mà bỏ instruction vẫn bị trừ điểm."
+            "Bám sát instruction của đề: lập luận sâu mà bỏ instruction vẫn bị trừ điểm.",
+            "Độ dài không phải tiêu chí chấm, nhưng phát triển ý đủ cho điểm 4 hiếm khi dưới 400 từ."
           ]
         },
         {
+          "kind": "text",
+          "title": "Không học thuộc bài hay đoạn mẫu",
+          "md": "ETS dùng phần mềm phát hiện tương đồng cùng người chấm. Bài có đoạn trùng với nguồn khác hoặc bài của người khác có thể **bị hủy điểm**. Học thuộc **bố cục và bước lập luận** thì được; học thuộc câu chữ dài thì không. Cùng nguyên tắc với Task 2."
+        },
+        {
           "kind": "links",
-          "title": "Từ vựng",
+          "title": "Dùng chung với Task 2",
           "items": [
+            { "label": "Từ IELTS sang GRE", "section": "gre", "page": "tu-ielts-sang-gre" },
             { "label": "Khung lập luận (dùng chung)", "section": "task2", "page": "khung-lap-luan" },
             { "label": "Từ vựng theo chủ đề (dùng chung)", "section": "task2", "page": "chu-de" },
             { "label": "Liên kết tự nhiên", "section": "task2", "page": "lien-ket" }
@@ -57,31 +96,82 @@
       ]
     },
     {
-      "id": "thesis",
+      "id": "tu-ielts-sang-gre",
       "group": "nen-tang",
-      "title": "Thesis và phản biện",
-      "summary": "Thesis có điều kiện, cấu trúc đoạn phản biện.",
+      "title": "Từ IELTS sang GRE",
+      "summary": "Phần giữ nguyên, phần khác biệt, bảng quy đổi dạng đề, bài tập chuyển đổi.",
       "source": "supplement",
       "blocks": [
         {
-          "kind": "pitfalls",
-          "title": "So sánh 3 kiểu thesis",
+          "kind": "text",
+          "md": "Phần lớn kỹ năng GRE Issue đã có trong Task 2. Với mục tiêu IELTS Writing cao và GRE ở mức 4.0–4.5, **luyện IELTS là chính**; GRE chỉ cần thêm ba thứ: thesis có điều kiện làm mặc định, đoạn phản biện, và ví dụ thật."
+        },
+        {
+          "kind": "table",
+          "title": "Giữ nguyên từ Task 2",
           "core": true,
-          "items": [
-            { "wrong": "Governments should always prioritize immediate problems.", "right": "Governments should prioritize immediate problems only when delay would make them irreversible; otherwise, neglecting long-term issues such as climate risk imposes costs that compound far beyond today's crises.", "why": "Câu sai là overclaim. Câu đúng có lập trường, có điều kiện và có cơ chế." },
-            { "wrong": "There are arguments on both sides, and it depends.", "right": "(như trên)", "why": "Hedge quá tay, không có lập trường." }
+          "columns": ["Kỹ năng Task 2", "Dùng ở GRE thế nào"],
+          "rows": [
+            ["Từ khóa bẫy *all, always, only*", "Nhận định GRE thường là mệnh đề tuyệt đối. Logic *một phản ví dụ là đủ làm đổ* chính là nền của thesis có điều kiện."],
+            ["Lập trường chia theo hoàn cảnh (Discussion)", "Chính là thesis có điều kiện của GRE."],
+            ["Khung phản biện ba bước", "Thành thân bài 3."],
+            ["Chuỗi So what?, lăng kính đối tượng", "Giữ nguyên để phát triển ý và tìm ý."],
+            ["Kim khâu, liên kết tự nhiên", "Giữ nguyên."],
+            ["Khung lập luận, từ vựng chủ đề", "Dùng chung."],
+            ["Error log, checklist", "Giữ nguyên; GRE thêm lỗi chính tả vì không có spell-check."]
           ]
         },
         {
-          "kind": "frames",
-          "title": "Khung câu",
+          "kind": "table",
+          "title": "Khác biệt",
           "core": true,
+          "columns": ["", "IELTS Task 2", "GRE Issue"],
+          "rows": [
+            ["Thời gian", "40 phút", "30 phút"],
+            ["Độ dài", "270–320 từ", "450–500 từ"],
+            ["Số đoạn", "4", "5"],
+            ["Lập trường", "Thẳng; điều kiện là một lựa chọn", "Có điều kiện là mặc định"],
+            ["Phía bên kia", "Không bắt buộc, trừ Discussion", "Thường instruction yêu cầu"],
+            ["Ví dụ", "Giả định hoặc cá nhân là đủ", "Ví dụ thật, cụ thể (lịch sử, khoa học, kinh tế) mạnh hơn hẳn"],
+            ["Yêu cầu riêng", "Trả lời câu hỏi của đề", "Làm đúng instruction đi kèm"],
+            ["Chấm", "4 tiêu chí riêng", "Một điểm tổng thể"],
+            ["Gõ bài", "Tùy hình thức thi", "Gõ máy, không spell-check"]
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Quy đổi dạng đề",
+          "core": true,
+          "columns": ["Instruction GRE", "Gần với Task 2"],
+          "rows": [
+            ["Statement chung", "Opinion có từ tuyệt đối"],
+            ["Recommendation", "Đề *Should*"],
+            ["Claim + phản biện", "Opinion có đoạn phản biện"],
+            ["Hai quan điểm", "Discussion"],
+            ["Claim + reason", "Đề có *and*: hai vế, đánh giá riêng từng vế"],
+            ["Policy", "*Should* + Lợi – hại (hệ quả khi thực thi)"]
+          ]
+        },
+        {
+          "kind": "steps",
+          "title": "Bài tập chuyển đổi IELTS → GRE",
           "items": [
-            { "frame": "[Claim] holds true only insofar as [điều kiện].", "example": "Technology improves education only insofar as teachers know how to use it." },
-            { "frame": "[Claim], provided that [điều kiện].", "example": "Remote work can raise productivity, provided that employees have clear goals." },
-            { "frame": "A compelling case can be made that [phản biện].", "example": "A compelling case can be made that short-term crises leave governments no choice." },
-            { "frame": "Admittedly, [nhượng bộ]. Even so, [phản hồi].", "example": "Admittedly, emergencies demand immediate resources. Even so, chronic underinvestment is what turns manageable risks into emergencies." },
-            { "frame": "This is particularly true of / when [phạm vi].", "example": "This is particularly true when the costs of delay compound over time." }
+            { "title": "Chọn một bài Task 2 đã chấm", "md": "Ưu tiên bài lập trường chia hoàn cảnh hoặc có phản biện." },
+            { "title": "Viết lại thesis", "md": "Nêu rõ điều kiện: đúng khi nào, không đúng khi nào." },
+            { "title": "Đổi ví dụ giả định thành ví dụ thật", "md": "Lấy từ *Ngân hàng ví dụ*, thêm 1–2 câu phân tích ví dụ chứng minh gì." },
+            { "title": "Thêm thân bài 3", "md": "Phản biện mạnh nhất, nhượng bộ, rồi giới hạn thesis." },
+            { "title": "Viết lại kết bài", "md": "Kết luận tinh hơn thesis. Tổng khoảng 450–500 từ." }
+          ]
+        },
+        {
+          "kind": "links",
+          "title": "Trang Task 2 liên quan",
+          "items": [
+            { "label": "Phân tích đề và từ khóa bẫy", "section": "task2", "page": "phan-tich-de" },
+            { "label": "Discussion và so sánh A–B", "section": "task2", "page": "discussion" },
+            { "label": "Opinion: Should, Only way, Best way", "section": "task2", "page": "opinion" },
+            { "label": "Phát triển ý", "section": "task2", "page": "phat-trien-y" },
+            { "label": "Khung lập luận", "section": "task2", "page": "khung-lap-luan" }
           ]
         }
       ]
@@ -94,21 +184,340 @@
       "source": "supplement",
       "blocks": [
         {
+          "kind": "steps",
+          "title": "Đọc đề trong 1 phút",
+          "core": true,
+          "items": [
+            { "title": "Đọc nhận định", "md": "Gạch chân từ tuyệt đối: *always, all, never, best, only, should*." },
+            { "title": "Đọc instruction", "md": "Xác định dạng (bảng dưới). Instruction quyết định bố cục, không phải nhận định." },
+            { "title": "Tìm hai phía", "md": "Một trường hợp nhận định đúng, một trường hợp không đúng." },
+            { "title": "Chốt thesis", "md": "Viết một câu có điều kiện trước khi viết mở bài." }
+          ]
+        },
+        {
           "kind": "table",
           "core": true,
-          "columns": ["Dạng", "Instruction yêu cầu gì", "Việc cần làm"],
+          "columns": ["Dạng", "Instruction yêu cầu gì", "Việc cần làm", "Gần với Task 2"],
           "rows": [
-            ["Statement chung", "Đồng ý đến mức nào; xét khi nào câu nói đúng hoặc không đúng", "Thesis có điều kiện; một đoạn chỉ ra trường hợp câu nói không đúng"],
-            ["Recommendation", "Đồng ý với khuyến nghị đến mức nào; nêu hoàn cảnh cụ thể khi áp dụng có lợi hoặc không", "Nêu hoàn cảnh cụ thể cho cả hai phía"],
-            ["Claim + phản biện", "Phải xử lý những lý do hoặc ví dụ mạnh nhất có thể bác bỏ lập trường", "Đoạn phản biện bắt buộc, chọn phản biện mạnh nhất"],
-            ["Hai quan điểm", "Quan điểm nào gần với mình hơn; phải bàn cả hai", "Mỗi quan điểm một đoạn, rồi nêu lựa chọn có lý do"],
-            ["Claim + reason", "Đồng ý với cả nhận định và lý do mà nó dựa vào", "Đánh giá riêng claim và riêng reason; có thể đồng ý claim mà bác reason"],
-            ["Policy", "Đồng ý với chính sách đến mức nào; xét hệ quả khi thực thi", "Phân tích hệ quả (có lợi và bất lợi) và cho thấy chúng định hình lập trường"]
+            ["Statement chung", "Đồng ý đến mức nào; xét khi nào câu nói đúng hoặc không đúng", "Thesis có điều kiện; một đoạn chỉ ra trường hợp câu nói không đúng", "Opinion có từ tuyệt đối"],
+            ["Recommendation", "Đồng ý với khuyến nghị đến mức nào; nêu hoàn cảnh cụ thể khi áp dụng có lợi hoặc không", "Nêu hoàn cảnh cụ thể cho cả hai phía", "Should"],
+            ["Claim + phản biện", "Phải xử lý những lý do hoặc ví dụ mạnh nhất có thể bác bỏ lập trường", "Đoạn phản biện bắt buộc, chọn phản biện mạnh nhất", "Opinion có phản biện"],
+            ["Hai quan điểm", "Quan điểm nào gần với mình hơn; phải bàn cả hai", "Mỗi quan điểm một đoạn, rồi nêu lựa chọn có lý do", "Discussion"],
+            ["Claim + reason", "Đồng ý với cả nhận định và lý do mà nó dựa vào", "Đánh giá riêng claim và riêng reason; có thể đồng ý claim mà bác reason", "Đề có *and*"],
+            ["Policy", "Đồng ý với chính sách đến mức nào; xét hệ quả khi thực thi", "Phân tích hệ quả (có lợi và bất lợi) và cho thấy chúng định hình lập trường", "Should + Lợi – hại"]
           ]
         },
         {
           "kind": "text",
           "md": "Trước khi viết, **gạch chân instruction** và kiểm tra dàn ý đã có phần mà instruction yêu cầu chưa. Bỏ instruction là lỗi mất điểm phổ biến nhất."
+        },
+        {
+          "kind": "frames",
+          "title": "Thesis mẫu cho từng dạng",
+          "items": [
+            { "frame": "Statement: Technology has made people less creative.", "example": "Technology weakens creativity only when it replaces practice; when it lowers the cost of experimenting, it tends to expand creative work." },
+            { "frame": "Recommendation: Universities should require every student to study a foreign language.", "example": "This requirement makes sense for programmes with an international focus, but as a universal rule it would take time from skills many students need more." },
+            { "frame": "Claim + phản biện: Great leaders are shaped by circumstances rather than by talent.", "example": "Circumstances create the opportunity for leadership, but talent decides who can use it, even if the strongest objection shows that talent alone is rarely enough." },
+            { "frame": "Hai quan điểm: Schools should teach practical skills / Schools should teach broad knowledge.", "example": "The second view is closer to my own, although the first identifies a real gap that schools should close in the final years of study." },
+            { "frame": "Claim + reason: Schools should abolish grades, because grades discourage learning.", "example": "Grades can discourage curiosity, so the reason is partly true, but the claim does not follow: reforming how grades are used would keep the feedback they provide." },
+            { "frame": "Policy: Cities should ban private cars from their centres.", "example": "A ban would benefit dense cities with strong public transport, but where buses and trains are weak, its costs would fall mainly on workers and small businesses." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thesis",
+      "group": "nen-tang",
+      "title": "Thesis có điều kiện",
+      "summary": "Ba cách đặt điều kiện; thesis có lập trường, điều kiện và cơ chế.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "pitfalls",
+          "title": "So sánh 3 kiểu thesis",
+          "core": true,
+          "items": [
+            { "wrong": "Governments should always prioritize immediate problems.", "right": "Governments should prioritize immediate problems only when delay would make them irreversible; otherwise, neglecting long-term issues such as climate risk imposes costs that compound far beyond today's crises.", "why": "Câu sai là overclaim. Câu đúng có lập trường, có điều kiện và có cơ chế." },
+            { "wrong": "There are arguments on both sides, and it depends.", "right": "(như trên)", "why": "Hedge quá tay, không có lập trường." }
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Ba cách đặt điều kiện",
+          "core": true,
+          "columns": ["Cách", "Câu hỏi để tìm điều kiện", "Ví dụ"],
+          "rows": [
+            ["Theo hoàn cảnh", "Nhận định đúng trong tình huống nào?", "*Competition improves performance when the rules are fair and the goals are clear.*"],
+            ["Theo nhóm", "Nhận định đúng với ai, không đúng với ai?", "*Online degrees serve working adults well, but they rarely suit school leavers who need structure.*"],
+            ["Theo mức độ", "Đúng hoàn toàn hay chỉ một phần?", "*Tradition deserves respect, but only to the extent that it does not block necessary change.*"]
+          ]
+        },
+        {
+          "kind": "text",
+          "md": "Điều kiện phải là **một tiêu chí cụ thể**, không phải lời rào. *It depends* mà không nói phụ thuộc vào cái gì là hedge. Phép thử: người đọc có tự phân loại được một trường hợp mới vào phía đúng hay phía sai của thesis không? Được thì thesis đủ rõ. Đây cũng chính là lập trường *chia theo hoàn cảnh* ở trang Discussion của Task 2."
+        },
+        {
+          "kind": "frames",
+          "title": "Khung câu",
+          "core": true,
+          "items": [
+            { "frame": "[Claim] holds true only insofar as [điều kiện].", "example": "Technology improves education only insofar as teachers know how to use it." },
+            { "frame": "[Claim], provided that [điều kiện].", "example": "Remote work can raise productivity, provided that employees have clear goals." },
+            { "frame": "A compelling case can be made that [phản biện].", "example": "A compelling case can be made that short-term crises leave governments no choice." },
+            { "frame": "Admittedly, [nhượng bộ]. Even so, [phản hồi].", "example": "Admittedly, emergencies demand immediate resources. Even so, chronic underinvestment is what turns manageable risks into emergencies." },
+            { "frame": "This is particularly true of / when [phạm vi].", "example": "This is particularly true when the costs of delay compound over time." },
+            { "frame": "[Claim] in most cases, but not when [ngoại lệ].", "example": "Experts should guide public policy in most cases, but not when their advice ignores how ordinary people will respond." }
+          ]
+        },
+        {
+          "kind": "links",
+          "items": [
+            { "label": "Discussion: lập trường chia theo hoàn cảnh", "section": "task2", "page": "discussion" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "doan-van",
+      "group": "viet-bai",
+      "title": "Thân bài và đoạn phản biện",
+      "summary": "Thân bài dài hơn IELTS: luận điểm, cơ chế, ví dụ thật có phân tích. Đoạn phản biện dùng để giới hạn thesis.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "steps",
+          "title": "Thân bài ủng hộ (100–120 từ)",
+          "core": true,
+          "items": [
+            { "title": "Câu chủ đề", "md": "Một lý do, gắn trực tiếp với thesis." },
+            { "title": "Cơ chế", "md": "Vì sao lý do đó đúng. Dùng chuỗi *So what?* của Task 2." },
+            { "title": "Ví dụ thật", "md": "2–3 câu chi tiết: ai, khi nào, chuyện gì xảy ra. Chỉ dùng chi tiết mình chắc chắn." },
+            { "title": "Phân tích ví dụ", "md": "Một câu nói ví dụ **chứng minh** gì. Đây là chỗ phân biệt bài 4 với bài 3: ví dụ được giải thích, không chỉ được nêu tên." },
+            { "title": "Nối về thesis", "md": "Liên hệ với điều kiện trong thesis." }
+          ]
+        },
+        {
+          "kind": "steps",
+          "title": "Đoạn phản biện (90–110 từ)",
+          "core": true,
+          "items": [
+            { "title": "Nêu phản biện mạnh nhất", "md": "Ở dạng mạnh nhất, công bằng. Phản biện yếu (strawman) không ghi điểm." },
+            { "title": "Nhượng bộ phần đúng", "md": "Thừa nhận thật, không nửa vời." },
+            { "title": "Chỉ ra giả định hoặc giới hạn", "md": "Phản biện ngầm coi điều gì là đúng? Điều đó sai ở đâu?" },
+            { "title": "Dùng phản biện để giới hạn thesis", "md": "Kết đoạn bằng cách cho thấy phản biện **xác định phạm vi** thesis chứ không lật đổ nó." }
+          ]
+        },
+        {
+          "kind": "text",
+          "md": "Khác với IELTS, đoạn phản biện ở GRE thường **không kết bằng bác bỏ hoàn toàn**. Nó kết bằng việc tinh chỉnh thesis: phản biện đúng ở đâu, và vì vậy thesis đúng trong phạm vi nào. Kết bài sau đó nêu lại thesis đã được tinh chỉnh này."
+        },
+        {
+          "kind": "frames",
+          "title": "Khung câu",
+          "items": [
+            { "frame": "The clearest reason to [claim] is that …", "example": "The clearest reason to doubt the statement is that most advances extend earlier work rather than overturn it." },
+            { "frame": "Consider the case of [ví dụ], in which …", "example": "Consider the case of Singapore, which began charging drivers to enter its city centre in 1975." },
+            { "frame": "What this case shows is that …", "example": "What this case shows is that pricing can change behaviour where a ban would simply be evaded." },
+            { "frame": "A strong objection is that …", "example": "A strong objection is that some problems are too urgent to wait for gradual reform." },
+            { "frame": "This objection does not overturn my position; it marks its limit.", "example": "This objection does not overturn my position; it marks its limit. Bans work when evasion is difficult." }
+          ]
+        },
+        {
+          "kind": "pitfalls",
+          "title": "Lỗi thường gặp",
+          "core": true,
+          "items": [
+            { "wrong": "For example, history shows many cases of this.", "right": "Ví dụ có tên, thời gian và chuyện gì xảy ra.", "why": "Ví dụ chung chung không chứng minh được gì." },
+            { "wrong": "Ví dụ kể chuyện 5 câu, không có câu phân tích.", "right": "2–3 câu sự kiện + 1 câu *what this shows*.", "why": "Người chấm cần thấy ví dụ liên quan đến lập luận thế nào." },
+            { "wrong": "Hai thân bài nêu cùng một lý do bằng hai ví dụ.", "right": "Mỗi thân bài một lý do khác nhau.", "why": "Bài trông dài nhưng không phát triển thêm." },
+            { "wrong": "Phản biện yếu, dễ bác (strawman).", "right": "Chọn phản biện mà chính mình thấy khó trả lời.", "why": "Instruction thường yêu cầu phản biện **mạnh nhất**." },
+            { "wrong": "Đoạn phản biện kết bằng việc đổi lập trường.", "right": "Phản biện giới hạn thesis, lập trường giữ nguyên.", "why": "Lập trường không nhất quán làm bài rơi xuống 3." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vi-du",
+      "group": "viet-bai",
+      "title": "Ngân hàng ví dụ",
+      "summary": "10 ví dụ thật dùng được cho nhiều đề. Học sự kiện, không học câu.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Cách dùng",
+          "core": true,
+          "items": [
+            "30 phút không đủ để nghĩ ví dụ mới. Chuẩn bị sẵn khoảng 10 ví dụ linh hoạt, mỗi ví dụ nắm chắc **2–3 sự kiện**.",
+            "Chỉ dùng chi tiết mình chắc chắn. Sai sự kiện làm mất uy tín lập luận; không bịa số liệu.",
+            "Học **sự kiện và điều nó chứng minh**, không học câu mẫu. Câu ví dụ dưới đây chỉ để minh họa.",
+            "Một ví dụ có thể phục vụ hai phía: nhìn từ góc khác là thành phản biện.",
+            "Ví dụ thật cũng làm bài IELTS mạnh hơn, nhưng ở IELTS ví dụ giả định là đủ."
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Chính sách và quy định",
+          "core": true,
+          "items": [
+            { "en": "Montreal Protocol (1987)", "vi": "Hiệp ước loại bỏ dần các chất làm suy giảm tầng ozone; tầng ozone đang trên đà phục hồi.", "note": "Chứng minh: hợp tác quốc tế và quy định có thể giải quyết vấn đề dài hạn, nhất là khi có chất thay thế.", "tags": ["môi trường", "chính phủ", "dài hạn"], "example": "The Montreal Protocol of 1987 shows that coordinated regulation can work: by phasing out ozone-depleting chemicals, countries set the ozone layer on a path to recovery." },
+            { "en": "Prohibition in the United States (1920–1933)", "vi": "Lệnh cấm rượu toàn quốc; buôn lậu và tội phạm có tổ chức phát triển; bị bãi bỏ năm 1933.", "note": "Chứng minh: lệnh cấm có thể phản tác dụng khi nhu cầu vẫn còn.", "tags": ["lệnh cấm", "luật", "hệ quả ngoài ý muốn"], "example": "Prohibition in the United States did not end drinking; it moved the alcohol trade into the hands of criminal gangs, and the ban was repealed in 1933." },
+            { "en": "Singapore's road pricing (1975, ERP from 1998)", "vi": "Thu phí xe vào trung tâm, sau đó thu phí điện tử theo giờ và khu vực.", "note": "Chứng minh: dùng giá để điều chỉnh hành vi thay vì cấm.", "tags": ["đô thị", "kinh tế", "chính sách"], "example": "Singapore began charging drivers to enter its city centre in 1975, showing that a price can reduce congestion without banning cars." },
+            { "en": "Thalidomide and drug regulation (1962)", "vi": "Thuốc an thần gây dị tật ở hàng nghìn trẻ sơ sinh cuối thập niên 1950; Mỹ siết quy định thử nghiệm thuốc năm 1962.", "note": "Chứng minh: quy định chặt có thể cứu người; cũng dùng cho tranh luận tốc độ và thận trọng.", "tags": ["y tế", "quy định", "rủi ro"], "example": "After thalidomide caused severe birth defects, the United States tightened its drug-testing rules in 1962, accepting slower approvals in exchange for greater safety." }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Kinh tế và giáo dục",
+          "items": [
+            { "en": "Doi Moi reforms in Vietnam (1986)", "vi": "Chuyển sang kinh tế thị trường và mở cửa thương mại; nhiều thập kỷ tăng trưởng nhanh, nghèo đói giảm mạnh.", "note": "Chứng minh: thay đổi chính sách thực dụng; truyền thống và thay đổi; vai trò của thị trường.", "tags": ["kinh tế", "cải cách", "thay đổi"], "example": "Vietnam's Doi Moi reforms of 1986, which opened the economy to markets and trade, were followed by decades of rapid growth and a steep fall in poverty." },
+            { "en": "The GI Bill (1944)", "vi": "Mỹ tài trợ học đại học và học nghề cho cựu binh; hàng triệu người được đi học.", "note": "Chứng minh: đầu tư công vào giáo dục mở rộng cơ hội và tầng lớp trung lưu.", "tags": ["giáo dục", "chính phủ", "cơ hội"], "example": "The GI Bill of 1944 paid for millions of American veterans to attend college or vocational training, widening access to higher education for a generation." }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Khoa học và công nghệ",
+          "items": [
+            { "en": "Penicillin (1928 to the 1940s)", "vi": "Fleming phát hiện năm 1928; Florey và Chain biến nó thành thuốc khoảng năm 1940; sản xuất hàng loạt trong Thế chiến II.", "note": "Chứng minh: tiến bộ đến từ nhiều người phát triển một ý tưởng; nghiên cứu xuất phát từ tò mò; vai trò của nhà nước và công nghiệp.", "tags": ["khoa học", "hợp tác", "nghiên cứu"], "example": "Penicillin was discovered by chance in 1928, but it became a usable medicine only after other researchers purified it and wartime industry learned to mass-produce it." },
+            { "en": "Ignaz Semmelweis (1840s)", "vi": "Rửa tay bằng dung dịch chlorine làm giảm mạnh tử vong ở khoa sản Vienna; đồng nghiệp bác bỏ; chỉ được chấp nhận sau khi có thuyết vi trùng.", "note": "Chứng minh: chuyên gia có thể chống lại bằng chứng mới; thách thức cần một khung lý thuyết mới thắng được.", "tags": ["khoa học", "thẩm quyền", "đổi mới"], "example": "When Ignaz Semmelweis showed that handwashing reduced deaths in a Vienna maternity ward, many doctors rejected his findings, partly because he could not explain why it worked." },
+            { "en": "The Green Revolution (1960s)", "vi": "Giống lúa và lúa mì năng suất cao, thủy lợi, phân bón giúp sản lượng lương thực ở châu Á tăng mạnh; đổi lại là cạn nước ngầm, đất thoái hóa.", "note": "Chứng minh: công nghệ giải quyết vấn đề trước mắt nhưng có chi phí dài hạn.", "tags": ["công nghệ", "môi trường", "hệ quả ngoài ý muốn"], "example": "The Green Revolution of the 1960s helped countries such as India feed their growing populations, but heavy irrigation and fertiliser use later depleted groundwater and degraded soil." },
+            { "en": "The printing press (from the 1450s)", "vi": "Máy in của Gutenberg làm sách rẻ đi, lan truyền tri thức và góp phần vào cải cách tôn giáo; cũng lan truyền tờ rơi sai lệch.", "note": "Chứng minh: công nghệ thông tin mới vừa mở rộng tri thức vừa gây hỗn loạn; so sánh với internet.", "tags": ["công nghệ", "giáo dục", "truyền thông"], "example": "The printing press made books far cheaper after the 1450s, spreading literacy across Europe, yet it also allowed pamphlets full of rumours to circulate as never before." }
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Ghép ví dụ với chủ đề đề GRE",
+          "columns": ["Chủ đề đề", "Ví dụ dùng được"],
+          "rows": [
+            ["Giáo dục", "GI Bill, printing press"],
+            ["Công nghệ", "Printing press, Green Revolution, penicillin"],
+            ["Chính phủ, chính sách, luật", "Montreal Protocol, Prohibition, Singapore, thalidomide, Doi Moi"],
+            ["Khoa học, chuyên gia, thẩm quyền", "Semmelweis, penicillin, thalidomide"],
+            ["Ngắn hạn và dài hạn", "Montreal Protocol, Green Revolution"],
+            ["Truyền thống và thay đổi", "Doi Moi, printing press, Semmelweis"],
+            ["Cá nhân và tập thể", "Penicillin, Semmelweis"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bai-mau",
+      "group": "viet-bai",
+      "title": "Bài mẫu",
+      "summary": "Một bài Statement khoảng 480 từ, dùng ví dụ từ ngân hàng ví dụ.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "essay",
+          "title": "Statement: tiến bộ khoa học",
+          "prompt": "Scientific progress depends more on challenging established ideas than on building on them. Discuss the extent to which you agree or disagree with the statement, considering ways in which it might or might not hold true.",
+          "paragraphs": [
+            { "label": "Mở bài", "en": "It is tempting to picture scientific progress as a series of bold rebellions against accepted wisdom. Such challenges do matter at certain moments, but I believe the statement overstates their role. Most progress depends on building patiently on existing knowledge, and even successful challenges tend to succeed only when they rest on that accumulated foundation." },
+            { "label": "Thân bài 1", "en": "The clearest reason to doubt the statement is that most scientific advances extend earlier work rather than overturn it. Consider the history of penicillin. Alexander Fleming noticed in 1928 that a mould killed bacteria in his laboratory dish, yet his observation produced no usable medicine for more than a decade. Only when Howard Florey and Ernst Chain built on his findings around 1940 was penicillin purified and tested on patients, and industrial methods developed during the Second World War then made mass production possible. None of these steps overturned an established theory. What this case shows is that progress often comes from many people refining and applying an idea that already exists." },
+            { "label": "Thân bài 2", "en": "Even when a scientist does challenge accepted views, the challenge rarely succeeds on its own. In the 1840s, Ignaz Semmelweis observed that deaths from fever in a Vienna maternity ward fell sharply after doctors washed their hands with a chlorine solution. His conclusion contradicted the medical thinking of his day, and many colleagues rejected it, partly because he could not explain why handwashing worked. His data were persuasive, but data alone could not displace a theory that most doctors still accepted. Only after germ theory was developed in the following decades did hospital hygiene become standard practice. A challenge, in other words, needs a framework that others can build on before it can change science." },
+            { "label": "Thân bài 3 (phản biện)", "en": "A strong objection is that the greatest moments in science, such as Darwin's theory of evolution, did involve overturning established beliefs. This is true, and it is the main reason I do not reject the statement entirely. At such turning points, a willingness to question accepted ideas is indispensable. Yet Darwin himself drew heavily on earlier work, including geologists' evidence that the Earth was very old and decades of observations by other naturalists. He also spent around twenty years gathering evidence before publishing, precisely because he knew that a challenge without support would fail. His theory challenged a belief, but it was built from accumulated knowledge. This objection therefore does not overturn my position; it marks its limit." },
+            { "label": "Kết bài", "en": "In conclusion, scientific progress depends on both challenging and building on established ideas, but not in equal measure. Bold challenges are decisive at rare turning points, yet they succeed only when they draw on, and are later extended by, the patient accumulation of knowledge that makes up most of science. Originality matters most when it is grounded in what others have already established." }
+          ],
+          "note": "Thesis **theo mức độ**: đồng ý một phần, nói rõ phần nào. Thân bài 1 và 2 là hai lý do khác nhau, mỗi lý do một ví dụ thật có câu phân tích (*What this case shows*, *in other words*). Thân bài 3 nhượng bộ thật rồi biến phản biện thành giới hạn của thesis. Kết bài tinh hơn mở bài: thêm ý *rare turning points*."
+        }
+      ]
+    },
+    {
+      "id": "soat-bai",
+      "group": "luyen-tap",
+      "title": "Soát bài",
+      "summary": "Checklist 3 phút cuối, lỗi riêng của GRE, từ hay gõ sai khi không có spell-check.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "checklist",
+          "title": "3 phút cuối",
+          "core": true,
+          "items": [
+            "Bài đã làm **đúng việc instruction yêu cầu** chưa?",
+            "Thesis ở mở bài và kết luận ở kết bài có khớp nhau không?",
+            "Mỗi thân bài có ví dụ cụ thể **và** câu phân tích ví dụ không?",
+            "Đoạn phản biện có nhượng bộ thật và kết bằng giới hạn thesis không?",
+            "Lỗi chính tả, nhất là các từ trong danh sách dưới. Không có spell-check.",
+            "Không dạng rút gọn, không mở câu bằng *And / But / So*."
+          ]
+        },
+        {
+          "kind": "pitfalls",
+          "title": "Lỗi riêng của GRE",
+          "core": true,
+          "items": [
+            { "wrong": "Viết một bài lập luận tốt nhưng bỏ phần instruction yêu cầu.", "right": "Gạch chân instruction, kiểm tra dàn ý trước khi viết.", "why": "Lỗi mất điểm phổ biến nhất." },
+            { "wrong": "Many people believe that … / In today's world …", "right": "Vào thẳng vấn đề bằng một câu bối cảnh cụ thể.", "why": "Mở bài sáo tốn thời gian và không ghi điểm." },
+            { "wrong": "Sai năm, sai tên, hoặc bịa số liệu trong ví dụ.", "right": "Chỉ dùng chi tiết chắc chắn; không nhớ năm thì nói *in the 1840s* hoặc bỏ.", "why": "Sai sự kiện làm yếu cả lập luận." },
+            { "wrong": "Thesis *it depends* không nói phụ thuộc vào gì.", "right": "Nêu tiêu chí cụ thể của điều kiện.", "why": "Không có lập trường." },
+            { "wrong": "Một đoạn mẫu học thuộc dùng cho mọi đề.", "right": "Học bố cục và bước lập luận.", "why": "Phần mềm phát hiện tương đồng có thể dẫn đến hủy điểm." },
+            { "wrong": "Bài dưới 350 từ.", "right": "Khoảng 450–500 từ.", "why": "Không đủ chỗ để phát triển ý cho mức 4." }
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Từ hay gõ sai",
+          "items": [
+            "*necessary, occasion, accommodate, recommend, occurrence*",
+            "*environment, government, argument, independent, separate*",
+            "*beneficial, privilege, definitely, achieve, receive*",
+            "*whether / weather, their / there, its / it's, affect / effect, than / then*",
+            "*until, consequently, successful, responsibility, controversial*"
+          ]
+        },
+        {
+          "kind": "links",
+          "title": "Dùng chung với Task 2",
+          "items": [
+            { "label": "Không nên dùng (error log)", "section": "task2", "page": "khong-nen-dung" },
+            { "label": "Checklist soát bài Task 2", "section": "task2", "page": "checklist" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ke-hoach",
+      "group": "luyen-tap",
+      "title": "Kế hoạch luyện",
+      "summary": "5 tuần, luyện chung với Task 2: 1 bài chuyển đổi và 3 bài GRE tính giờ.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "text",
+          "md": "Quant là ưu tiên, IELTS Writing đứng thứ hai, GRE Writing chỉ cần 4.0–4.5. Vì vậy GRE **không có buổi học riêng**: nó đi kèm việc luyện Task 2. Tổng cộng khoảng **4 bài GRE** trong 5 tuần."
+        },
+        {
+          "kind": "steps",
+          "title": "5 tuần trước ngày thi",
+          "core": true,
+          "items": [
+            { "title": "Tuần 1: nắm khung", "md": "Đọc *Từ IELTS sang GRE* và *6 dạng instruction*. Với mỗi bài Task 2 trong tuần, viết thêm một thesis kiểu GRE cho cùng đề (2 phút). Học 10 ví dụ trong ngân hàng." },
+            { "title": "Tuần 2: bài chuyển đổi", "md": "Lấy một bài Task 2 đã chấm, mở rộng thành bài GRE theo 5 bước chuyển đổi. Không tính giờ. Gửi chấm." },
+            { "title": "Tuần 3: bài tính giờ 1", "md": "30 phút, gõ máy, **tắt spell-check**. Đề từ bộ đề ETS hoặc Official Guide. Gửi chấm theo thang 4–5." },
+            { "title": "Tuần 4: bài tính giờ 2", "md": "Chọn dạng instruction khác bài 1. Rà lại error log trước khi viết." },
+            { "title": "Tuần thi: bài tính giờ 3", "md": "Viết 3–4 ngày trước ngày thi, đúng điều kiện thi. Sau đó chỉ đọc lại *Khung bài*, *Thesis* và *Soát bài*." }
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Nguyên tắc",
+          "core": true,
+          "items": [
+            "Nếu hai bài tính giờ liên tiếp đạt **4.5 trở lên**, dừng luyện GRE Writing, dồn thời gian cho Quant.",
+            "Đọc lướt bộ đề Issue của ETS một lần để quen các chủ đề và 6 dạng instruction; không cần lập dàn ý cho từng đề.",
+            "Gõ bài trong một trình soạn thảo không gạch đỏ lỗi chính tả, để quen điều kiện thi.",
+            "Mỗi bài Task 2 có lập trường chia hoàn cảnh hoặc có đoạn phản biện là đã luyện phần lớn kỹ năng GRE."
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Tài liệu",
+          "items": [
+            "**Bộ đề Issue của ETS**: công khai trên trang ETS, đề thi thật rút từ bộ này.",
+            "**Official Guide to the GRE**: bài mẫu các mức điểm kèm nhận xét của người chấm. Đọc bài mức 4 và 5 để thấy khoảng cách.",
+            "**ScoreItNow!** của ETS (trả phí): máy chấm điểm bài luyện, nếu muốn một điểm tham chiếu. Kiểm tra giá và tình trạng trên trang ETS."
+          ]
         }
       ]
     }
