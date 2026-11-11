@@ -1,0 +1,116 @@
+{
+  "id": "gre",
+  "title": "GRE Writing (Issue)",
+  "description": "Mục tiêu 4.0–4.5: một khung cố định, thesis có điều kiện, một đoạn phản biện. Từ vựng dùng chung với Task 2.",
+  "groups": [
+    { "id": "nen-tang", "title": "Nền tảng" }
+  ],
+  "pages": [
+    {
+      "id": "khung-bai",
+      "group": "nen-tang",
+      "title": "Khung bài",
+      "summary": "30 phút, 450–550 từ, 5 đoạn. Khung Task 2 cộng một đoạn phản biện.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Bố cục",
+          "core": true,
+          "columns": ["Đoạn", "Nhiệm vụ"],
+          "rows": [
+            ["Mở bài", "Thesis có điều kiện: đúng khi nào, không đúng khi nào"],
+            ["Thân bài 1", "Luận điểm ủng hộ + cơ chế + ví dụ cụ thể"],
+            ["Thân bài 2", "Luận điểm ủng hộ thứ hai + ví dụ"],
+            ["Thân bài 3", "Phản biện mạnh nhất, rồi phản hồi hoặc giới hạn lại thesis"],
+            ["Kết bài", "Kết luận tinh hơn thesis ban đầu"]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Phân bổ 30 phút",
+          "items": [
+            "3 phút: đọc instruction, chốt thesis, dàn ý.",
+            "24 phút: viết.",
+            "3 phút: soát lỗi."
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Tư duy",
+          "core": true,
+          "items": [
+            "Giống viết paper: claim chính + scope conditions + xử lý phản biện + không overclaim.",
+            "Nhưng lập trường phải cứng, chỉ rào ở đúng chỗ cần rào.",
+            "Bám sát instruction của đề: lập luận sâu mà bỏ instruction vẫn bị trừ điểm."
+          ]
+        },
+        {
+          "kind": "links",
+          "title": "Từ vựng",
+          "items": [
+            { "label": "Khung lập luận (dùng chung)", "section": "task2", "page": "khung-lap-luan" },
+            { "label": "Từ vựng theo chủ đề (dùng chung)", "section": "task2", "page": "chu-de" },
+            { "label": "Liên kết tự nhiên", "section": "task2", "page": "lien-ket" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thesis",
+      "group": "nen-tang",
+      "title": "Thesis và phản biện",
+      "summary": "Thesis có điều kiện, cấu trúc đoạn phản biện.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "pitfalls",
+          "title": "So sánh 3 kiểu thesis",
+          "core": true,
+          "items": [
+            { "wrong": "Governments should always prioritize immediate problems.", "right": "Governments should prioritize immediate problems only when delay would make them irreversible; otherwise, neglecting long-term issues such as climate risk imposes costs that compound far beyond today's crises.", "why": "Câu sai là overclaim. Câu đúng có lập trường, có điều kiện và có cơ chế." },
+            { "wrong": "There are arguments on both sides, and it depends.", "right": "(như trên)", "why": "Hedge quá tay, không có lập trường." }
+          ]
+        },
+        {
+          "kind": "frames",
+          "title": "Khung câu",
+          "core": true,
+          "items": [
+            { "frame": "[Claim] holds true only insofar as [điều kiện].", "example": "Technology improves education only insofar as teachers know how to use it." },
+            { "frame": "[Claim], provided that [điều kiện].", "example": "Remote work can raise productivity, provided that employees have clear goals." },
+            { "frame": "A compelling case can be made that [phản biện].", "example": "A compelling case can be made that short-term crises leave governments no choice." },
+            { "frame": "Admittedly, [nhượng bộ]. Even so, [phản hồi].", "example": "Admittedly, emergencies demand immediate resources. Even so, chronic underinvestment is what turns manageable risks into emergencies." },
+            { "frame": "This is particularly true of / when [phạm vi].", "example": "This is particularly true when the costs of delay compound over time." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "group": "nen-tang",
+      "title": "6 dạng instruction",
+      "summary": "Mỗi đề kèm một instruction riêng; phải làm đúng việc instruction yêu cầu.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "table",
+          "core": true,
+          "columns": ["Dạng", "Instruction yêu cầu gì", "Việc cần làm"],
+          "rows": [
+            ["Statement chung", "Đồng ý đến mức nào; xét khi nào câu nói đúng hoặc không đúng", "Thesis có điều kiện; một đoạn chỉ ra trường hợp câu nói không đúng"],
+            ["Recommendation", "Đồng ý với khuyến nghị đến mức nào; nêu hoàn cảnh cụ thể khi áp dụng có lợi hoặc không", "Nêu hoàn cảnh cụ thể cho cả hai phía"],
+            ["Claim + phản biện", "Phải xử lý những lý do hoặc ví dụ mạnh nhất có thể bác bỏ lập trường", "Đoạn phản biện bắt buộc, chọn phản biện mạnh nhất"],
+            ["Hai quan điểm", "Quan điểm nào gần với mình hơn; phải bàn cả hai", "Mỗi quan điểm một đoạn, rồi nêu lựa chọn có lý do"],
+            ["Claim + reason", "Đồng ý với cả nhận định và lý do mà nó dựa vào", "Đánh giá riêng claim và riêng reason; có thể đồng ý claim mà bác reason"],
+            ["Policy", "Đồng ý với chính sách đến mức nào; xét hệ quả khi thực thi", "Phân tích hệ quả (có lợi và bất lợi) và cho thấy chúng định hình lập trường"]
+          ]
+        },
+        {
+          "kind": "text",
+          "md": "Trước khi viết, **gạch chân instruction** và kiểm tra dàn ý đã có phần mà instruction yêu cầu chưa. Bỏ instruction là lỗi mất điểm phổ biến nhất."
+        }
+      ]
+    }
+  ]
+}

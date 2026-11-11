@@ -1,0 +1,211 @@
+{
+  "id": "task2",
+  "title": "IELTS Writing Task 2",
+  "description": "Bản khởi đầu: khung bài, liên kết tự nhiên và từ vựng đa dụng. Sẽ được bổ sung từ khóa học Task 2.",
+  "groups": [
+    { "id": "nen-tang", "title": "Nền tảng" },
+    { "id": "tu-vung", "title": "Từ vựng" }
+  ],
+  "pages": [
+    {
+      "id": "khung-bai",
+      "group": "nen-tang",
+      "title": "Khung bài",
+      "summary": "4 đoạn, 270–320 từ, 40 phút. Lập trường rõ ngay từ mở bài.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Bố cục",
+          "core": true,
+          "columns": ["Đoạn", "Nhiệm vụ"],
+          "rows": [
+            ["Mở bài (2–3 câu)", "Paraphrase đề và nêu lập trường rõ ràng"],
+            ["Thân bài 1", "Một luận điểm → giải thích cơ chế → ví dụ cụ thể"],
+            ["Thân bài 2", "Một luận điểm → giải thích cơ chế → ví dụ cụ thể"],
+            ["Kết bài (2 câu)", "Nhắc lại lập trường, không thêm ý mới"]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Các dạng đề",
+          "items": [
+            "**Opinion**: nêu mức độ đồng ý và giữ nhất quán.",
+            "**Discussion**: bàn cả hai quan điểm, rồi nêu quan điểm của mình nếu đề hỏi.",
+            "**Problem – solution**: nguyên nhân hoặc vấn đề, rồi giải pháp tương ứng.",
+            "**Advantages – disadvantages**: cân nhắc hai mặt; nếu đề hỏi bên nào lớn hơn thì phải trả lời.",
+            "**Two-part question**: trả lời đủ cả hai câu hỏi."
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Nguyên tắc",
+          "core": true,
+          "items": [
+            "Trả lời **đủ mọi phần** của đề.",
+            "Lập trường thẳng và rõ; tránh rào đón ở mọi câu.",
+            "Mỗi đoạn chỉ dùng 1–2 cụm từ nặng.",
+            "Thời gian: khoảng 5 phút dàn ý, 30 phút viết, 5 phút soát."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lien-ket",
+      "group": "nen-tang",
+      "title": "Liên kết tự nhiên",
+      "summary": "10 công cụ liên kết bằng ý và từ quy chiếu, ít dùng từ nối.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "text",
+          "md": "Band descriptor mô tả bài band 9 là bài dùng liên kết **tự nhiên đến mức không gây chú ý**. Bài câu nào cũng mở bằng *Moreover, Furthermore* bị xem là máy móc. Nguyên tắc: **liên kết bằng ý và từ quy chiếu, ít dùng từ nối.**"
+        },
+        {
+          "kind": "frames",
+          "title": "10 công cụ",
+          "core": true,
+          "items": [
+            { "frame": "This / These + danh từ tóm tắt (trend, shift, approach, measure, development)", "example": "Many young adults now delay buying a home. This trend reflects rising house prices." },
+            { "frame": "Such + danh từ", "example": "Some cities have banned cars from their centres. Such policies tend to reduce air pollution." },
+            { "frame": "Danh từ hóa câu trước", "example": "Housing prices rose sharply in 2025. This rise pushed many families to the suburbs." },
+            { "frame": "Thông tin cũ trước, thông tin mới sau", "example": "Many commuters depend on public transport. Public transport, however, remains underfunded in most cities." },
+            { "frame": "..., which in turn ...", "example": "Automation lowers demand for routine labour, which in turn weakens workers' bargaining power." },
+            { "frame": "In practice, however, ...", "example": "Free education should, in theory, equalise opportunity. In practice, however, wealthier families still hold an advantage." },
+            { "frame": "A case in point is ... / This is evident in ...", "example": "A case in point is Singapore's congestion pricing, which has eased traffic in the city centre." },
+            { "frame": "Admittedly, ... Even so, ...", "example": "Admittedly, remote work can blur work–life boundaries. Even so, most employees value the flexibility it offers." },
+            { "frame": "This is particularly true of / when ...", "example": "This is particularly true of low-income households." },
+            { "frame": "It is for this reason that ... / This is why ...", "example": "It is for this reason that retraining programmes should accompany automation." }
+          ]
+        },
+        {
+          "kind": "pitfalls",
+          "title": "Nên bỏ hoặc hạn chế",
+          "items": [
+            { "wrong": "Moreover / Furthermore ở đầu mọi câu", "right": "Danh từ quy chiếu, *which in turn*, *such + N*", "why": "Liên kết máy móc." },
+            { "wrong": "Last but not least / Besides", "right": "Finally / Beyond this", "why": "Sáo hoặc khẩu ngữ." },
+            { "wrong": "On the other hand khi không đối lập", "right": "In addition / Equally", "why": "Chỉ dùng khi thật sự đối lập hai mặt." },
+            { "wrong": "In my opinion lặp ở mọi đoạn", "right": "Nêu một lần ở mở bài, nhắc lại ở kết bài", "why": "Lặp cụm từ." }
+          ]
+        },
+        {
+          "kind": "essay",
+          "title": "Đoạn mẫu",
+          "prompt": "Một đoạn thân bài về tự động hóa và việc làm.",
+          "paragraphs": [
+            { "label": "Body", "en": "Automation is rapidly replacing routine jobs in manufacturing. This shift lowers demand for low-skilled labour, which in turn weakens workers' bargaining power. The decline in bargaining power is not merely a theoretical concern: a case in point is the garment sector in Southeast Asia, where wages have stagnated as factories automate. Admittedly, automation also creates new jobs. Even so, these jobs typically require skills that displaced workers lack, and this is particularly true of older workers. It is for this reason that retraining programmes should accompany any push towards automation." }
+          ],
+          "note": "7 câu, không có *Moreover*. Mỗi câu bám vào câu trước bằng danh từ quy chiếu: *this shift*, *the decline in bargaining power*, *these jobs*."
+        }
+      ]
+    },
+    {
+      "id": "khung-lap-luan",
+      "group": "tu-vung",
+      "title": "Khung lập luận",
+      "summary": "10 cụm dùng cho mọi chủ đề, cả IELTS và GRE.",
+      "source": "supplement",
+      "uses": ["task2", "gre"],
+      "blocks": [
+        {
+          "kind": "phrases",
+          "core": true,
+          "items": [
+            { "en": "give rise to", "vi": "gây ra, làm nảy sinh", "note": "give rise to problems / concerns / inequality", "example": "Rapid urbanisation has given rise to severe traffic congestion in many developing cities." },
+            { "en": "exacerbate", "vi": "làm trầm trọng thêm", "heavy": true, "note": "exacerbate inequality / the problem / tensions", "example": "Cutting public funding for schools would only exacerbate existing inequalities." },
+            { "en": "mitigate", "vi": "giảm nhẹ", "note": "mitigate the risks / impact / effects of", "example": "Well-designed safety nets can mitigate the impact of economic shocks on poor households." },
+            { "en": "undermine", "vi": "làm suy yếu dần", "note": "undermine trust / confidence / efforts to", "example": "Frequent policy reversals undermine public trust in government." },
+            { "en": "foster", "vi": "thúc đẩy, nuôi dưỡng", "note": "foster innovation / cooperation / a sense of", "example": "Competitive markets tend to foster innovation." },
+            { "en": "outweigh", "vi": "lớn hơn, vượt trội", "note": "the benefits outweigh the drawbacks", "example": "The benefits of free trade generally outweigh its costs, as long as displaced workers receive support." },
+            { "en": "come at the expense of", "vi": "đánh đổi bằng", "example": "Economic growth should not come at the expense of environmental quality." },
+            { "en": "provided that", "vi": "với điều kiện là", "note": "Dùng để viết thesis có điều kiện.", "example": "Remote work can raise productivity, provided that employees have clear goals." },
+            { "en": "warrant", "vi": "đáng để, biện minh cho", "heavy": true, "note": "warrant attention / intervention / concern", "example": "The scale of the problem warrants government intervention." },
+            { "en": "a compelling case can be made that", "vi": "có lý do vững để cho rằng", "note": "Mở đoạn phản biện trong GRE.", "example": "A compelling case can be made that AI should be regulated more strictly." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chu-de",
+      "group": "tu-vung",
+      "title": "Từ vựng theo chủ đề",
+      "summary": "8 chủ đề × 3 cụm, chọn theo tiêu chí dùng chéo được.",
+      "source": "supplement",
+      "uses": ["task2", "gre"],
+      "blocks": [
+        {
+          "kind": "phrases",
+          "title": "Giáo dục",
+          "items": [
+            { "en": "rote learning", "vi": "học vẹt", "example": "Exam-oriented systems often reward rote learning rather than critical thinking." },
+            { "en": "equip sb with", "vi": "trang bị cho ai", "example": "Schools should equip students with skills that remain valuable as technology changes." },
+            { "en": "equitable access to", "vi": "tiếp cận công bằng", "tags": ["đa chủ đề"], "example": "Equitable access to quality education is essential for social mobility." }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Công nghệ",
+          "items": [
+            { "en": "ubiquitous", "vi": "phổ biến khắp nơi", "heavy": true, "example": "Smartphones have become ubiquitous, even in rural areas." },
+            { "en": "render sth obsolete", "vi": "làm cho lỗi thời", "heavy": true, "example": "Automation may render some routine jobs obsolete." },
+            { "en": "unintended consequences", "vi": "hệ quả ngoài ý muốn", "tags": ["đa chủ đề"], "example": "Even well-intentioned regulations can have unintended consequences." }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Chính phủ và chính sách",
+          "items": [
+            { "en": "allocate resources", "vi": "phân bổ nguồn lực", "example": "Governments must allocate limited resources between immediate needs and long-term investments." },
+            { "en": "curb", "vi": "kiềm chế", "example": "Taxes on sugary drinks are designed to curb unhealthy consumption." },
+            { "en": "hold sb accountable", "vi": "buộc ai chịu trách nhiệm", "example": "Independent media help hold public officials accountable." }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Môi trường",
+          "items": [
+            { "en": "irreversible damage", "vi": "thiệt hại không thể đảo ngược", "example": "Delaying climate action risks causing irreversible damage to ecosystems." },
+            { "en": "shift the burden onto", "vi": "đẩy gánh nặng sang", "tags": ["đa chủ đề"], "example": "Weak environmental rules shift the burden of pollution onto future generations." },
+            { "en": "deplete", "vi": "làm cạn kiệt", "example": "Overfishing has depleted fish stocks in many coastal areas." }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Kinh tế và việc làm",
+          "items": [
+            { "en": "disproportionately affect", "vi": "ảnh hưởng không cân xứng", "tags": ["đa chủ đề"], "example": "Economic downturns disproportionately affect low-skilled workers." },
+            { "en": "widen the gap between", "vi": "nới rộng khoảng cách", "tags": ["đa chủ đề"], "example": "Automation could widen the gap between high- and low-income workers." },
+            { "en": "job security", "vi": "sự ổn định việc làm", "example": "The gig economy offers flexibility but little job security." }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Văn hóa và truyền thông",
+          "items": [
+            { "en": "erode", "vi": "bào mòn", "example": "Globalisation may gradually erode local cultural traditions." },
+            { "en": "shape public opinion", "vi": "định hình dư luận", "example": "The media play a powerful role in shaping public opinion." },
+            { "en": "misinformation", "vi": "thông tin sai lệch", "example": "The rapid spread of misinformation online threatens informed public debate." }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Khoa học và y tế",
+          "items": [
+            { "en": "empirical evidence", "vi": "bằng chứng thực nghiệm", "tags": ["đa chủ đề"], "example": "Policy decisions should be grounded in empirical evidence." },
+            { "en": "breakthrough", "vi": "bước đột phá", "example": "Scientific breakthroughs often result from long-term, curiosity-driven research." },
+            { "en": "preventive measures", "vi": "biện pháp phòng ngừa", "example": "Investing in preventive measures is often cheaper than treating diseases later." }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Đô thị và xã hội",
+          "items": [
+            { "en": "place a strain on", "vi": "gây áp lực lên", "example": "Rapid population growth places a heavy strain on urban infrastructure." },
+            { "en": "social cohesion", "vi": "sự gắn kết xã hội", "example": "Shared public spaces can strengthen social cohesion in large cities." },
+            { "en": "affordable housing", "vi": "nhà ở giá phải chăng", "example": "A shortage of affordable housing pushes young families to the outskirts." }
+          ]
+        }
+      ]
+    }
+  ]
+}

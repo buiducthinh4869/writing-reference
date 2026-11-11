@@ -1,0 +1,1654 @@
+{
+  "id": "task1",
+  "title": "IELTS Writing Task 1",
+  "description": "Khung tư duy cốt lõi: chia dạng bài theo bản chất dữ liệu (có hay không thay đổi theo thời gian), không theo hình thức biểu đồ.",
+  "groups": [
+    {
+      "id": "nen-tang",
+      "title": "Nền tảng"
+    },
+    {
+      "id": "change",
+      "title": "Có thay đổi theo thời gian"
+    },
+    {
+      "id": "static",
+      "title": "Không thay đổi theo thời gian"
+    },
+    {
+      "id": "dac-biet",
+      "title": "Dạng đặc biệt"
+    },
+    {
+      "id": "cong-cu",
+      "title": "Công cụ"
+    }
+  ],
+  "pages": [
+    {
+      "id": "quy-trinh",
+      "group": "nen-tang",
+      "title": "Quy trình làm bài",
+      "summary": "4 bước phân tích đề, bố cục 4 đoạn, thời gian và độ dài.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "steps",
+          "title": "4 bước phân tích đề (khoảng 3 phút)",
+          "core": true,
+          "items": [
+            {
+              "title": "Xác định nhóm dạng bài",
+              "md": "Có mốc thời gian → **change over time**. Chỉ một thời điểm → **no change over time**. Map, process, vật thể → **dạng đặc biệt**."
+            },
+            {
+              "title": "Xác định đơn vị",
+              "md": "Đếm được → *the number of / how many*. Không đếm được → *the amount of / how much*. Phần trăm → *the proportion / percentage / share of* (không dùng *how much*)."
+            },
+            {
+              "title": "Chọn main features",
+              "md": "Rà 6 yếu tố: cao nhất, thấp nhất, thay đổi mạnh nhất, ổn định, xu hướng giống nhau, xu hướng ngược nhau."
+            },
+            {
+              "title": "Lập dàn ý",
+              "md": "Chọn 2 điểm lớn nhất cho overview. Gom các đối tượng cùng tính chất vào 2 đoạn thân bài."
+            }
+          ]
+        },
+        {
+          "kind": "table",
+          "title": "Bố cục 4 đoạn",
+          "core": true,
+          "columns": [
+            "Đoạn",
+            "Nhiệm vụ",
+            "Độ dài"
+          ],
+          "rows": [
+            [
+              "Introduction",
+              "Paraphrase đề bài",
+              "1 câu"
+            ],
+            [
+              "Overview",
+              "Đặc điểm nổi bật nhất, không cần số liệu chi tiết",
+              "2 câu"
+            ],
+            [
+              "Body 1",
+              "Nhóm đối tượng thứ nhất, bắt đầu bằng số liệu nổi bật nhất",
+              "2–4 câu"
+            ],
+            [
+              "Body 2",
+              "Nhóm đối tượng còn lại",
+              "2–4 câu"
+            ]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Thời gian và độ dài",
+          "items": [
+            "Tổng **20 phút**: khoảng 3 phút phân tích, 14 phút viết, 3 phút soát bài.",
+            "Mục tiêu **170–220 từ**. Tối thiểu 150 từ. Dạng mixed có thể dài hơn một chút.",
+            "Ràng buộc thật sự là thời gian, không phải số từ. Bài dài dễ sa vào chi tiết vụn và phát sinh thêm lỗi."
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Luật khách quan",
+          "core": true,
+          "items": [
+            "Không đưa ý kiến cá nhân.",
+            "Không giải thích nguyên nhân thực tế mà biểu đồ không cho.",
+            "Ngoại lệ: với biểu đồ có Total, được nói tổng tăng hoặc giảm là do thành phần nào đóng góp."
+          ]
+        },
+        {
+          "kind": "text",
+          "md": "Đặt overview ở **đoạn 2** là thực hành tốt nhất: giám khảo thấy ngay. Band descriptor không bắt buộc vị trí, nhưng không có overview rõ ràng thì Task Achievement bị giới hạn quanh band 5."
+        }
+      ]
+    },
+    {
+      "id": "main-features",
+      "group": "nen-tang",
+      "title": "6 main features",
+      "summary": "Những gì giám khảo tìm khi chấm Task Achievement.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "checklist",
+          "title": "Rà trước khi viết",
+          "core": true,
+          "items": [
+            "**Highest figures**: số liệu cao nhất",
+            "**Lowest figures**: số liệu thấp nhất",
+            "**Most drastic changes**: thay đổi mạnh nhất",
+            "**Stability**: gần như không đổi",
+            "**Similar patterns**: các đối tượng có xu hướng giống nhau",
+            "**Opposite patterns**: các đối tượng có xu hướng ngược nhau"
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Hệ quả về điểm",
+          "items": [
+            "Thiếu overview hoặc overview không rõ: Task Achievement bị giới hạn khoảng band 5–6, dù thân bài tốt.",
+            "Liệt kê máy móc từng số liệu, không gom nhóm: Task Achievement bị giới hạn khoảng band 5.",
+            "Overview chỉ nêu đặc điểm tổng quát; số liệu cụ thể để dành cho thân bài."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mo-bai",
+      "group": "nen-tang",
+      "title": "Mở bài và paraphrase",
+      "summary": "Chọn cấu trúc theo đơn vị, 4 kỹ thuật paraphrase.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "table",
+          "title": "Chọn cấu trúc theo đơn vị",
+          "core": true,
+          "columns": [
+            "Đơn vị",
+            "Cấu trúc",
+            "Ví dụ"
+          ],
+          "rows": [
+            [
+              "Đếm được",
+              "the number of N / how many + S + V",
+              "The chart shows how many UK residents travelled abroad between 1979 and 1999."
+            ],
+            [
+              "Không đếm được, tiền",
+              "the amount of N / how much + S + V / the expenditure on N",
+              "The table illustrates how much money five organisations spent on four areas in 2010."
+            ],
+            [
+              "Phần trăm",
+              "the proportion / percentage / share of N",
+              "The chart compares the proportion of household income spent on four categories in five countries."
+            ],
+            [
+              "Map",
+              "the changes in [place] / how [place] has changed",
+              "The maps illustrate how the town has changed between 1990 and the present day."
+            ],
+            [
+              "Process",
+              "the process of V-ing / how N is made",
+              "The diagram shows how carbonated drinks are produced."
+            ]
+          ]
+        },
+        {
+          "kind": "frames",
+          "title": "Khung câu mở bài",
+          "items": [
+            {
+              "frame": "The [line graph / bar chart / table] [illustrates / shows / compares] + [đối tượng] + [nơi chốn] + [thời gian].",
+              "example": "The line graph illustrates the percentage of women in parliament in five European countries between 2000 and 2012.",
+              "note": "Chỉ dùng *compares* khi biểu đồ thực sự so sánh các đối tượng với nhau."
+            }
+          ]
+        },
+        {
+          "kind": "steps",
+          "title": "4 kỹ thuật paraphrase",
+          "items": [
+            {
+              "title": "Giải nghĩa bằng who / which",
+              "md": "*female members* → *members who are women*"
+            },
+            {
+              "title": "Đổi dạng từ",
+              "md": "*tourists* → *tourist numbers*"
+            },
+            {
+              "title": "Cụm danh từ đại diện",
+              "md": "*spending on books* → *expenditure on books*"
+            },
+            {
+              "title": "Đảo số liệu lên đầu câu (dùng ở thân bài)",
+              "md": "*1 million dollars was spent on…*"
+            }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Cặp thay thế an toàn",
+          "items": [
+            {
+              "en": "graph ↔ chart",
+              "vi": "biểu đồ"
+            },
+            {
+              "en": "illustrate ↔ show ↔ compare",
+              "vi": "thể hiện, so sánh"
+            },
+            {
+              "en": "spend on ↔ allocate to ↔ invest in",
+              "vi": "chi tiêu cho",
+              "note": "*invest in* hợp với hạ tầng, nghiên cứu; không hợp với chi tiêu sinh hoạt."
+            },
+            {
+              "en": "food and drink ↔ food and beverages",
+              "vi": "đồ ăn và đồ uống"
+            },
+            {
+              "en": "housing ↔ accommodation",
+              "vi": "nhà ở"
+            },
+            {
+              "en": "entertainment ↔ recreation / leisure",
+              "vi": "giải trí"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "change-over-time",
+      "group": "change",
+      "title": "Change over time",
+      "summary": "Line graph và mọi biểu đồ có mốc thời gian. Overview = xu hướng chung + khác biệt chính.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Overview bắt buộc có",
+          "core": true,
+          "items": [
+            "**Xu hướng chung**: so điểm đầu với điểm cuối, bỏ qua biến động nhỏ ở giữa.",
+            "**Khác biệt chính**: đối tượng cao nhất, thấp nhất, hoặc thay đổi mạnh nhất."
+          ]
+        },
+        {
+          "kind": "steps",
+          "title": "Chia thân bài",
+          "core": true,
+          "items": [
+            {
+              "title": "Body 1",
+              "md": "Bắt đầu bằng đối tượng có số liệu cao nhất ở năm đầu, rồi gom các đối tượng có xu hướng giống hoặc ngược với nó."
+            },
+            {
+              "title": "Body 2",
+              "md": "Các đối tượng còn lại, gom theo xu hướng."
+            },
+            {
+              "title": "Bài có 5+ đối tượng",
+              "md": "Gom các đường giống nhau vào 1–2 câu bằng *to a greater / lesser extent*. Không tả riêng từng đường."
+            },
+            {
+              "title": "Hạng mục Other",
+              "md": "Luôn báo cáo cuối cùng."
+            }
+          ]
+        },
+        {
+          "kind": "frames",
+          "title": "Khung câu cốt lõi",
+          "core": true,
+          "items": [
+            {
+              "frame": "Overall, there was an increase / a decline in [X], with [Y] witnessing the most dramatic rise.",
+              "example": "Overall, there was an increase in the number of visitors to three of the four museums, with the Science Museum witnessing the most dramatic rise."
+            },
+            {
+              "frame": "Despite this, [Y] consistently had the lowest figures throughout the period.",
+              "example": "Despite this, the Natural History Museum consistently had the lowest figures throughout the period."
+            },
+            {
+              "frame": "The figure for [X] started at [A], after which it saw a [adj] rise to [B] before ending the period at [C].",
+              "example": "The figure for the History Museum started at 5 million, after which it saw a steady rise to 7 million in 2010 before ending the period at 6 million."
+            },
+            {
+              "frame": "[Số liệu] + S + V in [năm], with a subsequent [adj] rise to [B] and a final drop to [C].",
+              "example": "Around 2 million people visited the Science Museum in 2000, with a subsequent sharp rise to 8 million in 2020.",
+              "note": "Sau *with* là danh từ hoặc V-ing, không chia động từ."
+            },
+            {
+              "frame": "Similar changes, but to a lesser extent, can be seen in the figures for [Y] and [Z], which grew from [A] to [B] and from [C] to [D] respectively.",
+              "example": "Similar changes, but to a lesser extent, can be seen in the figures for the Natural History Museum, which grew from 1.5 million to 4 million."
+            },
+            {
+              "frame": "[X] increased from [A] to [B], followed by a final drop to [C] [N] years later.",
+              "example": "The number of overseas students increased from 0.4 million in 1970 to 1.4 million in 1985, followed by a final drop to 0.8 million 15 years later."
+            },
+            {
+              "frame": "Conversely / By contrast, the figure for [Y] fell from [A] to [B].",
+              "example": "By contrast, the figure for the Art Gallery fell gradually from 4 million to 2.5 million."
+            }
+          ]
+        },
+        {
+          "kind": "pitfalls",
+          "title": "Lỗi hay gặp",
+          "items": [
+            {
+              "wrong": "with the UK saw the most dramatic rise",
+              "right": "with the UK seeing / witnessing the most dramatic rise",
+              "why": "Sau giới từ *with* không dùng động từ chia thì."
+            },
+            {
+              "wrong": "The figure of Germany",
+              "right": "The figure for Germany",
+              "why": "Collocation cố định là *the figure for*."
+            },
+            {
+              "wrong": "reach a peak at 35%",
+              "right": "reach a peak of 35% / peak at 35%",
+              "why": "Hai collocation khác nhau, không trộn."
+            },
+            {
+              "wrong": "Mô tả từng năm của từng đường",
+              "right": "Gom các đường cùng xu hướng",
+              "why": "Liệt kê máy móc bị giới hạn khoảng band 5 Task Achievement."
+            }
+          ]
+        },
+        {
+          "kind": "essay",
+          "title": "Bài mẫu",
+          "prompt": "The line graph shows the number of visitors to four museums in a city between 2000 and 2020.",
+          "data": "History Museum: 5 triệu → đỉnh 7 triệu (2010) → 6 triệu. Science Museum: 2 → 8 triệu. Natural History Museum: 1,5 → 4 triệu. Art Gallery: 4 → 2,5 triệu.",
+          "paragraphs": [
+            {
+              "label": "Introduction",
+              "en": "The line graph illustrates how many people visited four museums in a city between 2000 and 2020."
+            },
+            {
+              "label": "Overview",
+              "en": "Overall, visitor numbers rose at three of the four museums, with the Science Museum witnessing the most dramatic increase to become the most popular by the end of the period. The Art Gallery was the only exception, attracting fewer visitors in 2020 than in 2000."
+            },
+            {
+              "label": "Body 1",
+              "en": "The number of visitors to the History Museum started at 5 million, after which it saw a steady rise to a peak of 7 million in 2010 before ending the period at 6 million. By contrast, the figure for the Art Gallery fell gradually from 4 million to 2.5 million over the twenty years."
+            },
+            {
+              "label": "Body 2",
+              "en": "Just 2 million people visited the Science Museum in 2000, with a subsequent sharp rise to 8 million in 2020, overtaking the History Museum in the final years. Similar changes, but to a lesser extent, can be seen in the figures for the Natural History Museum, which grew from 1.5 million to 4 million."
+            }
+          ],
+          "note": "Body 1 mở bằng đối tượng cao nhất năm đầu (History) và đối tượng có xu hướng ngược lại (Art Gallery). Body 2 gom hai bảo tàng cùng xu hướng tăng."
+        }
+      ]
+    },
+    {
+      "id": "total",
+      "group": "change",
+      "title": "Biểu đồ có Total",
+      "summary": "Phải nói về tổng và thành phần đóng góp.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Quy tắc",
+          "core": true,
+          "items": [
+            "Overview phải nêu tổng tăng hay giảm và **thành phần nào đóng góp chính**.",
+            "Body 1 mở bằng đường Total, rồi đến thành phần lớn nhất.",
+            "Bỏ sót Total là mất điểm Task Achievement."
+          ]
+        },
+        {
+          "kind": "frames",
+          "title": "Khung câu",
+          "core": true,
+          "items": [
+            {
+              "frame": "Overall, there was a decline in the total amount of [X], which was the result of decreases in [A] and [B].",
+              "example": "Overall, there was a decline in the total amount of air pollutants emitted, which was the result of decreases in emissions from industry and households."
+            },
+            {
+              "frame": "[Số liệu] of [X] was [V-ed] in total in [năm], with a gradual decline to [B] at the end of the period.",
+              "example": "In total, 8 million tonnes of pollutants were emitted in 1990, with a gradual decline to 4 million tonnes by 2005."
+            },
+            {
+              "frame": "[Z] saw an increase, surpassing [Y] to become [the largest source] from [năm] onwards.",
+              "example": "Emissions from transport saw an increase, surpassing those from industry to become the largest source from 2002 onwards."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "future",
+      "group": "change",
+      "title": "Có dự báo tương lai",
+      "summary": "Khung giống change over time, cộng ngôn ngữ dự báo.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "text",
+          "md": "Khóa học chỉ nhắc lướt dạng này. Chiến lược giữ nguyên khung change over time. Khác biệt chính là **thì**: quá khứ cho số liệu đã qua, ngôn ngữ dự báo cho số liệu tương lai, và không khẳng định chắc chắn."
+        },
+        {
+          "kind": "phrases",
+          "title": "Ngôn ngữ dự báo",
+          "core": true,
+          "items": [
+            {
+              "en": "is projected / predicted / expected to + V",
+              "vi": "được dự báo sẽ",
+              "example": "The figure for solar power is projected to reach 30% by 2040."
+            },
+            {
+              "en": "is likely to + V",
+              "vi": "có khả năng sẽ",
+              "example": "Coal is likely to remain the least used source."
+            },
+            {
+              "en": "is forecast to + V",
+              "vi": "được dự báo",
+              "example": "Car ownership is forecast to fall slightly after 2030."
+            },
+            {
+              "en": "by + năm tương lai",
+              "vi": "trước / đến năm",
+              "example": "by 2050"
+            }
+          ]
+        },
+        {
+          "kind": "frames",
+          "title": "Khung câu",
+          "items": [
+            {
+              "frame": "Overall, [X] increased between [năm] and [năm] and is projected to continue rising until [năm].",
+              "example": "Overall, the use of renewable energy increased between 2000 and 2020 and is projected to continue rising until 2040."
+            }
+          ]
+        },
+        {
+          "kind": "pitfalls",
+          "items": [
+            {
+              "wrong": "Dùng *will* cho mọi câu dự báo",
+              "right": "Luân phiên *is projected to*, *is expected to*, *is likely to*",
+              "why": "Số liệu tương lai là dự báo, không phải sự thật."
+            },
+            {
+              "wrong": "Trộn thì quá khứ và tương lai trong cùng một mốc",
+              "right": "Mốc đã qua dùng quá khứ, mốc tương lai dùng ngôn ngữ dự báo",
+              "why": "Lệch thì làm mất điểm Grammatical Range & Accuracy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "no-change",
+      "group": "static",
+      "title": "No change over time",
+      "summary": "Bar chart, pie chart một thời điểm. Overview = khác biệt + tương đồng.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Đặc điểm",
+          "core": true,
+          "items": [
+            "Chỉ một thời điểm, không có xu hướng. Nhiệm vụ là **so sánh**.",
+            "Không dùng ngôn ngữ xu hướng (*increase, decrease*) và không viết *throughout the period*.",
+            "Overview: **differences** (cao nhất, thấp nhất, ngoại lệ) + **similarities** (hạng mục chiếm ưu thế chung, số liệu ngang nhau)."
+          ]
+        },
+        {
+          "kind": "steps",
+          "title": "Chia thân bài",
+          "items": [
+            {
+              "title": "Nguyên tắc",
+              "md": "Số liệu cao nhất nói trước."
+            },
+            {
+              "title": "Cách nhóm",
+              "md": "Theo hạng mục, hoặc theo cặp đối tượng so sánh (nam / nữ, nhập cư / xuất cư). Không tả lặt vặt từng số."
+            },
+            {
+              "title": "Hạng mục Other",
+              "md": "Báo cáo cuối cùng."
+            }
+          ]
+        },
+        {
+          "kind": "frames",
+          "title": "Khung câu so sánh",
+          "core": true,
+          "items": [
+            {
+              "frame": "[A] was highest at [x], followed by [B] ([y]) and [C] ([z]).",
+              "example": "Oil consumption was highest in Japan at about 70 million tonnes, followed by Canada (35 million) and the UAE (20 million)."
+            },
+            {
+              "frame": "The figures for [B] and [C] were lower, at [y] and [z] respectively.",
+              "example": "The figures for the UAE and Canada were lower, at 20 million and 35 million tonnes respectively."
+            },
+            {
+              "frame": "[N] in [A] far exceeded that in [B] and [C], with respective figures being [x], [y] and [z].",
+              "example": "Oil consumption in Japan far exceeded that in the UAE and Canada, with respective figures being 70, 20 and 35 million tonnes.",
+              "note": "Lặp lại đúng giới từ của cụm gốc: *consumption in Japan* → *that in*; *Japan's consumption* → *that of*."
+            },
+            {
+              "frame": "[A] produced twice / three times as much [N] as [B].",
+              "example": "The Middle East produced twice as much oil as Europe, with respective figures being 20 and 10 million barrels."
+            },
+            {
+              "frame": "About [x]% of [nhóm 1] ..., compared to only [y]% of their [female / male] counterparts.",
+              "example": "About 27% of boys said they often played sports in their free time, compared to only 12% of their female counterparts."
+            },
+            {
+              "frame": "..., which was [x]% and [y]% in that order.",
+              "example": "Dramatic differences were also seen in the proportions of girls and boys doing arts and crafts, which were 25% and 4% in that order."
+            }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Pie chart (bổ sung ngoài khóa học)",
+          "source": "supplement",
+          "items": [
+            {
+              "en": "account for / make up / constitute",
+              "vi": "chiếm",
+              "example": "Housing accounted for 35% of household spending."
+            },
+            {
+              "en": "the largest / smallest share",
+              "vi": "phần lớn nhất / nhỏ nhất",
+              "example": "Food made up the largest share of the budget."
+            },
+            {
+              "en": "a quarter / a third / half",
+              "vi": "một phần tư / một phần ba / một nửa",
+              "example": "Transport represented roughly a quarter of the total.",
+              "note": "Luân phiên phân số với % để tránh lặp con số."
+            },
+            {
+              "en": "the majority / a minority of",
+              "vi": "đa số / thiểu số",
+              "example": "The majority of respondents (62%) preferred public transport."
+            }
+          ]
+        },
+        {
+          "kind": "pitfalls",
+          "items": [
+            {
+              "wrong": "...twice as much oil as Europe throughout the period",
+              "right": "...twice as much oil as Europe",
+              "why": "Biểu đồ tĩnh không có khoảng thời gian."
+            },
+            {
+              "wrong": "boys generally enjoy..., girls tended to...",
+              "right": "boys generally enjoyed..., girls tended to...",
+              "why": "Thống nhất một thì trong cùng một câu."
+            },
+            {
+              "wrong": "watching TVs",
+              "right": "watching TV",
+              "why": "Collocation cố định."
+            }
+          ]
+        },
+        {
+          "kind": "essay",
+          "title": "Bài mẫu",
+          "prompt": "The bar chart shows the percentage of employees in two cities who use different means of transport to travel to work.",
+          "data": "City A: car 45%, bus 20%, walking 15%, cycling 10%, metro 5%, other 5%. City B: bus 35%, metro 25%, car 20%, cycling 10%, walking 5%, other 5%.",
+          "paragraphs": [
+            {
+              "label": "Introduction",
+              "en": "The bar chart compares the proportion of employees in two cities who travel to work by five different means of transport."
+            },
+            {
+              "label": "Overview",
+              "en": "Overall, cars were by far the most common way of commuting in City A, whereas public transport dominated in City B. It is also clear that cycling was equally popular in both cities."
+            },
+            {
+              "label": "Body 1",
+              "en": "Almost half of commuters in City A (45%) drove to work, compared to only 20% of their counterparts in City B. By contrast, public transport was far more widely used in City B, where buses and the metro accounted for 35% and 25% of journeys respectively. The figures for City A were much lower, at 20% and just 5%."
+            },
+            {
+              "label": "Body 2",
+              "en": "Cycling was the only mode with identical figures, at 10% in both cities. Walking was three times as common in City A as in City B, with respective figures being 15% and 5%. Finally, other means of transport made up 5% of commutes in each city."
+            }
+          ],
+          "note": "Toàn bài dùng một thì quá khứ. Body 1 bắt đầu bằng con số lớn nhất (car, City A). Hạng mục Other ở cuối."
+        }
+      ]
+    },
+    {
+      "id": "table-heavy",
+      "group": "static",
+      "title": "Bảng số liệu dày đặc",
+      "summary": "Bắt buộc gom nhóm; chia đoạn theo hạng mục, không theo đối tượng.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Quy tắc",
+          "core": true,
+          "items": [
+            "Không đi từng dòng, từng ô.",
+            "Chia đoạn theo **hạng mục** (cột), không theo từng quốc gia hay tổ chức.",
+            "Lấy số cao nhất làm mốc, gom phần còn lại bằng số xấp xỉ (*around*, *about*) hoặc *the remaining [N]*."
+          ]
+        },
+        {
+          "kind": "frames",
+          "title": "Khung câu gom nhóm",
+          "core": true,
+          "items": [
+            {
+              "frame": "[X] invested by far the most in all categories, with the largest share going to [A].",
+              "example": "Organisation B invested by far the most in all categories, with the largest share going to office rental."
+            },
+            {
+              "frame": "Its spending on [A] was [x], compared to around [y] in the remaining [N].",
+              "example": "Its spending on buildings was 1.7 billion euros, compared to around 0.5 billion in the remaining organisations."
+            },
+            {
+              "frame": "[x] was invested in [A] by [X], twice the figure for [Y].",
+              "example": "Organisation B invested 1.6 billion euros in research, twice the figure for Organisation A."
+            },
+            {
+              "frame": "[x]% of [N] went on [A] in [P], in comparison with [y]% in [Q] and [z]% in [R].",
+              "example": "Some 19% of household income in Germany went on entertainment, in comparison with 15% in Spain and 13% in France."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "few-data",
+      "group": "static",
+      "title": "Biểu đồ ít số liệu",
+      "summary": "Nguy cơ thiếu ý; mô tả kỹ từng giai đoạn và điểm giao nhau.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "text",
+          "md": "Phần này viết bổ sung vì buổi học tương ứng (file 7–9) không có trong notebook. Khi chỉ có 1–2 đối tượng và ít mốc, nguy cơ là **không đủ 150 từ** và overview quá mỏng."
+        },
+        {
+          "kind": "list",
+          "title": "Cách xử lý",
+          "core": true,
+          "items": [
+            "Mô tả kỹ hơn: điểm đầu, đỉnh, đáy, điểm cuối, tốc độ thay đổi.",
+            "Chỉ ra các **điểm giao nhau** và đối tượng nào cao hơn trong từng giai đoạn.",
+            "Chia thân bài **theo giai đoạn thời gian** thay vì theo đối tượng."
+          ]
+        },
+        {
+          "kind": "frames",
+          "items": [
+            {
+              "frame": "The two lines crossed in [năm], when both stood at [x].",
+              "example": "The two lines crossed in 2008, when both stood at around 40%."
+            },
+            {
+              "frame": "[X] remained the higher of the two until [năm].",
+              "example": "Rail remained the higher of the two until 2008."
+            },
+            {
+              "frame": "Over the following decade, [X] ...",
+              "example": "Over the following decade, the figure for road freight continued to climb."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mixed",
+      "group": "dac-biet",
+      "title": "Mixed charts",
+      "summary": "Một overview chung; mỗi đoạn thân bài một biểu đồ.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Quy tắc",
+          "core": true,
+          "items": [
+            "Mở bài: một đoạn, giới thiệu cả hai biểu đồ (nối bằng *while*).",
+            "Overview: **một đoạn** chứa điểm nổi bật nhất của **cả hai** biểu đồ.",
+            "Body 1 = biểu đồ 1, Body 2 = biểu đồ 2. Không trộn số liệu.",
+            "Vẫn giữ tính tóm tắt; có thể dài hơn bài thường một chút."
+          ]
+        },
+        {
+          "kind": "frames",
+          "core": true,
+          "items": [
+            {
+              "frame": "The [line graph] illustrates [A], while the [bar chart] gives information about [B].",
+              "example": "The line graph illustrates the number of UK residents travelling abroad between 1979 and 1999, while the bar chart gives information about their five most popular destinations in 1999."
+            }
+          ]
+        },
+        {
+          "kind": "essay",
+          "title": "Bài mẫu",
+          "prompt": "The line graph shows the number of domestic and international students at a university between 2010 and 2020. The bar chart shows the home countries of its international students in 2020.",
+          "data": "Line: international 2.000 → 6.500; domestic 15.000 → 16.000. Bar (2020): China 2.200, India 1.500, Vietnam 900, Indonesia 600, other 1.300.",
+          "paragraphs": [
+            {
+              "label": "Introduction",
+              "en": "The line graph illustrates the number of domestic and international students at a university between 2010 and 2020, while the bar chart shows where its international students came from in 2020."
+            },
+            {
+              "label": "Overview",
+              "en": "Overall, international enrolment more than tripled over the period, whereas domestic numbers changed little. In 2020, China was by far the largest source of international students."
+            },
+            {
+              "label": "Body 1",
+              "en": "International student numbers started at around 2,000 in 2010, after which they rose steadily to reach 6,500 by the final year. The figure for domestic students, by contrast, increased only slightly, from 15,000 to 16,000, and remained far higher throughout the period, although the gap narrowed considerably."
+            },
+            {
+              "label": "Body 2",
+              "en": "Students from China numbered approximately 2,200 in 2020, followed by those from India at 1,500. The figures for Vietnam and Indonesia were lower, at 900 and 600 respectively, while the remaining 1,300 came from a range of other countries. Together, China and India accounted for more than half of all international students."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "map",
+      "group": "dac-biet",
+      "title": "Map",
+      "summary": "Overview 2–3 thay đổi lớn nhất; thân bài đi theo vùng, mọi thay đổi gắn vị trí.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Quy tắc",
+          "core": true,
+          "items": [
+            "Overview: 2–3 thay đổi lớn nhất, **không** nêu vị trí chi tiết.",
+            "Thân bài: đi theo vùng, bắt đầu từ tây bắc, rồi vào trung tâm và các vùng còn lại.",
+            "**Mọi thay đổi phải gắn với vị trí.** Thiếu vị trí là mất điểm.",
+            "Thì: quá khứ, hoặc hiện tại hoàn thành nếu mốc cuối là hiện tại."
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Vị trí",
+          "core": true,
+          "items": [
+            {
+              "en": "in the north-west / south-east of the town",
+              "vi": "ở phía tây bắc / đông nam"
+            },
+            {
+              "en": "in the centre",
+              "vi": "ở trung tâm"
+            },
+            {
+              "en": "to the east of / next to / opposite",
+              "vi": "ở phía đông của / cạnh / đối diện"
+            },
+            {
+              "en": "along the river / on the shore of",
+              "vi": "dọc bờ sông / trên bờ"
+            }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Động từ thay đổi",
+          "core": true,
+          "items": [
+            {
+              "en": "was converted into",
+              "vi": "được chuyển thành",
+              "example": "In the south-west, the cycle track was converted into a road."
+            },
+            {
+              "en": "was replaced by",
+              "vi": "bị thay bằng",
+              "example": "The sports centre was replaced by a restaurant complex."
+            },
+            {
+              "en": "was demolished to make way for",
+              "vi": "bị phá để nhường chỗ cho",
+              "example": "The old factory was demolished to make way for a shopping mall."
+            },
+            {
+              "en": "was redeveloped into",
+              "vi": "được tái phát triển thành"
+            },
+            {
+              "en": "was extended / expanded",
+              "vi": "được mở rộng"
+            },
+            {
+              "en": "was relocated to",
+              "vi": "được dời đến"
+            },
+            {
+              "en": "remained",
+              "vi": "giữ nguyên",
+              "note": "Nội động từ, không dùng bị động: *remained*, không phải *was remained*."
+            }
+          ]
+        },
+        {
+          "kind": "frames",
+          "title": "Khung câu",
+          "items": [
+            {
+              "frame": "Overall, the town underwent a number of dramatic changes, the most significant of which were [A] and [B].",
+              "example": "Overall, the town underwent a number of dramatic changes, the most significant of which were the development of a large residential area and the addition of more shops."
+            },
+            {
+              "frame": "The [vùng] of the town saw several changes, with [A] being expanded and [B] being replaced by [C].",
+              "example": "The north-west of the town saw several changes, with the housing area being expanded and the sports centre being replaced by a restaurant complex."
+            },
+            {
+              "frame": "There used to be [A] in the [vùng], but it was later redeveloped into [B].",
+              "example": "There used to be a fish market in the south-east, but it was later redeveloped into an apartment complex."
+            },
+            {
+              "frame": "[A] remained, while [B] was converted into [C].",
+              "example": "In the centre, the post office and library remained, while the two shops to the north were converted into a supermarket."
+            },
+            {
+              "frame": "..., which was accompanied by [N] being built [vị trí].",
+              "example": "The river was turned into a lake, which was accompanied by a large residential area being built on its shore."
+            }
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Dạng 1 bản đồ, chọn địa điểm (hiếm)",
+          "source": "supplement",
+          "items": [
+            "So sánh hai vị trí theo từng tiêu chí: giao thông, khu dân cư, cảnh quan.",
+            "Overview nêu khác biệt chính giữa hai vị trí.",
+            "Không đưa quan điểm nên chọn vị trí nào."
+          ]
+        },
+        {
+          "kind": "essay",
+          "title": "Bài mẫu",
+          "prompt": "The maps show the village of Ashford in 2000 and today.",
+          "data": "Tây bắc: rừng nhỏ → khu nhà ở. Đông bắc: đất nông nghiệp → siêu thị và bãi đỗ xe. Trung tâm: đường chính được mở rộng, bưu điện giữ nguyên, thêm trạm xe buýt đối diện bưu điện. Nam: trường học mở rộng, sân chơi → trung tâm thể thao. Đông nam: dãy cửa hàng ven sông → quán cà phê và bến du thuyền, thêm lối đi ven sông.",
+          "paragraphs": [
+            {
+              "label": "Introduction",
+              "en": "The maps illustrate how the village of Ashford has changed between 2000 and the present day."
+            },
+            {
+              "label": "Overview",
+              "en": "Overall, the village has become considerably more developed, the most significant changes being the expansion of housing and the loss of farmland to commercial and leisure facilities."
+            },
+            {
+              "label": "Body 1",
+              "en": "In the north-west, the small woodland was cleared to make way for a housing estate, while the farmland to the north-east was replaced by a supermarket and a car park. The main road running through the centre was widened, but the post office beside it remained. A new bus stop was also added opposite the post office."
+            },
+            {
+              "label": "Body 2",
+              "en": "To the south, the primary school was extended, and the playing field next to it was converted into a sports centre. There used to be a row of shops along the river in the south-east, but they were later redeveloped into a café and a small marina, which was accompanied by a footpath being built along the riverbank."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-process",
+      "group": "dac-biet",
+      "title": "Manufacturing process",
+      "summary": "Bị động; overview = số bước + bước đầu + bước cuối.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Quy tắc",
+          "core": true,
+          "items": [
+            "Dùng **câu bị động**.",
+            "Overview: số bước, bắt đầu bằng gì, kết thúc bằng gì.",
+            "Chia 2 thân bài cân bằng: giai đoạn chuẩn bị và xử lý / giai đoạn hoàn thiện và phân phối.",
+            "Luân phiên từ nối trình tự, không lặp *then*."
+          ]
+        },
+        {
+          "kind": "frames",
+          "core": true,
+          "items": [
+            {
+              "frame": "Overall, the process comprises [number / several] stages, beginning with [N / V-ing] and ending with [N / V-ing].",
+              "example": "Overall, the process comprises seven main stages, beginning with tea leaves being picked by hand and ending with the finished tea being packed and shipped."
+            },
+            {
+              "frame": "The process continues with [N] being [V-ed].",
+              "example": "The process continues with the chopped fruit being packed into cans."
+            }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Từ nối trình tự",
+          "core": true,
+          "items": [
+            {
+              "en": "At the beginning of the process, ...",
+              "vi": "mở đầu Body 1"
+            },
+            {
+              "en": "..., after which ...",
+              "vi": "sau đó thì",
+              "example": "Fruit is picked by hand, after which it is transported to a factory."
+            },
+            {
+              "en": "Subsequently, ...",
+              "vi": "tiếp theo"
+            },
+            {
+              "en": "Once [N] has / have been [V-ed], ...",
+              "vi": "một khi đã",
+              "example": "Once it has been sorted, the fruit is peeled and cored."
+            },
+            {
+              "en": "... before being [V-ed]",
+              "vi": "trước khi được",
+              "example": "The cans are sealed before being sterilised."
+            },
+            {
+              "en": "This is followed by [N] being [V-ed].",
+              "vi": "tiếp theo là"
+            },
+            {
+              "en": "Finally, ...",
+              "vi": "cuối cùng"
+            }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Động từ quy trình",
+          "items": [
+            {
+              "en": "is pumped into / directed to",
+              "vi": "được bơm vào / dẫn tới"
+            },
+            {
+              "en": "is filtered / heated / cooled",
+              "vi": "được lọc / làm nóng / làm lạnh"
+            },
+            {
+              "en": "is sealed / sterilised / labelled",
+              "vi": "được niêm phong / tiệt trùng / dán nhãn"
+            },
+            {
+              "en": "by means of",
+              "vi": "bằng phương tiện",
+              "example": "The water is heated by means of electric heaters."
+            },
+            {
+              "en": "in order to / so that",
+              "vi": "để",
+              "example": "Chemicals are added in order to purify the water."
+            }
+          ]
+        },
+        {
+          "kind": "essay",
+          "title": "Bài mẫu",
+          "prompt": "The diagram shows how black tea is produced.",
+          "data": "Hái lá bằng tay vào sáng sớm → làm héo trên giàn khoảng 12 giờ → vò bằng máy → lên men → sấy trong lò nhiệt độ cao → sàng và phân loại theo kích cỡ lá → đóng gói và vận chuyển.",
+          "paragraphs": [
+            {
+              "label": "Introduction",
+              "en": "The diagram illustrates the process of producing black tea."
+            },
+            {
+              "label": "Overview",
+              "en": "Overall, the process comprises seven main stages, beginning with tea leaves being picked by hand and ending with the finished tea being packed and shipped."
+            },
+            {
+              "label": "Body 1",
+              "en": "At the beginning of the process, fresh leaves are picked by hand, usually early in the morning, after which they are spread on racks and left to wither for around 12 hours. Once they have softened, the leaves are rolled by machine in order to break their surface and release their natural juices. They are then left to ferment, during which time they turn dark brown."
+            },
+            {
+              "label": "Body 2",
+              "en": "The process continues with the fermented leaves being dried in large ovens at high temperatures to stop the fermentation. Subsequently, the dried tea is passed through a series of sieves, where it is sorted and graded according to leaf size. Finally, it is packed into bags or boxes before being shipped to retailers and supermarkets."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "natural-process",
+      "group": "dac-biet",
+      "title": "Natural process / life cycle",
+      "summary": "Chủ yếu chủ động; overview dạng from... to... to...; không có điểm kết thúc.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Quy tắc",
+          "core": true,
+          "items": [
+            "**Chủ yếu dùng chủ động.** Một số bị động vẫn tự nhiên, ví dụ *eggs are laid*.",
+            "Vòng đời không có điểm kết thúc, nên **không** dùng *beginning with... ending with*.",
+            "Overview dùng *from [A] to [B] to [C]*.",
+            "Kết Body 2 bằng *the cycle begins again*."
+          ]
+        },
+        {
+          "kind": "frames",
+          "core": true,
+          "items": [
+            {
+              "frame": "Overall, there are [several] stages in the life cycle of [X], from [A] to [B] to [C].",
+              "example": "Overall, there are four main stages in the life cycle of a butterfly, from eggs laid on a leaf to a growing caterpillar to an adult butterfly emerging from its pupa."
+            },
+            {
+              "frame": "This is followed by [N] developing into [N], at which point ...",
+              "example": "This is followed by the eggs developing into tiny tadpoles, at which point they gradually grow limbs."
+            },
+            {
+              "frame": "Finally, the cycle begins again when ...",
+              "example": "Finally, the cycle begins again when two adult frogs mate."
+            }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "items": [
+            {
+              "en": "develop / grow into",
+              "vi": "phát triển thành"
+            },
+            {
+              "en": "emerge from",
+              "vi": "chui ra từ"
+            },
+            {
+              "en": "hatch",
+              "vi": "nở"
+            },
+            {
+              "en": "take place",
+              "vi": "diễn ra",
+              "example": "Mating takes place on the bank of a pond."
+            },
+            {
+              "en": "at which point",
+              "vi": "lúc đó thì"
+            }
+          ]
+        },
+        {
+          "kind": "essay",
+          "title": "Bài mẫu",
+          "prompt": "The diagram shows the life cycle of a butterfly.",
+          "data": "Trứng dưới mặt lá của cây làm thức ăn cho sâu → nở sau khoảng 1 tuần → sâu ăn lá, lột da nhiều lần trong 2–3 tuần → kết nhộng → khoảng 2 tuần sau bướm trưởng thành chui ra → giao phối, đẻ trứng mới.",
+          "paragraphs": [
+            {
+              "label": "Introduction",
+              "en": "The diagram illustrates the life cycle of a butterfly."
+            },
+            {
+              "label": "Overview",
+              "en": "Overall, there are four main stages in the life cycle of a butterfly, from eggs laid on a leaf to a growing caterpillar to an adult butterfly emerging from its pupa."
+            },
+            {
+              "label": "Body 1",
+              "en": "At the beginning of the cycle, an adult female lays her eggs on the underside of a leaf, usually on a plant that the caterpillars can later feed on, and these hatch after around a week. This is followed by the young caterpillars feeding on the leaves, at which point they grow rapidly and shed their skin several times over two to three weeks."
+            },
+            {
+              "label": "Body 2",
+              "en": "Once fully grown, each caterpillar attaches itself to a stem and forms a hard pupa, inside which its body is gradually transformed. After about two weeks, an adult butterfly emerges with fully developed wings. Finally, the cycle begins again when the adults mate and the female lays new eggs."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mechanism",
+      "group": "dac-biet",
+      "title": "How something works",
+      "summary": "Body 1 tả cấu tạo, Body 2 tả cách vận hành.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Quy tắc",
+          "core": true,
+          "items": [
+            "Overview: mục đích của thiết bị và đặc điểm vận hành nổi bật nhất.",
+            "Body 1: **cấu tạo**, gồm vị trí, kích thước và chức năng của các bộ phận.",
+            "Body 2: **vận hành**, theo trình tự sử dụng.",
+            "Dạng khó nhất vì không có khung cố định; luyện trước ở nhà."
+          ]
+        },
+        {
+          "kind": "frames",
+          "items": [
+            {
+              "frame": "There is a [bộ phận] on the [vị trí] for [N] to be [V-ed].",
+              "example": "There is a slot on the left side for coins to be inserted."
+            },
+            {
+              "frame": "Under / Above this part are [N], one to [V] and the other to [V].",
+              "example": "Under this part are two buttons, one to choose a large photo and the other to choose four passport-sized ones."
+            },
+            {
+              "frame": "[Bộ phận] allows users to [V].",
+              "example": "A mirror above the screen allows users to check their appearance."
+            },
+            {
+              "frame": "Turning to how the [device] works, ...",
+              "example": "Turning to how the booth works, users must first close the curtain."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unusual",
+      "group": "dac-biet",
+      "title": "Dạng lạ: vật thể, tiến hóa",
+      "summary": "Bản chất là so sánh đặc điểm giữa các vật thể hoặc giai đoạn.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "list",
+          "title": "Quy tắc",
+          "core": true,
+          "items": [
+            "Đừng hoảng: bản chất vẫn là **so sánh** kích thước, hình dạng, bề mặt, chức năng.",
+            "Overview: thay đổi tổng quát lớn nhất (to hơn, tinh xảo hơn, xuất hiện đặc điểm mới).",
+            "Chia thân bài theo góc nhìn (trước, sau, cạnh) hoặc theo giai đoạn thời gian."
+          ]
+        },
+        {
+          "kind": "phrases",
+          "items": [
+            {
+              "en": "rudimentary",
+              "vi": "thô sơ",
+              "note": "Không phải *rudimental*."
+            },
+            {
+              "en": "rough / smooth",
+              "vi": "thô ráp / nhẵn"
+            },
+            {
+              "en": "well-defined / sharp / pointed",
+              "vi": "rõ nét / sắc / nhọn"
+            },
+            {
+              "en": "resemble",
+              "vi": "giống",
+              "example": "Its pointed shape resembled a water drop."
+            },
+            {
+              "en": "the former / the latter / its earlier counterpart",
+              "vi": "cái trước / cái sau / phiên bản trước nó"
+            },
+            {
+              "en": "evolve / the emergence of",
+              "vi": "tiến hóa / sự xuất hiện của"
+            },
+            {
+              "en": "mane / hoof (hooves)",
+              "vi": "bờm / móng guốc",
+              "note": "Không phải *main*."
+            }
+          ]
+        },
+        {
+          "kind": "frames",
+          "items": [
+            {
+              "frame": "Overall, [X] became [larger / more sophisticated] over [thời gian], with the emergence of new features such as [A] and [B].",
+              "example": "Overall, the horse increased significantly in size over 40 million years, with the emergence of new features such as a mane and hooves."
+            },
+            {
+              "frame": "[A] was about [x] cm shorter than [B].",
+              "example": "Tool A was about 9 cm long, approximately 2 cm shorter than Tool B."
+            },
+            {
+              "frame": "The [front / side] view reveals that ...",
+              "example": "The side view reveals that both tools were equally thick."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ngon-ngu",
+      "group": "cong-cu",
+      "title": "Ngân hàng ngôn ngữ",
+      "summary": "Phần lõi đã tinh gọn: xu hướng, mức độ, so sánh, tỷ lệ, số gần đúng, thời gian.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "phrases",
+          "title": "Xu hướng",
+          "core": true,
+          "items": [
+            {
+              "en": "rise / increase",
+              "vi": "tăng",
+              "example": "The figure rose from 10% to 25%."
+            },
+            {
+              "en": "fall / decrease / decline",
+              "vi": "giảm",
+              "example": "Sales declined steadily after 2005."
+            },
+            {
+              "en": "fluctuate between [A] and [B]",
+              "vi": "dao động trong khoảng",
+              "example": "The figure fluctuated between 9% and 13%."
+            },
+            {
+              "en": "level off",
+              "vi": "chững lại",
+              "example": "The figure levelled off towards the end of the period."
+            },
+            {
+              "en": "remain stable / unchanged at",
+              "vi": "giữ ổn định ở mức",
+              "example": "It remained stable at about 40 grams."
+            },
+            {
+              "en": "peak at / reach a peak of",
+              "vi": "đạt đỉnh",
+              "example": "It peaked at 35% in 2008. / It reached a peak of 35% in 2008."
+            },
+            {
+              "en": "hit a low of",
+              "vi": "chạm đáy",
+              "example": "Unemployment hit a low of 3% in 2019."
+            },
+            {
+              "en": "overtake / surpass",
+              "vi": "vượt qua",
+              "example": "Chicken overtook beef to become the most consumed meat."
+            },
+            {
+              "en": "an increase / a rise / a decline in + N; growth in + N",
+              "vi": "danh từ chỉ thay đổi",
+              "note": "*growth* thường không có mạo từ *a*."
+            }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Biến thể (không cần học thuộc)",
+          "items": [
+            {
+              "en": "climb",
+              "vi": "tăng dần"
+            },
+            {
+              "en": "jump",
+              "vi": "tăng vọt"
+            },
+            {
+              "en": "hover around",
+              "vi": "quanh quẩn ở mức"
+            },
+            {
+              "en": "experience mild fluctuations",
+              "vi": "dao động nhẹ"
+            }
+          ]
+        },
+        {
+          "kind": "scale",
+          "title": "Thang mức độ",
+          "core": true,
+          "levels": [
+            {
+              "label": "Rất nhỏ",
+              "words": [
+                "slight / slightly",
+                "marginal / marginally"
+              ]
+            },
+            {
+              "label": "Vừa",
+              "words": [
+                "moderate / moderately"
+              ]
+            },
+            {
+              "label": "Lớn",
+              "words": [
+                "significant / significantly",
+                "considerable / considerably",
+                "substantial / substantially"
+              ]
+            },
+            {
+              "label": "Rất mạnh",
+              "words": [
+                "sharp / sharply",
+                "dramatic / dramatically"
+              ]
+            }
+          ],
+          "note": "Trục riêng cho tốc độ: *gradual / gradually*, *steady / steadily*. Tránh từ hình tượng như *soar, plunge, rocket*."
+        },
+        {
+          "kind": "phrases",
+          "title": "So sánh",
+          "core": true,
+          "items": [
+            {
+              "en": "compared to / in comparison with",
+              "vi": "so với"
+            },
+            {
+              "en": "that in / that of",
+              "vi": "đại từ thay thế",
+              "note": "Lặp lại giới từ của cụm gốc."
+            },
+            {
+              "en": "twice / three times as much / many as",
+              "vi": "gấp hai / ba lần"
+            },
+            {
+              "en": "far exceed",
+              "vi": "vượt xa"
+            },
+            {
+              "en": "respectively / in that order",
+              "vi": "lần lượt"
+            },
+            {
+              "en": "to a greater / lesser extent",
+              "vi": "ở mức độ lớn / nhỏ hơn"
+            },
+            {
+              "en": "their [female / male] counterparts",
+              "vi": "nhóm đối ứng"
+            },
+            {
+              "en": "while / whereas",
+              "vi": "trong khi"
+            },
+            {
+              "en": "By contrast, / Conversely,",
+              "vi": "ngược lại"
+            }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Tỷ lệ",
+          "items": [
+            {
+              "en": "the proportion / percentage / share of",
+              "vi": "tỷ lệ"
+            },
+            {
+              "en": "account for / make up",
+              "vi": "chiếm"
+            },
+            {
+              "en": "a quarter / a third / half",
+              "vi": "phân số"
+            },
+            {
+              "en": "the majority / a minority of",
+              "vi": "đa số / thiểu số"
+            }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Số gần đúng",
+          "core": true,
+          "items": [
+            {
+              "en": "about / approximately / around / roughly",
+              "vi": "khoảng"
+            },
+            {
+              "en": "just under / just over",
+              "vi": "nhỉnh dưới / nhỉnh trên"
+            },
+            {
+              "en": "almost / nearly",
+              "vi": "gần như"
+            },
+            {
+              "en": "exactly",
+              "vi": "chính xác"
+            }
+          ]
+        },
+        {
+          "kind": "phrases",
+          "title": "Thời gian",
+          "items": [
+            {
+              "en": "at the beginning / end of the period",
+              "vi": "đầu / cuối giai đoạn"
+            },
+            {
+              "en": "throughout the period",
+              "vi": "suốt giai đoạn",
+              "note": "Chỉ dùng cho biểu đồ có thời gian."
+            },
+            {
+              "en": "from [năm] onwards",
+              "vi": "từ năm đó trở đi"
+            },
+            {
+              "en": "over the following decade",
+              "vi": "trong thập kỷ sau đó"
+            },
+            {
+              "en": "[N] years later / by the final year",
+              "vi": "N năm sau / đến năm cuối"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "khong-nen-dung",
+      "group": "cong-cu",
+      "title": "Không nên dùng",
+      "summary": "Error log của Task 1: lỗi từ khóa học và lỗi phát hiện khi rà soát.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "pitfalls",
+          "title": "Văn phong",
+          "core": true,
+          "items": [
+            {
+              "wrong": "soared / plunged / rocketed",
+              "right": "rose sharply / fell dramatically",
+              "why": "Quá hình tượng. *Soar* không sai nhưng chỉ nên dùng cho mức tăng thật sự đột biến."
+            },
+            {
+              "wrong": "Looking at the chart, it is clear that...",
+              "right": "Overall, ...",
+              "why": "Câu đệm học thuộc, lãng phí từ."
+            },
+            {
+              "wrong": "coffers",
+              "right": "government budget / spending",
+              "why": "Từ hẹp nghĩa; dùng sai ngữ cảnh mất điểm nhiều hơn được."
+            }
+          ]
+        },
+        {
+          "kind": "pitfalls",
+          "title": "Ngữ pháp",
+          "core": true,
+          "items": [
+            {
+              "wrong": "was remained",
+              "right": "remained",
+              "why": "*Remain* là nội động từ, không có bị động."
+            },
+            {
+              "wrong": "maintained at this level",
+              "right": "remained / stayed at this level",
+              "why": "*Maintain* là ngoại động từ, cần tân ngữ."
+            },
+            {
+              "wrong": "with X saw",
+              "right": "with X seeing / witnessing",
+              "why": "Sau *with* là danh từ hoặc V-ing."
+            },
+            {
+              "wrong": "is equal 20%",
+              "right": "is equal to 20%",
+              "why": "Thiếu giới từ."
+            },
+            {
+              "wrong": "X rose; meanwhile Y fell. (dấu phẩy)",
+              "right": "X rose; meanwhile, Y fell. / X rose. Meanwhile, Y fell.",
+              "why": "*Meanwhile* là trạng từ; nối hai mệnh đề bằng dấu phẩy là lỗi comma splice."
+            },
+            {
+              "wrong": "boys enjoy..., girls tended to...",
+              "right": "boys enjoyed..., girls tended to...",
+              "why": "Lệch thì trong một câu."
+            }
+          ]
+        },
+        {
+          "kind": "pitfalls",
+          "title": "Từ vựng và collocation",
+          "core": true,
+          "items": [
+            {
+              "wrong": "how much + số liệu %",
+              "right": "the proportion of / how [N] was divided",
+              "why": "Tỷ trọng tăng không có nghĩa lượng tuyệt đối tăng."
+            },
+            {
+              "wrong": "the figure of X",
+              "right": "the figure for X",
+              "why": "Collocation cố định."
+            },
+            {
+              "wrong": "reach a peak at",
+              "right": "reach a peak of / peak at",
+              "why": "Không trộn hai collocation."
+            },
+            {
+              "wrong": "a growth",
+              "right": "growth / a rise",
+              "why": "*Growth* thường không đếm được."
+            },
+            {
+              "wrong": "upward of (= nhỉnh hơn)",
+              "right": "just over / slightly above",
+              "why": "*Upwards of* nghĩa là hơn, có khi hơn nhiều."
+            },
+            {
+              "wrong": "shy of",
+              "right": "just shy of / just under",
+              "why": "Thiếu *just* không tự nhiên."
+            },
+            {
+              "wrong": "allocate for",
+              "right": "allocate to",
+              "why": "Giới từ chuẩn là *to*."
+            },
+            {
+              "wrong": "expand on (chi tiêu)",
+              "right": "spend on / allocate to",
+              "why": "*Expand on* là nói rộng thêm về một ý."
+            },
+            {
+              "wrong": "rudimental",
+              "right": "rudimentary",
+              "why": "Sai từ."
+            },
+            {
+              "wrong": "main (bờm ngựa) / hoofs",
+              "right": "mane / hooves",
+              "why": "Sai chính tả; *hooves* là dạng số nhiều chuẩn."
+            },
+            {
+              "wrong": "watching TVs",
+              "right": "watching TV",
+              "why": "Collocation cố định."
+            },
+            {
+              "wrong": "fruits are picked",
+              "right": "fruit is picked",
+              "why": "*Fruit* thường không đếm được trong ngữ cảnh này."
+            },
+            {
+              "wrong": "butchers shop",
+              "right": "butcher's shop",
+              "why": "Sở hữu cách."
+            },
+            {
+              "wrong": "throughout the period (biểu đồ tĩnh)",
+              "right": "bỏ cụm này",
+              "why": "Biểu đồ tĩnh không có khoảng thời gian."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "checklist",
+      "group": "cong-cu",
+      "title": "Checklist soát bài",
+      "summary": "3 phút cuối: 6 bước của giảng viên và 4 điểm soát bổ sung.",
+      "source": "course",
+      "blocks": [
+        {
+          "kind": "checklist",
+          "title": "6 bước của giảng viên",
+          "core": true,
+          "items": [
+            "Mở bài đã paraphrase chưa?",
+            "Overview đã rõ chưa: trend + differences, hoặc differences + similarities?",
+            "Thân bài có nhóm thông tin logic không?",
+            "Có từ hay cấu trúc nào mạo hiểm mà không chắc đúng không? Nếu có, thay bằng cách an toàn hơn.",
+            "Có lỗi chính tả ở đuôi từ không (ví dụ *considerably*)?",
+            "Có lỗi chia thì hay hòa hợp chủ ngữ – động từ không?"
+          ]
+        },
+        {
+          "kind": "checklist",
+          "title": "4 điểm soát bổ sung",
+          "core": true,
+          "items": [
+            "Đơn vị có khớp không: *number / amount / proportion*?",
+            "Sau *with* có phải danh từ hoặc V-ing không?",
+            "Thì có thống nhất trong từng câu không?",
+            "Collocation dễ sai: *peak at / reach a peak of*, *that in / that of*, *remain* không bị động, dấu câu với *meanwhile*."
+          ]
+        },
+        {
+          "kind": "checklist",
+          "title": "Kiểm tra cuối",
+          "items": [
+            "Từ 150 từ trở lên?",
+            "Không có ý kiến cá nhân hay nguyên nhân ngoài dữ liệu?"
+          ]
+        }
+      ]
+    }
+  ]
+}

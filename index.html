@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ôn Writing</title>
+  <meta name="description" content="Tra cứu ôn Writing: IELTS Task 1, IELTS Task 2, GRE Issue.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%232563eb'/%3E%3Ctext x='16' y='22' font-family='Arial' font-size='17' font-weight='700' fill='white' text-anchor='middle'%3EW%3C/text%3E%3C/svg%3E">
+</head>
+<body data-section="">
+  <header class="topbar">
+    <div class="topbar-row">
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Mở danh sách trang" aria-expanded="false" aria-controls="sidebar">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+      </button>
+      <a class="brand" href="#/">Ôn Writing</a>
+      <nav class="tabs" id="tabs" aria-label="Các mục"></nav>
+      <div class="topbar-tools">
+        <button class="icon-btn" id="searchBtn" type="button" aria-label="Tìm kiếm" aria-expanded="false" aria-controls="searchPanel">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="2" fill="none"/><path d="M16 16l4.5 4.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <label class="switch" title="Ẩn cụm từ và khung câu tiếng Anh; bấm vào thẻ để xem đáp án">
+          <input type="checkbox" id="selftestToggle">
+          <span class="switch-track" aria-hidden="true"></span>
+          <span class="switch-label">Tự kiểm tra</span>
+        </label>
+      </div>
+    </div>
+    <div class="search-panel" id="searchPanel" hidden>
+      <div class="search-inner">
+        <input type="search" id="searchInput" placeholder="Tìm cụm từ, khung câu, lỗi sai… (gõ có hoặc không dấu)" autocomplete="off" spellcheck="false" aria-label="Từ khóa tìm kiếm">
+        <div class="search-results" id="searchResults" role="list"></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar" aria-label="Danh sách trang"></aside>
+    <div class="backdrop" id="backdrop" hidden></div>
+    <main class="content" id="main" tabindex="-1">
+      <p class="loading">Đang tải dữ liệu…</p>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+PROMPT_CLAUDE_CODE.md
+__pycache__/
+*.pyc
+.DS_Store
