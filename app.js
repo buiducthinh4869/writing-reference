@@ -241,8 +241,13 @@
     xs.forEach(function (x, i) {
       o += '<text class="tick" x="' + X(i) + '" y="' + (H - B + 18) + '" text-anchor="middle">' + esc(x) + '</text>';
     });
+    var pf = f.projectFrom;
+    if (pf) o += '<rect class="proj" x="' + X(pf - 1) + '" y="' + T + '" width="' + (X(xs.length - 1) - X(pf - 1)) + '" height="' + ph + '"/>' +
+      '<text class="axis-label" x="' + (X(xs.length - 1) - 4) + '" y="' + (T + 12) + '" text-anchor="end">' + esc(f.projectLabel || 'Projected') + '</text>';
     series.forEach(function (s, si) {
-      o += '<polyline class="ln s' + (si + 1) + '" points="' + s.values.map(function (v, i) { return X(i) + ',' + Y(v); }).join(' ') + '"/>';
+      var pts = s.values.map(function (v, i) { return X(i) + ',' + Y(v); });
+      o += '<polyline class="ln s' + (si + 1) + '" points="' + (pf ? pts.slice(0, pf) : pts).join(' ') + '"/>';
+      if (pf) o += '<polyline class="ln dash s' + (si + 1) + '" points="' + pts.slice(pf - 1).join(' ') + '"/>';
       s.values.forEach(function (v, i) {
         o += '<circle class="dot s' + (si + 1) + '" cx="' + X(i) + '" cy="' + Y(v) + '" r="3.2"><title>' + esc(s.name + ', ' + xs[i] + ': ' + fmtNum(v)) + '</title></circle>';
       });
@@ -277,6 +282,24 @@
   };
 
   FIG.table = function (f) { return figTitle(f) + R.table(f); };
+
+  FIG.pie = function (f) {
+    var cats = arr(f.categories, 'figure.categories');
+    var pies = arr(f.pies, 'figure.pies').map(function (p) {
+      var c = 120, r = 92, a0 = -Math.PI / 2, tot = p.values.reduce(function (x, y) { return x + y; }, 0);
+      var o = svgOpen(240, 240, p.name);
+      p.values.forEach(function (v, i) {
+        var a1 = a0 + 2 * Math.PI * v / tot, am = (a0 + a1) / 2, big = a1 - a0 > Math.PI ? 1 : 0;
+        o += '<path class="bar s' + (i + 1) + ' slice" d="M' + c + ',' + c + 'L' + (c + r * Math.cos(a0)) + ',' + (c + r * Math.sin(a0)) +
+          'A' + r + ',' + r + ' 0 ' + big + ' 1 ' + (c + r * Math.cos(a1)) + ',' + (c + r * Math.sin(a1)) + 'z"><title>' + esc(cats[i] + ': ' + v + '%') + '</title></path>';
+        var lr = v >= 8 ? r * 0.64 : r + 13;
+        o += '<text class="' + (v >= 8 ? 'pie-in' : 'val') + '" text-anchor="middle" x="' + (c + lr * Math.cos(am)) + '" y="' + (c + lr * Math.sin(am) + 4) + '">' + v + '%</text>';
+        a0 = a1;
+      });
+      return '<div class="fig-cell"><div class="fig-title">' + esc(p.name) + '</div>' + o + '</svg></div>';
+    });
+    return figTitle(f) + '<div class="fig-multi">' + pies.join('') + '</div>' + legend(cats.map(function (n) { return { name: n }; }));
+  };
 
   FIG.multi = function (f) {
     return '<div class="fig-multi">' + arr(f.charts, 'figure.charts').map(function (c) {

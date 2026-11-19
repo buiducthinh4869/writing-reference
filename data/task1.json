@@ -604,6 +604,85 @@
               "why": "Lệch thì làm mất điểm Grammatical Range & Accuracy."
             }
           ]
+        },
+        {
+          "kind": "essay",
+          "title": "Bài mẫu",
+          "prompt": "The line graph shows the percentage of the population aged 65 and over in three countries between 1980 and 2020, with projections to 2040.",
+          "figure": {
+            "type": "line",
+            "title": "Population aged 65 and over (%)",
+            "yLabel": "%",
+            "yMax": 40,
+            "ticks": 4,
+            "projectFrom": 5,
+            "x": [
+              "1980",
+              "1990",
+              "2000",
+              "2010",
+              "2020",
+              "2030",
+              "2040"
+            ],
+            "series": [
+              {
+                "name": "Country A",
+                "values": [
+                  9,
+                  12,
+                  17,
+                  23,
+                  28,
+                  32,
+                  35
+                ]
+              },
+              {
+                "name": "Country B",
+                "values": [
+                  11,
+                  12,
+                  13,
+                  14,
+                  16,
+                  20,
+                  24
+                ]
+              },
+              {
+                "name": "Country C",
+                "values": [
+                  5,
+                  5,
+                  6,
+                  7,
+                  9,
+                  13,
+                  18
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "label": "Introduction",
+              "en": "The line graph illustrates the proportion of people aged 65 and over in three countries from 1980 to 2020, along with projections up to 2040."
+            },
+            {
+              "label": "Overview",
+              "en": "Overall, the share of older people increased in all three countries and is expected to continue rising. Country A aged by far the most rapidly up to 2020 and is predicted to remain the oldest society throughout the forecast period."
+            },
+            {
+              "label": "Body 1",
+              "en": "In 1980, Country B had the highest proportion of elderly residents, at 11%, slightly above Country A (9%), while the figure for Country C was only 5%. Over the following four decades, Country A's figure rose sharply, drawing level with Country B in 1990 and reaching 28% by 2020. By contrast, the increases in Countries B and C were modest, to 16% and 9% respectively."
+            },
+            {
+              "label": "Body 2",
+              "en": "This upward trend is projected to continue. By 2040, the figure for Country A is expected to reach 35%, meaning that more than a third of its population will be aged 65 or over. The steepest relative increase, however, is forecast for Country C, where the proportion is set to double from 9% to 18%. Country B is likely to see a similar climb, to almost a quarter (24%)."
+            }
+          ],
+          "note": "**Vì sao đạt band cao.** (1) Overview nói cả quá khứ và dự báo, mỗi câu một ý lớn. (2) Thân bài chia theo **mốc thời gian**: Body 1 là số liệu đã qua (thì quá khứ), Body 2 là dự báo, nên không lẫn thì. (3) Ngôn ngữ dự báo luân phiên: *is projected to*, *is expected to*, *is forecast for*, *is set to*, *is likely to*. (4) Chi tiết được chọn lọc: điểm giao nhau năm 1990, mức tăng gấp đôi của C. (5) *The steepest relative increase* chính xác hơn *the fastest growth*: C tăng 100%, còn A chỉ tăng 25% dù cộng thêm nhiều điểm phần trăm hơn."
         }
       ]
     },
@@ -785,6 +864,63 @@
             }
           ],
           "note": "Toàn bài dùng một thì quá khứ. Body 1 bắt đầu bằng con số lớn nhất (car, City A). Hạng mục Other ở cuối."
+        },
+        {
+          "kind": "essay",
+          "title": "Bài mẫu 2: Pie chart",
+          "prompt": "The pie charts show the main sources of electricity in two countries, X and Y, in 2020.",
+          "figure": {
+            "type": "pie",
+            "title": "Sources of electricity, 2020",
+            "categories": [
+              "Coal",
+              "Natural gas",
+              "Nuclear",
+              "Hydroelectric",
+              "Wind and solar"
+            ],
+            "pies": [
+              {
+                "name": "Country X",
+                "values": [
+                  45,
+                  25,
+                  15,
+                  10,
+                  5
+                ]
+              },
+              {
+                "name": "Country Y",
+                "values": [
+                  8,
+                  20,
+                  32,
+                  12,
+                  28
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "label": "Introduction",
+              "en": "The pie charts compare the proportions of electricity generated from five different sources in Country X and Country Y in 2020."
+            },
+            {
+              "label": "Overview",
+              "en": "Overall, Country X relied heavily on fossil fuels, whereas Country Y had a more balanced energy mix dominated by low-carbon sources. Nuclear power and renewables played a far larger role in Country Y."
+            },
+            {
+              "label": "Body 1",
+              "en": "Coal was by far the leading source in Country X, accounting for almost half (45%) of its electricity, while natural gas contributed a further quarter. Fossil fuels therefore supplied 70% of the total. In Country Y, by contrast, coal generated only 8% of electricity and gas 20%, so fossil fuels made up just over a quarter of the country's supply."
+            },
+            {
+              "label": "Body 2",
+              "en": "Nuclear power was the largest single source in Country Y, at 32%, more than double the figure for Country X (15%). The contrast was even sharper for wind and solar energy, which produced 28% of Country Y's electricity but only 5% of Country X's. Hydroelectric power was the one source used to a similar extent in both countries, at 10% and 12% respectively."
+            }
+          ],
+          "note": "**Vì sao đạt band cao.** (1) Overview không nêu số, chỉ nêu bức tranh lớn: X dựa vào nhiên liệu hóa thạch, Y cân bằng hơn. (2) Thân bài **gom nhóm** theo loại nguồn (hóa thạch, rồi ít carbon), không tả từng nước riêng, nên mỗi câu đều là một phép so sánh. (3) Cộng gộp từ chính số liệu (*70%*, *just over a quarter* = 28%) là phân tích hợp lệ, không thêm ý ngoài biểu đồ. (4) Xen kẽ phân số và phần trăm: *almost half*, *a further quarter*, *more than double*. (5) Nhắc cả điểm tương đồng (hydro) cho cân đối. Pie chart một thời điểm: không dùng *increase*, *decrease*."
         }
       ]
     },
