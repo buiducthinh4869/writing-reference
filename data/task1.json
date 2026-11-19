@@ -358,6 +358,62 @@
           "kind": "essay",
           "title": "Bài mẫu",
           "prompt": "The line graph shows the number of visitors to four museums in a city between 2000 and 2020.",
+          "figure": {
+            "type": "line",
+            "title": "Visitors to four museums, 2000–2020",
+            "yLabel": "millions",
+            "yMax": 10,
+            "ticks": 5,
+            "x": [
+              "2000",
+              "2005",
+              "2010",
+              "2015",
+              "2020"
+            ],
+            "series": [
+              {
+                "name": "History Museum",
+                "values": [
+                  5,
+                  6,
+                  7,
+                  6.5,
+                  6
+                ]
+              },
+              {
+                "name": "Science Museum",
+                "values": [
+                  2,
+                  3,
+                  4.5,
+                  6,
+                  8
+                ]
+              },
+              {
+                "name": "Natural History Museum",
+                "values": [
+                  1.5,
+                  2,
+                  2.5,
+                  3.2,
+                  4
+                ]
+              },
+              {
+                "name": "Art Gallery",
+                "values": [
+                  4,
+                  3.6,
+                  3.2,
+                  2.8,
+                  2.5
+                ]
+              }
+            ]
+          },
           "data": "History Museum: 5 triệu → đỉnh 7 triệu (2010) → 6 triệu. Science Museum: 2 → 8 triệu. Natural History Museum: 1,5 → 4 triệu. Art Gallery: 4 → 2,5 triệu.",
           "paragraphs": [
             {
@@ -603,11 +659,50 @@
           "kind": "essay",
           "title": "Bài mẫu",
           "prompt": "The bar chart shows the percentage of employees in two cities who use different means of transport to travel to work.",
+          "figure": {
+            "type": "hbar",
+            "title": "Means of transport used to travel to work (% of employees)",
+            "unit": "%",
+            "xMax": 50,
+            "ticks": 5,
+            "categories": [
+              "Car",
+              "Bus",
+              "Metro",
+              "Walking",
+              "Cycling",
+              "Other"
+            ],
+            "series": [
+              {
+                "name": "City A",
+                "values": [
+                  45,
+                  20,
+                  5,
+                  15,
+                  10,
+                  5
+                ]
+              },
+              {
+                "name": "City B",
+                "values": [
+                  20,
+                  35,
+                  25,
+                  5,
+                  10,
+                  5
+                ]
+              }
+            ]
+          },
           "data": "City A: car 45%, bus 20%, walking 15%, cycling 10%, metro 5%, other 5%. City B: bus 35%, metro 25%, car 20%, cycling 10%, walking 5%, other 5%.",
           "paragraphs": [
             {
               "label": "Introduction",
-              "en": "The bar chart compares the proportion of employees in two cities who travel to work by five different means of transport."
+              "en": "The bar chart compares the proportion of employees in two cities who travel to work by different means of transport."
             },
             {
               "label": "Overview",
@@ -740,6 +835,74 @@
           "kind": "essay",
           "title": "Bài mẫu",
           "prompt": "The line graph shows the number of domestic and international students at a university between 2010 and 2020. The bar chart shows the home countries of its international students in 2020.",
+          "figure": {
+            "type": "multi",
+            "charts": [
+              {
+                "type": "line",
+                "title": "Students at the university, 2010–2020",
+                "yMax": 20000,
+                "ticks": 4,
+                "x": [
+                  "2010",
+                  "2012",
+                  "2014",
+                  "2016",
+                  "2018",
+                  "2020"
+                ],
+                "series": [
+                  {
+                    "name": "Domestic",
+                    "values": [
+                      15000,
+                      15200,
+                      15300,
+                      15500,
+                      15800,
+                      16000
+                    ]
+                  },
+                  {
+                    "name": "International",
+                    "values": [
+                      2000,
+                      2700,
+                      3500,
+                      4400,
+                      5400,
+                      6500
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "hbar",
+                "title": "International students by home country, 2020",
+                "xMax": 2500,
+                "ticks": 5,
+                "categories": [
+                  "China",
+                  "India",
+                  "Vietnam",
+                  "Indonesia",
+                  "Other"
+                ],
+                "series": [
+                  {
+                    "name": "Students",
+                    "values": [
+                      2200,
+                      1500,
+                      900,
+                      600,
+                      1300
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
           "data": "Line: international 2.000 → 6.500; domestic 15.000 → 16.000. Bar (2020): China 2.200, India 1.500, Vietnam 900, Indonesia 600, other 1.300.",
           "paragraphs": [
             {
@@ -882,6 +1045,170 @@
           "kind": "essay",
           "title": "Bài mẫu",
           "prompt": "The maps show the village of Ashford in 2000 and today.",
+          "figure": {
+            "type": "map",
+            "panels": [
+              {
+                "title": "Ashford, 2000",
+                "items": [
+                  {
+                    "t": "wood",
+                    "x": 12,
+                    "y": 14,
+                    "w": 110,
+                    "h": 78,
+                    "label": "Woodland"
+                  },
+                  {
+                    "t": "farm",
+                    "x": 160,
+                    "y": 14,
+                    "w": 104,
+                    "h": 78,
+                    "label": "Farmland"
+                  },
+                  {
+                    "t": "road",
+                    "x": 0,
+                    "y": 112,
+                    "w": 300,
+                    "h": 12
+                  },
+                  {
+                    "t": "civic",
+                    "x": 124,
+                    "y": 88,
+                    "w": 56,
+                    "h": 20,
+                    "label": "Post office"
+                  },
+                  {
+                    "t": "civic",
+                    "x": 20,
+                    "y": 150,
+                    "w": 80,
+                    "h": 40,
+                    "label": "School"
+                  },
+                  {
+                    "t": "green",
+                    "x": 110,
+                    "y": 150,
+                    "w": 62,
+                    "h": 40,
+                    "label": "Playing\nfield"
+                  },
+                  {
+                    "t": "path",
+                    "cls": "river",
+                    "d": "M160,240 C205,195 250,185 310,165"
+                  },
+                  {
+                    "t": "shop",
+                    "x": 190,
+                    "y": 158,
+                    "w": 60,
+                    "h": 18,
+                    "label": "Shops"
+                  }
+                ]
+              },
+              {
+                "title": "Ashford, today",
+                "items": [
+                  {
+                    "t": "house",
+                    "x": 12,
+                    "y": 14,
+                    "w": 110,
+                    "h": 78,
+                    "label": "Housing estate"
+                  },
+                  {
+                    "t": "shop",
+                    "x": 160,
+                    "y": 14,
+                    "w": 56,
+                    "h": 78,
+                    "label": "Super-\nmarket"
+                  },
+                  {
+                    "t": "road",
+                    "x": 220,
+                    "y": 14,
+                    "w": 44,
+                    "h": 78,
+                    "label": "Car\npark"
+                  },
+                  {
+                    "t": "road",
+                    "x": 0,
+                    "y": 108,
+                    "w": 300,
+                    "h": 20
+                  },
+                  {
+                    "t": "civic",
+                    "x": 124,
+                    "y": 84,
+                    "w": 56,
+                    "h": 20,
+                    "label": "Post office"
+                  },
+                  {
+                    "t": "civic",
+                    "x": 130,
+                    "y": 132,
+                    "w": 44,
+                    "h": 14,
+                    "label": "Bus stop"
+                  },
+                  {
+                    "t": "civic",
+                    "x": 20,
+                    "y": 152,
+                    "w": 104,
+                    "h": 40,
+                    "label": "School\n(extended)"
+                  },
+                  {
+                    "t": "civic",
+                    "x": 130,
+                    "y": 152,
+                    "w": 58,
+                    "h": 40,
+                    "label": "Sports\ncentre"
+                  },
+                  {
+                    "t": "path",
+                    "cls": "river",
+                    "d": "M160,240 C205,195 250,185 310,165"
+                  },
+                  {
+                    "t": "path",
+                    "cls": "path",
+                    "d": "M174,250 C218,207 260,198 310,180"
+                  },
+                  {
+                    "t": "shop",
+                    "x": 186,
+                    "y": 158,
+                    "w": 34,
+                    "h": 18,
+                    "label": "Café"
+                  },
+                  {
+                    "t": "water",
+                    "x": 226,
+                    "y": 158,
+                    "w": 44,
+                    "h": 18,
+                    "label": "Marina"
+                  }
+                ]
+              }
+            ]
+          },
           "data": "Tây bắc: rừng nhỏ → khu nhà ở. Đông bắc: đất nông nghiệp → siêu thị và bãi đỗ xe. Trung tâm: đường chính được mở rộng, bưu điện giữ nguyên, thêm trạm xe buýt đối diện bưu điện. Nam: trường học mở rộng, sân chơi → trung tâm thể thao. Đông nam: dãy cửa hàng ven sông → quán cà phê và bến du thuyền, thêm lối đi ven sông.",
           "paragraphs": [
             {
@@ -1006,6 +1333,40 @@
           "kind": "essay",
           "title": "Bài mẫu",
           "prompt": "The diagram shows how black tea is produced.",
+          "figure": {
+            "type": "process",
+            "title": "Black tea production",
+            "steps": [
+              {
+                "label": "Picking",
+                "sub": "by hand, early morning"
+              },
+              {
+                "label": "Withering",
+                "sub": "on racks, about 12 hours"
+              },
+              {
+                "label": "Rolling",
+                "sub": "by machine, juices released"
+              },
+              {
+                "label": "Fermenting",
+                "sub": "leaves turn dark brown"
+              },
+              {
+                "label": "Drying",
+                "sub": "ovens, high temperature"
+              },
+              {
+                "label": "Sieving and grading",
+                "sub": "by leaf size"
+              },
+              {
+                "label": "Packing and shipping",
+                "sub": "bags or boxes, to retailers"
+              }
+            ]
+          },
           "data": "Hái lá bằng tay vào sáng sớm → làm héo trên giàn khoảng 12 giờ → vò bằng máy → lên men → sấy trong lò nhiệt độ cao → sàng và phân loại theo kích cỡ lá → đóng gói và vận chuyển.",
           "paragraphs": [
             {
@@ -1094,6 +1455,32 @@
           "kind": "essay",
           "title": "Bài mẫu",
           "prompt": "The diagram shows the life cycle of a butterfly.",
+          "figure": {
+            "type": "cycle",
+            "title": "Life cycle of a butterfly",
+            "steps": [
+              {
+                "label": "Eggs",
+                "sub": "underside of a leaf",
+                "next": "hatch: ~1 week"
+              },
+              {
+                "label": "Caterpillar",
+                "sub": "feeds, sheds skin",
+                "next": "2–3 weeks"
+              },
+              {
+                "label": "Pupa",
+                "sub": "body transforms",
+                "next": "~2 weeks"
+              },
+              {
+                "label": "Adult butterfly",
+                "sub": "mates, lays eggs",
+                "next": "new eggs"
+              }
+            ]
+          },
           "data": "Trứng dưới mặt lá của cây làm thức ăn cho sâu → nở sau khoảng 1 tuần → sâu ăn lá, lột da nhiều lần trong 2–3 tuần → kết nhộng → khoảng 2 tuần sau bướm trưởng thành chui ra → giao phối, đẻ trứng mới.",
           "paragraphs": [
             {
