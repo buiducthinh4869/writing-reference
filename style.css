@@ -355,6 +355,56 @@ mark { background: var(--mark); color: inherit; border-radius: 2px; padding: 0 1
 .essay-count { text-align: right; padding: 0 16px 10px; font-size: 13px; color: var(--faint); font-variant-numeric: tabular-nums; }
 .essay-note { padding: 12px 16px; background: var(--surface-2); font-size: 14.5px; border-top: 1px solid var(--border); }
 
+
+/* hình đề bài Task 1 */
+:root { --s1: #2a6fdb; --s2: #d9631e; --s3: #1f9a72; --s4: #9a4fd0; --map-bg: #f4f1e6; --map-wood: #b9d9a6; --map-farm: #ecdca0; --map-house: #e7b8a3; --map-shop: #c9c2e6; --map-civic: #d6dde6; --map-road: #c9ccd1; --map-water: #a9cdea; --map-green: #cfe7b5; }
+@media (prefers-color-scheme: dark) {
+  :root { --s1: #6ea0ff; --s2: #f08c4f; --s3: #4cc79d; --s4: #c08cf2; --map-bg: #22262b; --map-wood: #3e5c37; --map-farm: #5e5330; --map-house: #6b4639; --map-shop: #4c4670; --map-civic: #3d4651; --map-road: #535960; --map-water: #2f5675; --map-green: #42583a; }
+}
+.essay-figure { margin: 0; padding: 14px 16px; border-bottom: 1px solid var(--border); }
+.fig-svg { display: block; width: 100%; max-width: 560px; height: auto; margin: 0 auto; font-family: var(--font); }
+.fig-title { font-size: 13.5px; font-weight: 600; text-align: center; margin-bottom: 6px; }
+.fig-svg .grid { stroke: var(--border); stroke-width: 1; }
+.fig-svg .tick { fill: var(--muted); font-size: 11.5px; }
+.fig-svg .axis-label { fill: var(--faint); font-size: 11px; }
+.fig-svg .cat { fill: var(--text); font-size: 12.5px; }
+.fig-svg .val { fill: var(--muted); font-size: 11px; }
+.fig-svg .ln { fill: none; stroke-width: 2.4; stroke-linejoin: round; }
+.fig-svg .ln.s1, .fig-svg .dot.s1 { stroke: var(--s1); } .fig-svg .ln.s2, .fig-svg .dot.s2 { stroke: var(--s2); }
+.fig-svg .ln.s3, .fig-svg .dot.s3 { stroke: var(--s3); } .fig-svg .ln.s4, .fig-svg .dot.s4 { stroke: var(--s4); }
+.fig-svg .dot { fill: var(--surface); stroke-width: 2; }
+.fig-svg .bar.s1, .sw.s1 { fill: var(--s1); background: var(--s1); } .fig-svg .bar.s2, .sw.s2 { fill: var(--s2); background: var(--s2); }
+.fig-svg .bar.s3, .sw.s3 { fill: var(--s3); background: var(--s3); } .fig-svg .bar.s4, .sw.s4 { fill: var(--s4); background: var(--s4); }
+.fig-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 14px; font-size: 13px; color: var(--muted); margin-top: 6px; }
+.fig-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
+.fig-multi { display: flex; flex-wrap: wrap; gap: 18px; }
+.fig-cell { flex: 1 1 280px; min-width: 0; }
+.fig-process { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 0; align-items: stretch; }
+.fig-process li { display: flex; align-items: center; }
+.fig-step { display: flex; gap: 8px; align-items: flex-start; border: 1px solid var(--border-strong); background: var(--surface-2); border-radius: 8px; padding: 7px 10px; max-width: 200px; font-size: 13.5px; line-height: 1.35; }
+.fig-step b { flex: none; width: 20px; height: 20px; border-radius: 50%; background: var(--accent); color: var(--surface); font-size: 12px; display: grid; place-items: center; }
+.fig-step small { display: block; color: var(--muted); font-size: 12px; }
+.fig-arrow { color: var(--faint); padding: 0 6px; font-size: 16px; }
+@media (max-width: 640px) {
+  .fig-process { flex-direction: column; align-items: flex-start; gap: 0; }
+  .fig-process li { flex-direction: column; align-items: flex-start; }
+  .fig-step { max-width: none; }
+  .fig-arrow { transform: rotate(90deg); padding: 2px 0 2px 14px; transform-origin: 20px 50%; }
+}
+.fig-svg .cyc { fill: none; stroke: var(--faint); stroke-width: 2; }
+.fig-svg .ah { fill: var(--faint); }
+.fig-svg .node { fill: var(--surface-2); stroke: var(--border-strong); }
+.fig-svg .node-t { fill: var(--text); font-size: 13.5px; font-weight: 600; }
+.fig-svg .map-bg { fill: var(--map-bg); stroke: var(--border-strong); }
+.fig-svg .map-wood { fill: var(--map-wood); } .fig-svg .map-farm { fill: var(--map-farm); }
+.fig-svg .map-house { fill: var(--map-house); } .fig-svg .map-shop { fill: var(--map-shop); }
+.fig-svg .map-civic { fill: var(--map-civic); stroke: var(--border-strong); } .fig-svg .map-road { fill: var(--map-road); }
+.fig-svg .map-green { fill: var(--map-green); } .fig-svg .map-water { fill: var(--map-water); }
+.fig-svg .map-river { fill: none; stroke: var(--map-water); stroke-width: 16; stroke-linecap: round; }
+.fig-svg .map-path { fill: none; stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 4 3; }
+.fig-svg .map-lb { fill: var(--text); font-size: 9.5px; }
+.fig-svg .map-n path { fill: var(--muted); } .fig-svg .map-n text { fill: var(--muted); font-size: 9px; font-weight: 700; }
+
 /* checklist */
 .checklist { list-style: none; margin: 0; padding: 0; }
 .checklist li { margin: 2px 0; }

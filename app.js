@@ -22,7 +22,7 @@
     phrases: ['items'],
     frames: ['items'],
     pitfalls: ['items'],
-    essay: ['prompt', 'data', 'paragraphs', 'note'],
+    essay: ['prompt', 'figure', 'data', 'paragraphs', 'note'],
     checklist: ['items'],
     scale: ['levels', 'note'],
     links: ['items']
@@ -206,11 +206,145 @@
       }).join('') + '</div>';
   };
 
+
+  // ---------- Biểu đồ đề bài Task 1 (SVG dựng từ dữ liệu) ----------
+  var FIG = {};
+  function svgOpen(w, h, label) {
+    return '<svg class="fig-svg" viewBox="0 0 ' + w + ' ' + h + '" role="img" aria-label="' + esc(label || '') + '">';
+  }
+  function niceMax(v) {
+    var p = Math.pow(10, Math.floor(Math.log10(v))), m = v / p;
+    var n = m <= 1 ? 1 : m <= 2 ? 2 : m <= 2.5 ? 2.5 : m <= 5 ? 5 : 10;
+    return n * p;
+  }
+  function fmtNum(v) { return String(v).replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
+  function legend(series) {
+    return '<div class="fig-legend">' + series.map(function (s, i) {
+      return '<span><i class="sw s' + (i + 1) + '"></i>' + esc(s.name) + '</span>';
+    }).join('') + '</div>';
+  }
+  function figTitle(f) { return f.title ? '<div class="fig-title">' + esc(f.title) + '</div>' : ''; }
+
+  FIG.line = function (f) {
+    var W = 480, H = 270, L = 52, Rr = 26, T = 14, B = 34;
+    var series = arr(f.series, 'figure.series'), xs = arr(f.x, 'figure.x');
+    var max = f.yMax || niceMax(Math.max.apply(null, series.map(function (s) { return Math.max.apply(null, s.values); })));
+    var ticks = f.ticks || 5, pw = W - L - Rr, ph = H - T - B;
+    var X = function (i) { return L + pw * i / (xs.length - 1); };
+    var Y = function (v) { return T + ph * (1 - v / max); };
+    var o = svgOpen(W, H, f.title);
+    for (var k = 0; k <= ticks; k++) {
+      var v = max * k / ticks, y = Y(v);
+      o += '<line class="grid" x1="' + L + '" x2="' + (W - Rr) + '" y1="' + y + '" y2="' + y + '"/>' +
+        '<text class="tick" x="' + (L - 6) + '" y="' + (y + 4) + '" text-anchor="end">' + fmtNum(+v.toFixed(2)) + '</text>';
+    }
+    xs.forEach(function (x, i) {
+      o += '<text class="tick" x="' + X(i) + '" y="' + (H - B + 18) + '" text-anchor="middle">' + esc(x) + '</text>';
+    });
+    series.forEach(function (s, si) {
+      o += '<polyline class="ln s' + (si + 1) + '" points="' + s.values.map(function (v, i) { return X(i) + ',' + Y(v); }).join(' ') + '"/>';
+      s.values.forEach(function (v, i) {
+        o += '<circle class="dot s' + (si + 1) + '" cx="' + X(i) + '" cy="' + Y(v) + '" r="3.2"><title>' + esc(s.name + ', ' + xs[i] + ': ' + fmtNum(v)) + '</title></circle>';
+      });
+    });
+    if (f.yLabel) o += '<text class="axis-label" x="' + L + '" y="' + (T - 3) + '">' + esc(f.yLabel) + '</text>';
+    return figTitle(f) + o + '</svg>' + legend(series);
+  };
+
+  FIG.hbar = function (f) {
+    var series = arr(f.series, 'figure.series'), cats = arr(f.categories, 'figure.categories');
+    var bh = 13, gap = 3, grp = series.length * (bh + gap) + 12;
+    var W = 480, L = 86, Rr = 40, T = 8, B = 26, H = T + B + grp * cats.length, pw = W - L - Rr;
+    var max = f.xMax || niceMax(Math.max.apply(null, series.map(function (s) { return Math.max.apply(null, s.values); })));
+    var unit = f.unit || '', ticks = f.ticks || 5;
+    var o = svgOpen(W, H, f.title);
+    for (var k = 0; k <= ticks; k++) {
+      var x = L + pw * k / ticks;
+      o += '<line class="grid" x1="' + x + '" x2="' + x + '" y1="' + T + '" y2="' + (H - B) + '"/>' +
+        '<text class="tick" x="' + x + '" y="' + (H - B + 16) + '" text-anchor="middle">' + fmtNum(max * k / ticks) + unit + '</text>';
+    }
+    cats.forEach(function (c, ci) {
+      var y0 = T + ci * grp + 6;
+      o += '<text class="cat" x="' + (L - 8) + '" y="' + (y0 + grp / 2 - 4) + '" text-anchor="end">' + esc(c) + '</text>';
+      series.forEach(function (s, si) {
+        var v = s.values[ci], y = y0 + si * (bh + gap), w = pw * v / max;
+        o += '<rect class="bar s' + (si + 1) + '" x="' + L + '" y="' + y + '" width="' + w + '" height="' + bh + '" rx="2"><title>' +
+          esc((series.length > 1 ? s.name + ', ' : '') + c + ': ' + fmtNum(v) + unit) + '</title></rect>' +
+          '<text class="val" x="' + (L + w + 4) + '" y="' + (y + bh - 3) + '">' + fmtNum(v) + unit + '</text>';
+      });
+    });
+    return figTitle(f) + o + '</svg>' + (series.length > 1 ? legend(series) : '');
+  };
+
+  FIG.multi = function (f) {
+    return '<div class="fig-multi">' + arr(f.charts, 'figure.charts').map(function (c) {
+      return '<div class="fig-cell">' + figureHtml(c) + '</div>';
+    }).join('') + '</div>';
+  };
+
+  FIG.process = function (f) {
+    return figTitle(f) + '<ol class="fig-process">' + arr(f.steps, 'figure.steps').map(function (s, i, a) {
+      return '<li><span class="fig-step"><b>' + (i + 1) + '</b><span><strong>' + esc(s.label) + '</strong>' +
+        (s.sub ? '<small>' + esc(s.sub) + '</small>' : '') + '</span></span>' +
+        (i < a.length - 1 ? '<span class="fig-arrow" aria-hidden="true">→</span>' : '') + '</li>';
+    }).join('') + '</ol>';
+  };
+
+  FIG.cycle = function (f) {
+    var st = arr(f.steps, 'figure.steps'), n = st.length, W = 480, H = 330, cx = 240, cy = 165, rx = 150, ry = 112;
+    var pos = st.map(function (s, i) {
+      var a = -Math.PI / 2 + 2 * Math.PI * i / n;
+      return { x: cx + rx * Math.cos(a), y: cy + ry * Math.sin(a), a: a };
+    });
+    var o = svgOpen(W, H, f.title) + '<defs><marker id="fig-ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" class="ah"/></marker></defs>';
+    st.forEach(function (s, i) {
+      var a1 = pos[i].a + 0.42, a2 = pos[i].a + 2 * Math.PI / n - 0.42, am = (a1 + a2) / 2;
+      var p1 = [cx + rx * Math.cos(a1), cy + ry * Math.sin(a1)], p2 = [cx + rx * Math.cos(a2), cy + ry * Math.sin(a2)];
+      o += '<path class="cyc" marker-end="url(#fig-ah)" d="M' + p1 + 'A' + rx + ',' + ry + ' 0 0 1 ' + p2 + '"/>';
+      if (s.next) {
+        var lx = cx + (rx - 34) * Math.cos(am), ly = cy + (ry - 26) * Math.sin(am);
+        o += '<text class="tick" text-anchor="middle" x="' + lx + '" y="' + (ly + 4) + '">' + esc(s.next) + '</text>';
+      }
+    });
+    st.forEach(function (s, i) {
+      var p = pos[i], w = 150, h = s.sub ? 46 : 30;
+      o += '<rect class="node" x="' + (p.x - w / 2) + '" y="' + (p.y - h / 2) + '" width="' + w + '" height="' + h + '" rx="8"/>' +
+        '<text class="node-t" text-anchor="middle" x="' + p.x + '" y="' + (p.y + (s.sub ? -4 : 5)) + '">' + esc(s.label) + '</text>' +
+        (s.sub ? '<text class="tick" text-anchor="middle" x="' + p.x + '" y="' + (p.y + 13) + '">' + esc(s.sub) + '</text>' : '');
+    });
+    return figTitle(f) + o + '</svg>';
+  };
+
+  // Bản đồ: mỗi panel là hệ toạ độ 300x240, item = {t: loại, x, y, w, h, label} hoặc {t: 'path', d, cls}.
+  FIG.map = function (f) {
+    return '<div class="fig-multi">' + arr(f.panels, 'figure.panels').map(function (p) {
+      var o = svgOpen(300, 240, p.title) + '<rect class="map-bg" x="0" y="0" width="300" height="240" rx="6"/>';
+      arr(p.items, 'figure.items').forEach(function (it) {
+        if (it.t === 'path') { o += '<path class="map-' + esc(it.cls) + '" d="' + esc(it.d) + '"/>'; return; }
+        o += '<rect class="map-' + esc(it.t) + '" x="' + it.x + '" y="' + it.y + '" width="' + it.w + '" height="' + it.h + '" rx="3"/>';
+        if (it.label) {
+          var lines = String(it.label).split('\n');
+          lines.forEach(function (ln, k) {
+            o += '<text class="map-lb" text-anchor="middle" x="' + (it.x + it.w / 2) + '" y="' + (it.y + it.h / 2 + 4 + (k - (lines.length - 1) / 2) * 11) + '">' + esc(ln) + '</text>';
+          });
+        }
+      });
+      o += '<g class="map-n"><path d="M283,26 L288,12 L293,26 L288,22z"/><text x="288" y="38" text-anchor="middle">N</text></g>';
+      return '<div class="fig-cell"><div class="fig-title">' + esc(p.title) + '</div>' + o + '</svg></div>';
+    }).join('') + '</div>';
+  };
+
+  function figureHtml(f) {
+    if (!f || !FIG[f.type]) { warn('figure: loại lạ ' + (f && f.type)); return ''; }
+    return FIG[f.type](f);
+  }
+
   R.essay = function (b) {
     var paras = arr(b.paragraphs, 'essay.paragraphs');
     var total = paras.reduce(function (n, p) { return n + wordCount(p && p.en); }, 0);
     return '<div class="essay">' +
       (b.prompt ? '<div class="essay-prompt"><div class="essay-label">Đề bài</div>' + md(b.prompt) + '</div>' : '') +
+      (b.figure ? '<figure class="essay-figure">' + figureHtml(b.figure) + '</figure>' : '') +
       (b.data ? '<div class="essay-data"><span class="essay-label">Số liệu</span> ' + md(b.data) + '</div>' : '') +
       '<div class="essay-body">' + paras.map(function (p) {
         if (typeof p === 'string') p = { en: p };
