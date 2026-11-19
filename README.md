@@ -48,7 +48,7 @@ Mọi block có `kind`; có thể có `title`, `core: true` (thuộc phần lõi
 | `pitfalls` | `items: [{wrong, right, why}]` | ✗ sai → ✓ đúng → lý do |
 | `essay` | `prompt`, `figure?`, `data?`, `paragraphs: [{label, en}]`, `note?` | Đề bài, hình đề bài (SVG), số liệu, các đoạn có nhãn, số từ, ghi chú phân tích |
 
-`figure.type`: `line` (`x`, `series: [{name, values}]`, `yMax?`), `hbar` (`categories`, `series`, `unit?`, `xMax?`), `multi` (`charts: [figure]`), `process` (`steps: [{label, sub?}]`), `cycle` (`steps: [{label, sub?, next?}]`), `map` (`panels: [{title, items}]`, toạ độ 300x240). Số liệu trong `figure` phải khớp bài mẫu.
+`figure.type`: `line` (`x`, `series: [{name, values}]`, `yMax?`), `hbar` (`categories`, `series`, `unit?`, `xMax?`), `table` (`columns`, `rows`), `multi` (`charts: [figure]`), `process` (`steps: [{label, sub?}]`), `cycle` (`steps: [{label, sub?, next?}]`), `map` (`panels: [{title, items}]`, toạ độ 300x240). Số liệu trong `figure` phải khớp bài mẫu.
 | `checklist` | `items: [md]` | Ô tick (chỉ trong phiên, không lưu) |
 | `scale` | `levels: [{label, words}]`, `note?` | Thang ngang từ nhỏ đến lớn |
 | `links` | `items: [{label, section, page}]` | Liên kết sang trang khác |
