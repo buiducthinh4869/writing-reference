@@ -384,6 +384,7 @@ mark { background: var(--mark); color: inherit; border-radius: 2px; padding: 0 1
 .fig-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; }
 .fig-multi { display: flex; flex-wrap: wrap; gap: 18px; }
 .fig-cell { flex: 1 1 280px; min-width: 0; }
+.fig-single .fig-cell { max-width: 440px; margin: 0 auto; }
 .fig-process { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px 0; align-items: stretch; }
 .fig-process li { display: flex; align-items: center; }
 .fig-step { display: flex; gap: 8px; align-items: flex-start; border: 1px solid var(--border-strong); background: var(--surface-2); border-radius: 8px; padding: 7px 10px; max-width: 200px; font-size: 13.5px; line-height: 1.35; }
@@ -407,6 +408,13 @@ mark { background: var(--mark); color: inherit; border-radius: 2px; padding: 0 1
 .fig-svg .map-green { fill: var(--map-green); } .fig-svg .map-water { fill: var(--map-water); }
 .fig-svg .map-river { fill: none; stroke: var(--map-water); stroke-width: 16; stroke-linecap: round; }
 .fig-svg .map-path { fill: none; stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 4 3; }
+.fig-svg .map-roof { fill: var(--surface-2); stroke: var(--border-strong); }
+.fig-svg .map-panel { fill: #2b3440; stroke: var(--muted); stroke-width: 1.5; }
+.fig-svg .map-tank { fill: var(--map-civic); stroke: var(--muted); stroke-width: 1.5; }
+.fig-svg .map-sun { fill: #f2b84b; }
+.fig-svg .map-ray { fill: none; stroke: #f2b84b; stroke-width: 1.5; stroke-dasharray: 4 3; }
+.fig-svg .map-hot { fill: none; stroke: #d9534f; stroke-width: 3; }
+.fig-svg .map-cold { fill: none; stroke: #3a86d9; stroke-width: 3; }
 .fig-svg .map-lb { fill: var(--text); font-size: 9.5px; }
 .fig-svg .map-n path { fill: var(--muted); } .fig-svg .map-n text { fill: var(--muted); font-size: 9px; font-weight: 700; }
 

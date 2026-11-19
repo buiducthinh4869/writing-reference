@@ -342,11 +342,13 @@
 
   // Bản đồ: mỗi panel là hệ toạ độ 300x240, item = {t: loại, x, y, w, h, label} hoặc {t: 'path', d, cls}.
   FIG.map = function (f) {
-    return '<div class="fig-multi">' + arr(f.panels, 'figure.panels').map(function (p) {
-      var o = svgOpen(300, 240, p.title) + '<rect class="map-bg" x="0" y="0" width="300" height="240" rx="6"/>';
+    var ps = arr(f.panels, 'figure.panels');
+    return '<div class="fig-multi' + (ps.length === 1 ? ' fig-single' : '') + '">' + ps.map(function (p) {
+      var o = svgOpen(300, 240, p.title) + '<defs><marker id="map-ah" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto"><path d="M0,0L10,5L0,10z" class="ah"/></marker></defs>' +
+        '<rect class="map-bg" x="0" y="0" width="300" height="240" rx="6"/>';
       arr(p.items, 'figure.items').forEach(function (it) {
-        if (it.t === 'path') { o += '<path class="map-' + esc(it.cls) + '" d="' + esc(it.d) + '"/>'; return; }
-        o += '<rect class="map-' + esc(it.t) + '" x="' + it.x + '" y="' + it.y + '" width="' + it.w + '" height="' + it.h + '" rx="3"/>';
+        if (it.t === 'path') { o += '<path class="map-' + esc(it.cls) + '" d="' + esc(it.d) + '"' + (it.arrow ? ' marker-end="url(#map-ah)"' : '') + '/>'; return; }
+        if (it.t !== 'text') o += '<rect class="map-' + esc(it.t) + '" x="' + it.x + '" y="' + it.y + '" width="' + it.w + '" height="' + it.h + '" rx="3"/>';
         if (it.label) {
           var lines = String(it.label).split('\n');
           lines.forEach(function (ln, k) {
@@ -354,7 +356,7 @@
           });
         }
       });
-      o += '<g class="map-n"><path d="M283,26 L288,12 L293,26 L288,22z"/><text x="288" y="38" text-anchor="middle">N</text></g>';
+      if (f.compass !== false) o += '<g class="map-n"><path d="M283,26 L288,12 L293,26 L288,22z"/><text x="288" y="38" text-anchor="middle">N</text></g>';
       return '<div class="fig-cell"><div class="fig-title">' + esc(p.title) + '</div>' + o + '</svg></div>';
     }).join('') + '</div>';
   };

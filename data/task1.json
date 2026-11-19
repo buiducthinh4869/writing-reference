@@ -539,6 +539,91 @@
               "example": "Emissions from transport saw an increase, surpassing those from industry to become the largest source from 2002 onwards."
             }
           ]
+        },
+        {
+          "kind": "essay",
+          "title": "Bài mẫu",
+          "prompt": "The line graph shows the amount of air pollutants emitted in a country from three sources, and in total, between 1990 and 2005.",
+          "figure": {
+            "type": "line",
+            "title": "Air pollutant emissions (million tonnes)",
+            "yLabel": "million tonnes",
+            "yMax": 10,
+            "ticks": 5,
+            "x": [
+              "1990",
+              "1993",
+              "1996",
+              "1999",
+              "2002",
+              "2005"
+            ],
+            "series": [
+              {
+                "name": "Total",
+                "values": [
+                  8.0,
+                  7.4,
+                  6.7,
+                  5.6,
+                  4.5,
+                  4.0
+                ]
+              },
+              {
+                "name": "Industry",
+                "values": [
+                  4.5,
+                  4.0,
+                  3.4,
+                  2.6,
+                  1.6,
+                  1.2
+                ]
+              },
+              {
+                "name": "Households",
+                "values": [
+                  2.5,
+                  2.2,
+                  1.9,
+                  1.5,
+                  1.2,
+                  0.9
+                ]
+              },
+              {
+                "name": "Transport",
+                "values": [
+                  1.0,
+                  1.2,
+                  1.4,
+                  1.5,
+                  1.7,
+                  1.9
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "label": "Introduction",
+              "en": "The line graph illustrates the amount of air pollutants emitted in a country from three sources, together with the total, between 1990 and 2005."
+            },
+            {
+              "label": "Overview",
+              "en": "Overall, total emissions fell by half over the period, which was mainly the result of sharp decreases in pollution from industry and households. Transport was the only source to see an increase, and it had become the largest polluter by the end of the period."
+            },
+            {
+              "label": "Body 1",
+              "en": "In total, 8 million tonnes of pollutants were emitted in 1990, with a steady decline to 4 million tonnes by 2005. Industry was the main contributor to this fall. Its emissions stood at 4.5 million tonnes at the start of the period, more than half of the total, but then dropped by almost three quarters to just 1.2 million tonnes."
+            },
+            {
+              "label": "Body 2",
+              "en": "Household emissions followed a similar downward trend, falling from 2.5 to 0.9 million tonnes. By contrast, pollution from transport rose gradually from 1 million to 1.9 million tonnes, almost doubling. As a result, transport surpassed industry to become the largest source from 2002 onwards, accounting for nearly half of all emissions in 2005."
+            }
+          ],
+          "note": "**Vì sao đạt band cao.** (1) Overview nêu tổng giảm một nửa **và lý do nằm ở thành phần nào**, đúng yêu cầu của dạng có Total. (2) Body 1 mở bằng đường Total rồi nối ngay sang thành phần đóng góp lớn nhất (*Industry was the main contributor to this fall*), nên Total không bị tả tách rời. (3) Số liệu được diễn giải thành tỷ lệ: *more than half of the total*, *by almost three quarters*, *nearly half of all emissions*. (4) Body 2 gom hai xu hướng ngược nhau (households giảm, transport tăng) bằng *By contrast*, rồi kết bằng hệ quả *As a result*. (5) Điểm vượt năm 2002 là chi tiết đắt giá, được nêu đúng mốc."
         }
       ]
     },
@@ -1816,6 +1901,162 @@
               "example": "Turning to how the booth works, users must first close the curtain."
             }
           ]
+        },
+        {
+          "kind": "essay",
+          "title": "Bài mẫu",
+          "prompt": "The diagram shows how a solar water heater works.",
+          "figure": {
+            "type": "map",
+            "compass": false,
+            "panels": [
+              {
+                "title": "Solar water heater",
+                "items": [
+                  {
+                    "t": "path",
+                    "cls": "roof",
+                    "d": "M10,232 L200,118 L290,118 L290,232 Z"
+                  },
+                  {
+                    "t": "path",
+                    "cls": "sun",
+                    "d": "M30,42 m-13,0 a13,13 0 1,0 26,0 a13,13 0 1,0 -26,0"
+                  },
+                  {
+                    "t": "path",
+                    "cls": "ray",
+                    "d": "M42,56 L80,150"
+                  },
+                  {
+                    "t": "path",
+                    "cls": "ray",
+                    "d": "M50,48 L120,124"
+                  },
+                  {
+                    "t": "path",
+                    "cls": "panel",
+                    "d": "M40,192 L150,126 L160,142 L50,208 Z"
+                  },
+                  {
+                    "t": "path",
+                    "cls": "cold",
+                    "d": "M196,100 V162 L60,214 L48,206",
+                    "arrow": true
+                  },
+                  {
+                    "t": "path",
+                    "cls": "hot",
+                    "d": "M155,129 L182,90",
+                    "arrow": true
+                  },
+                  {
+                    "t": "tank",
+                    "x": 182,
+                    "y": 58,
+                    "w": 86,
+                    "h": 42,
+                    "label": "Insulated tank\n+ backup heater"
+                  },
+                  {
+                    "t": "path",
+                    "cls": "cold",
+                    "d": "M298,150 H256 V104",
+                    "arrow": true
+                  },
+                  {
+                    "t": "path",
+                    "cls": "hot",
+                    "d": "M268,66 H296",
+                    "arrow": true
+                  },
+                  {
+                    "t": "text",
+                    "x": 32,
+                    "y": 76,
+                    "w": 0,
+                    "h": 0,
+                    "label": "Sun"
+                  },
+                  {
+                    "t": "text",
+                    "x": 122,
+                    "y": 219,
+                    "w": 0,
+                    "h": 0,
+                    "label": "Panel: glass cover,"
+                  },
+                  {
+                    "t": "text",
+                    "x": 122,
+                    "y": 230,
+                    "w": 0,
+                    "h": 0,
+                    "label": "black plate, copper tubes"
+                  },
+                  {
+                    "t": "text",
+                    "x": 282,
+                    "y": 52,
+                    "w": 0,
+                    "h": 0,
+                    "label": "To taps"
+                  },
+                  {
+                    "t": "text",
+                    "x": 258,
+                    "y": 164,
+                    "w": 0,
+                    "h": 0,
+                    "label": "Cold water"
+                  },
+                  {
+                    "t": "text",
+                    "x": 258,
+                    "y": 175,
+                    "w": 0,
+                    "h": 0,
+                    "label": "from mains"
+                  },
+                  {
+                    "t": "text",
+                    "x": 116,
+                    "y": 98,
+                    "w": 0,
+                    "h": 0,
+                    "label": "Hot water rises"
+                  },
+                  {
+                    "t": "text",
+                    "x": 214,
+                    "y": 196,
+                    "w": 0,
+                    "h": 0,
+                    "label": "Cooler water sinks"
+                  }
+                ]
+              }
+            ]
+          },
+          "paragraphs": [
+            {
+              "label": "Introduction",
+              "en": "The diagram illustrates the structure of a solar water heater and how it uses sunlight to heat water for a home."
+            },
+            {
+              "label": "Overview",
+              "en": "Overall, the system consists of two main components, a roof-mounted solar panel and a storage tank positioned above it, and it circulates water between them naturally, without the need for a pump."
+            },
+            {
+              "label": "Body 1",
+              "en": "The solar panel is fixed to a sloping roof so that it faces the sun. It is covered with glass, beneath which there is a black metal plate containing a series of copper tubes. The insulated storage tank sits higher up, near the top of the roof, and is fitted with a backup electric heater. Two pipes link the tank to the panel, one running from the bottom of the tank to the lower end of the panel and the other from the upper end of the panel back into the tank."
+            },
+            {
+              "label": "Body 2",
+              "en": "Turning to how the heater works, cold water from the mains supply first enters the tank and flows down into the lower end of the panel. Sunlight then passes through the glass and warms the black plate, which in turn heats the water inside the tubes. As the water warms up, it becomes lighter and rises through the upper pipe into the tank, while cooler water sinks back down to the panel to be heated. This cycle continues for as long as the sun is shining, and hot water can be drawn from the top of the tank to the taps whenever it is needed. On cloudy days, the backup heater is used instead."
+            }
+          ],
+          "note": "**Vì sao đạt band cao.** (1) Overview nêu hai bộ phận chính và đặc điểm vận hành nổi bật nhất (nước tự tuần hoàn, không cần bơm). (2) Đúng bố cục của dạng: Body 1 tả **cấu tạo** theo vị trí (*fixed to a sloping roof*, *sits higher up*, *beneath which*), Body 2 tả **vận hành** theo trình tự. (3) Câu mở Body 2 dùng khung *Turning to how the heater works*. (4) Liên kết bằng quan hệ nhân quả thay vì từ nối máy móc: *which in turn heats*, *As the water warms up, it becomes lighter and rises*. (5) Chỉ tả những gì sơ đồ thể hiện; *lighter* và *sinks* là cách diễn đạt hình mũi tên trên sơ đồ, không thêm kiến thức ngoài."
         }
       ]
     },
