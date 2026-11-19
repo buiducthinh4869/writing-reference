@@ -3,10 +3,22 @@
   "title": "IELTS Writing Task 2",
   "description": "Khung bài, phân tích đề, năm nhóm dạng đề, phát triển ý, ngôn ngữ và soát bài. Tổng hợp từ khóa học Task 2, kèm phần bổ sung.",
   "groups": [
-    { "id": "nen-tang", "title": "Nền tảng" },
-    { "id": "dang-de", "title": "Dạng đề" },
-    { "id": "tu-vung", "title": "Từ vựng và ngôn ngữ" },
-    { "id": "soat-bai", "title": "Soát bài" }
+    {
+      "id": "nen-tang",
+      "title": "Nền tảng"
+    },
+    {
+      "id": "dang-de",
+      "title": "Dạng đề"
+    },
+    {
+      "id": "tu-vung",
+      "title": "Từ vựng và ngôn ngữ"
+    },
+    {
+      "id": "soat-bai",
+      "title": "Soát bài"
+    }
   ],
   "pages": [
     {
@@ -20,12 +32,32 @@
           "kind": "table",
           "title": "Bố cục",
           "core": true,
-          "columns": ["Đoạn", "Nhiệm vụ", "Độ dài"],
+          "columns": [
+            "Đoạn",
+            "Nhiệm vụ",
+            "Độ dài"
+          ],
           "rows": [
-            ["Mở bài (thường 2 câu)", "Câu 1 paraphrase đề. Câu 2 nêu lập trường hoặc định hướng trả lời. Đề Discussion có thể cần 3–4 câu để giới thiệu cả hai quan điểm.", "khoảng 30–40 từ"],
-            ["Thân bài 1", "Một chủ đề trung tâm. Một ý đi sâu hoặc hai ý (xem trang *Phát triển ý*).", "khoảng 100–120 từ"],
-            ["Thân bài 2", "Một chủ đề trung tâm, dung lượng tương đương thân bài 1.", "khoảng 100–120 từ"],
-            ["Kết bài (1–2 câu)", "Tóm tắt ý chính và nhắc lại lập trường. **Không thêm ý mới.**", "khoảng 30 từ"]
+            [
+              "Mở bài (thường 2 câu)",
+              "Câu 1 paraphrase đề. Câu 2 nêu lập trường hoặc định hướng trả lời. Đề Discussion có thể cần 3–4 câu để giới thiệu cả hai quan điểm.",
+              "khoảng 30–40 từ"
+            ],
+            [
+              "Thân bài 1",
+              "Một chủ đề trung tâm. Một ý đi sâu hoặc hai ý (xem trang *Phát triển ý*).",
+              "khoảng 100–120 từ"
+            ],
+            [
+              "Thân bài 2",
+              "Một chủ đề trung tâm, dung lượng tương đương thân bài 1.",
+              "khoảng 100–120 từ"
+            ],
+            [
+              "Kết bài (1–2 câu)",
+              "Tóm tắt ý chính và nhắc lại lập trường. **Không thêm ý mới.**",
+              "khoảng 30 từ"
+            ]
           ]
         },
         {
@@ -76,12 +108,103 @@
           "kind": "links",
           "title": "Trang theo dạng đề",
           "items": [
-            { "label": "Phân tích đề và từ khóa bẫy", "section": "task2", "page": "phan-tich-de" },
-            { "label": "Opinion: Should, Only way, Best way", "section": "task2", "page": "opinion" },
-            { "label": "Discussion và so sánh A–B", "section": "task2", "page": "discussion" },
-            { "label": "Lợi – hại, Tích cực – tiêu cực", "section": "task2", "page": "adv-disadv" },
-            { "label": "Problem – Solution, Causes – Effects", "section": "task2", "page": "problem-solution" },
-            { "label": "Two-part question", "section": "task2", "page": "two-part" }
+            {
+              "label": "Phân tích đề và từ khóa bẫy",
+              "section": "task2",
+              "page": "phan-tich-de"
+            },
+            {
+              "label": "Opinion: Should, Only way, Best way",
+              "section": "task2",
+              "page": "opinion"
+            },
+            {
+              "label": "Discussion và so sánh A–B",
+              "section": "task2",
+              "page": "discussion"
+            },
+            {
+              "label": "Lợi – hại, Tích cực – tiêu cực",
+              "section": "task2",
+              "page": "adv-disadv"
+            },
+            {
+              "label": "Problem – Solution, Causes – Effects",
+              "section": "task2",
+              "page": "problem-solution"
+            },
+            {
+              "label": "Two-part question",
+              "section": "task2",
+              "page": "two-part"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tieu-chi",
+      "group": "nen-tang",
+      "title": "Tiêu chí chấm điểm",
+      "summary": "4 tiêu chí của band descriptor, khác biệt giữa band 6, 7 và 8, và các mức trần dễ dính.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "text",
+          "md": "Điểm bài = trung bình 4 tiêu chí, mỗi tiêu chí 25%. Điểm Writing tổng: Task 2 nặng gấp đôi Task 1. Bảng dưới diễn đạt lại ý chính của band descriptor công khai (bản cập nhật 2023), không phải nguyên văn."
+        },
+        {
+          "kind": "table",
+          "title": "Band 6, 7, 8 khác nhau ở đâu",
+          "core": true,
+          "columns": [
+            "Tiêu chí",
+            "Band 6",
+            "Band 7",
+            "Band 8",
+            "Ghi chú"
+          ],
+          "rows": [
+            [
+              "**Task Response**",
+              "Trả lời mọi phần nhưng có phần mỏng; có lập trường nhưng kết luận có thể mờ hoặc lặp; ý chính liên quan nhưng phát triển chưa đủ.",
+              "Trả lời mọi phần; lập trường rõ **xuyên suốt**; ý chính được mở rộng, có dẫn chứng, đôi khi khái quát quá mức.",
+              "Trả lời đủ mọi phần; bài phát triển tốt, ý liên quan, được mở rộng và chứng minh.",
+              "Bỏ sót một vế của đề (vd đề two-part) thì TR thường không quá 5. Dưới 250 từ bị trừ. Lạc đề bị trừ nặng."
+            ],
+            [
+              "**Coherence & Cohesion**",
+              "Có tiến trình chung; liên kết máy móc hoặc sai; quy chiếu đôi chỗ không rõ; chia đoạn có thể chưa logic.",
+              "Tiến trình rõ; mỗi đoạn có ý trung tâm rõ; dùng phương tiện liên kết hợp lý, đôi khi thừa hoặc thiếu.",
+              "Sắp xếp logic; kiểm soát tốt liên kết; chia đoạn đủ và hợp lý.",
+              "Mỗi đoạn thân bài một ý trung tâm, nêu ở câu chủ đề."
+            ],
+            [
+              "**Lexical Resource**",
+              "Vốn từ đủ cho đề; thử từ ít phổ biến nhưng còn sai.",
+              "Từ ít phổ biến dùng có ý thức về văn phong và collocation; lỗi chọn từ thỉnh thoảng.",
+              "Vốn từ rộng, chính xác; lỗi collocation hiếm.",
+              "Cụm học thuộc không khớp ngữ cảnh không được tính, có thể bị trừ."
+            ],
+            [
+              "**Grammatical Range & Accuracy**",
+              "Kết hợp câu đơn và câu phức; có lỗi nhưng hiếm khi gây khó hiểu.",
+              "Nhiều cấu trúc phức; phần lớn câu không lỗi.",
+              "Cấu trúc rộng; đa số câu không lỗi.",
+              "Câu điều kiện, nhượng bộ (*Although*), mệnh đề quan hệ, cấu trúc nhấn mạnh."
+            ]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Các mức trần dễ dính",
+          "core": true,
+          "items": [
+            "Không nêu lập trường khi đề yêu cầu: TR bị chặn ở 5.",
+            "Trả lời thiếu một phần của đề: TR thường không quá 5.",
+            "Ý chỉ liệt kê, không phát triển: khó lên 6.",
+            "Dưới 250 từ: trừ TR. Câu chép nguyên từ đề không được tính.",
+            "Kết bài đổi lập trường so với mở bài: lập trường không rõ xuyên suốt, khó lên 7."
           ]
         }
       ]
@@ -98,52 +221,147 @@
           "title": "Quy trình trước khi viết",
           "core": true,
           "items": [
-            { "title": "Xác định dạng câu hỏi", "md": "Opinion, Discussion, Lợi – hại, Problem – Solution hay Two-part. Dạng quyết định có phải nêu ý kiến không (bảng dưới)." },
-            { "title": "Gạch chân từ khóa bẫy", "md": "*and, only, best, better, all, ban, should*. Mỗi từ kéo theo một yêu cầu riêng." },
-            { "title": "Đếm số phần phải trả lời", "md": "Đề dùng số nhiều (*reasons, solutions, advantages*) thì chuẩn bị hai ý, hoặc một ý thật dày." },
-            { "title": "Chốt lập trường bằng một câu", "md": "Viết ra câu lập trường trước khi viết mở bài. Câu này phải trả lời đúng câu hỏi của đề." },
-            { "title": "Phân vai hai thân bài", "md": "Mỗi đoạn một chủ đề trung tâm, dung lượng tương đương." }
+            {
+              "title": "Xác định dạng câu hỏi",
+              "md": "Opinion, Discussion, Lợi – hại, Problem – Solution hay Two-part. Dạng quyết định có phải nêu ý kiến không (bảng dưới)."
+            },
+            {
+              "title": "Gạch chân từ khóa bẫy",
+              "md": "*and, only, best, better, all, ban, should*. Mỗi từ kéo theo một yêu cầu riêng."
+            },
+            {
+              "title": "Đếm số phần phải trả lời",
+              "md": "Đề dùng số nhiều (*reasons, solutions, advantages*) thì chuẩn bị hai ý, hoặc một ý thật dày."
+            },
+            {
+              "title": "Chốt lập trường bằng một câu",
+              "md": "Viết ra câu lập trường trước khi viết mở bài. Câu này phải trả lời đúng câu hỏi của đề."
+            },
+            {
+              "title": "Phân vai hai thân bài",
+              "md": "Mỗi đoạn một chủ đề trung tâm, dung lượng tương đương."
+            }
           ]
         },
         {
           "kind": "table",
           "title": "Từ khóa bẫy",
           "core": true,
-          "columns": ["Từ khóa", "Bắt buộc phải làm", "Lỗi nếu bỏ qua"],
+          "columns": [
+            "Từ khóa",
+            "Bắt buộc phải làm",
+            "Lỗi nếu bỏ qua"
+          ],
           "rows": [
-            ["**and** / nhiều vế", "Nêu lập trường cho từng vế ngay ở mở bài. Mỗi vế được phát triển tương đương. Được chọn lập trường khác nhau cho từng vế.", "Bỏ một vế: band 5. Một vế sơ sài: band 6."],
-            ["**only**", "Phản đối: chỉ ra một cách khác hoạt động được. Đồng ý: chứng minh mọi cách khác đều không làm được.", "Phản đối bằng nhược điểm; đồng ý chỉ vì phương án đó tốt."],
-            ["**best / most effective**", "So sánh với phương án khác: kém hơn, ngang bằng hay tốt hơn.", "Liệt kê lợi ích mà không so sánh."],
-            ["**better / A or B**", "Tìm tiêu chí so sánh chung, đặt cả A và B lên đó.", "Khen A ở tiêu chí này, khen B ở tiêu chí khác rồi kết luận."],
-            ["**should**", "Chọn: nên, không nên, phản biện, hoặc có điều kiện.", "Lập trường lệch giữa mở bài và kết bài."],
-            ["**ban / restrict**", "Xét cả tính khả thi lẫn cái giá của lệnh cấm.", "Chỉ bàn mục đích của lệnh cấm."],
-            ["**most serious** (bổ sung)", "Có ít nhất một câu cho thấy vì sao vấn đề này nghiêm trọng hơn các vấn đề khác.", "Chỉ liệt kê vấn đề."],
-            ["**all / always / completely** (bổ sung)", "Thường nên phản đối hoặc thu hẹp phạm vi. Một phản ví dụ là đủ làm đổ mệnh đề tuyệt đối, giống logic của *only*.", "Đồng ý trọn vẹn với một mệnh đề tuyệt đối."]
+            [
+              "**and** / nhiều vế",
+              "Nêu lập trường cho từng vế ngay ở mở bài. Mỗi vế được phát triển tương đương. Được chọn lập trường khác nhau cho từng vế.",
+              "Bỏ một vế: band 5. Một vế sơ sài: band 6."
+            ],
+            [
+              "**only**",
+              "Phản đối: chỉ ra một cách khác hoạt động được. Đồng ý: chứng minh mọi cách khác đều không làm được.",
+              "Phản đối bằng nhược điểm; đồng ý chỉ vì phương án đó tốt."
+            ],
+            [
+              "**best / most effective**",
+              "So sánh với phương án khác: kém hơn, ngang bằng hay tốt hơn.",
+              "Liệt kê lợi ích mà không so sánh."
+            ],
+            [
+              "**better / A or B**",
+              "Tìm tiêu chí so sánh chung, đặt cả A và B lên đó.",
+              "Khen A ở tiêu chí này, khen B ở tiêu chí khác rồi kết luận."
+            ],
+            [
+              "**should**",
+              "Chọn: nên, không nên, phản biện, hoặc có điều kiện.",
+              "Lập trường lệch giữa mở bài và kết bài."
+            ],
+            [
+              "**ban / restrict**",
+              "Xét cả tính khả thi lẫn cái giá của lệnh cấm.",
+              "Chỉ bàn mục đích của lệnh cấm."
+            ],
+            [
+              "**most serious** (bổ sung)",
+              "Có ít nhất một câu cho thấy vì sao vấn đề này nghiêm trọng hơn các vấn đề khác.",
+              "Chỉ liệt kê vấn đề."
+            ],
+            [
+              "**all / always / completely** (bổ sung)",
+              "Thường nên phản đối hoặc thu hẹp phạm vi. Một phản ví dụ là đủ làm đổ mệnh đề tuyệt đối, giống logic của *only*.",
+              "Đồng ý trọn vẹn với một mệnh đề tuyệt đối."
+            ]
           ]
         },
         {
           "kind": "table",
           "title": "Dạng nào phải nêu ý kiến",
-          "columns": ["Câu hỏi", "Nêu ý kiến?"],
+          "columns": [
+            "Câu hỏi",
+            "Nêu ý kiến?"
+          ],
           "rows": [
-            ["*To what extent do you agree or disagree?*", "Có, kèm mức độ đồng ý."],
-            ["*Discuss both views and give your opinion.*", "Có."],
-            ["*Do the advantages outweigh the disadvantages?*", "Có: bên nào nặng hơn."],
-            ["*Is this a positive or negative development?*", "Có."],
-            ["*Discuss the advantages and disadvantages.*", "Không bắt buộc nếu đề không hỏi; nêu ngắn gọn vẫn an toàn (bổ sung)."],
-            ["*What are the causes / problems / solutions / effects?*", "Không. Chỉ cần trả lời đủ các câu hỏi."],
-            ["Two-part question", "Theo từng câu hỏi con: có câu hỏi ý kiến thì bắt buộc nêu."]
+            [
+              "*To what extent do you agree or disagree?*",
+              "Có, kèm mức độ đồng ý."
+            ],
+            [
+              "*Discuss both views and give your opinion.*",
+              "Có."
+            ],
+            [
+              "*Do the advantages outweigh the disadvantages?*",
+              "Có: bên nào nặng hơn."
+            ],
+            [
+              "*Is this a positive or negative development?*",
+              "Có."
+            ],
+            [
+              "*Discuss the advantages and disadvantages.*",
+              "Không bắt buộc nếu đề không hỏi; nêu ngắn gọn vẫn an toàn (bổ sung)."
+            ],
+            [
+              "*What are the causes / problems / solutions / effects?*",
+              "Không. Chỉ cần trả lời đủ các câu hỏi."
+            ],
+            [
+              "Two-part question",
+              "Theo từng câu hỏi con: có câu hỏi ý kiến thì bắt buộc nêu."
+            ]
           ]
         },
         {
           "kind": "links",
           "title": "Chi tiết từng dạng",
           "items": [
-            { "label": "Opinion: Should, Only way, Best way", "section": "task2", "page": "opinion" },
-            { "label": "Discussion và so sánh A–B", "section": "task2", "page": "discussion" },
-            { "label": "Lợi – hại, Tích cực – tiêu cực", "section": "task2", "page": "adv-disadv" },
-            { "label": "Problem – Solution, Causes – Effects", "section": "task2", "page": "problem-solution" },
-            { "label": "Two-part question", "section": "task2", "page": "two-part" }
+            {
+              "label": "Opinion: Should, Only way, Best way",
+              "section": "task2",
+              "page": "opinion"
+            },
+            {
+              "label": "Discussion và so sánh A–B",
+              "section": "task2",
+              "page": "discussion"
+            },
+            {
+              "label": "Lợi – hại, Tích cực – tiêu cực",
+              "section": "task2",
+              "page": "adv-disadv"
+            },
+            {
+              "label": "Problem – Solution, Causes – Effects",
+              "section": "task2",
+              "page": "problem-solution"
+            },
+            {
+              "label": "Two-part question",
+              "section": "task2",
+              "page": "two-part"
+            }
           ]
         }
       ]
@@ -191,11 +409,27 @@
           "kind": "table",
           "title": "Ba mô hình đoạn thân bài",
           "core": true,
-          "columns": ["Mô hình", "Cấu trúc", "Khi nào dùng"],
+          "columns": [
+            "Mô hình",
+            "Cấu trúc",
+            "Khi nào dùng"
+          ],
           "rows": [
-            ["Một ý", "Câu chủ đề → giải thích cơ chế → ví dụ → nối về câu hỏi của đề", "Muốn đi sâu một lý do. Hợp với đoạn so sánh A và B trên một tiêu chí. Mục đích là **đi sâu**, không phải kéo dài cho đủ từ."],
-            ["Hai ý", "Câu chủ đề → ý 1 + hệ quả → ý 2 + hệ quả", "Mặc định an toàn. Hợp với Problem – Solution, Causes – Effects, Two-part. **Tối đa hai ý**, ba ý trở lên là liệt kê."],
-            ["Phản biện", "Nhượng bộ → nêu giả định ngầm của phía kia → chỉ ra vì sao giả định đó không đứng vững → quay về lập trường", "Khi có phản bác mạnh mà người đọc dễ nghĩ tới. Xem *Khung lập luận* để có nhiều cách diễn đạt."]
+            [
+              "Một ý",
+              "Câu chủ đề → giải thích cơ chế → ví dụ → nối về câu hỏi của đề",
+              "Muốn đi sâu một lý do. Hợp với đoạn so sánh A và B trên một tiêu chí. Mục đích là **đi sâu**, không phải kéo dài cho đủ từ."
+            ],
+            [
+              "Hai ý",
+              "Câu chủ đề → ý 1 + hệ quả → ý 2 + hệ quả",
+              "Mặc định an toàn. Hợp với Problem – Solution, Causes – Effects, Two-part. **Tối đa hai ý**, ba ý trở lên là liệt kê."
+            ],
+            [
+              "Phản biện",
+              "Nhượng bộ → nêu giả định ngầm của phía kia → chỉ ra vì sao giả định đó không đứng vững → quay về lập trường",
+              "Khi có phản bác mạnh mà người đọc dễ nghĩ tới. Xem *Khung lập luận* để có nhiều cách diễn đạt."
+            ]
           ]
         },
         {
@@ -217,21 +451,48 @@
           "kind": "frames",
           "title": "Cách cụ thể hóa ví dụ",
           "items": [
-            { "frame": "Take for example + danh từ + in which / where / who …", "example": "Take for example a small town in which the only factory closes and most young people move away to find work." },
-            { "frame": "…, for example in the form of A, B and C", "example": "Governments could support rural families, for example in the form of school meals, travel grants and cheaper healthcare." },
-            { "frame": "This is evident in the way + mệnh đề", "example": "This is evident in the way many teenagers now learn about news from short videos rather than newspapers." },
-            { "frame": "Consider + danh từ + who / where …", "example": "Consider a nurse who works night shifts and cannot attend evening classes." }
+            {
+              "frame": "Take for example + danh từ + in which / where / who …",
+              "example": "Take for example a small town in which the only factory closes and most young people move away to find work."
+            },
+            {
+              "frame": "…, for example in the form of A, B and C",
+              "example": "Governments could support rural families, for example in the form of school meals, travel grants and cheaper healthcare."
+            },
+            {
+              "frame": "This is evident in the way + mệnh đề",
+              "example": "This is evident in the way many teenagers now learn about news from short videos rather than newspapers."
+            },
+            {
+              "frame": "Consider + danh từ + who / where …",
+              "example": "Consider a nurse who works night shifts and cannot attend evening classes."
+            }
           ]
         },
         {
           "kind": "table",
           "title": "Thang phát triển ý",
-          "columns": ["Band", "Đặc điểm"],
+          "columns": [
+            "Band",
+            "Đặc điểm"
+          ],
           "rows": [
-            ["5.5", "Ý liên quan nhưng câu sau nhắc lại câu trước. Không có cơ chế, không có hệ quả."],
-            ["6.5", "Đủ ý, có giải thích và ví dụ, nhưng còn quy chụp. Quy chiếu đôi chỗ mơ hồ, người đọc phải dừng lại suy đoán."],
-            ["7.0–7.5", "Ý tốt, mạch trôi. Đôi khi dựa trên tiền đề yếu, hoặc dùng từ hiếm chưa đúng ngữ cảnh."],
-            ["8.0+", "Mọi ý được mở rộng và hỗ trợ. Lập luận chặt, từ chính xác mà không phô trương."]
+            [
+              "5.5",
+              "Ý liên quan nhưng câu sau nhắc lại câu trước. Không có cơ chế, không có hệ quả."
+            ],
+            [
+              "6.5",
+              "Đủ ý, có giải thích và ví dụ, nhưng còn quy chụp. Quy chiếu đôi chỗ mơ hồ, người đọc phải dừng lại suy đoán."
+            ],
+            [
+              "7.0–7.5",
+              "Ý tốt, mạch trôi. Đôi khi dựa trên tiền đề yếu, hoặc dùng từ hiếm chưa đúng ngữ cảnh."
+            ],
+            [
+              "8.0+",
+              "Mọi ý được mở rộng và hỗ trợ. Lập luận chặt, từ chính xác mà không phô trương."
+            ]
           ]
         }
       ]
@@ -259,24 +520,62 @@
           "core": true,
           "source": "supplement",
           "items": [
-            { "frame": "This / These + danh từ tóm tắt (trend, shift, approach, measure, development)", "example": "Many young adults now delay buying a home. This trend reflects rising house prices." },
-            { "frame": "Such + danh từ", "example": "Some cities have banned cars from their centres. Such policies tend to reduce air pollution." },
-            { "frame": "Danh từ hóa câu trước", "example": "Housing prices rose sharply in 2025. This rise pushed many families to the suburbs." },
-            { "frame": "Thông tin cũ trước, thông tin mới sau", "example": "Many commuters depend on public transport. Public transport, however, remains underfunded in most cities." },
-            { "frame": "..., which in turn ...", "example": "Automation lowers demand for routine labour, which in turn weakens workers' bargaining power." },
-            { "frame": "In practice, however, ...", "example": "Free education should, in theory, equalise opportunity. In practice, however, wealthier families still hold an advantage." },
-            { "frame": "A case in point is ... / This is evident in ...", "example": "A case in point is Singapore's congestion pricing, which has eased traffic in the city centre." },
-            { "frame": "Admittedly, ... Even so, ...", "example": "Admittedly, remote work can blur work–life boundaries. Even so, most employees value the flexibility it offers." },
-            { "frame": "This is particularly true of / when ...", "example": "This is particularly true of low-income households." },
-            { "frame": "It is for this reason that ... / This is why ...", "example": "It is for this reason that retraining programmes should accompany automation." }
+            {
+              "frame": "This / These + danh từ tóm tắt (trend, shift, approach, measure, development)",
+              "example": "Many young adults now delay buying a home. This trend reflects rising house prices."
+            },
+            {
+              "frame": "Such + danh từ",
+              "example": "Some cities have banned cars from their centres. Such policies tend to reduce air pollution."
+            },
+            {
+              "frame": "Danh từ hóa câu trước",
+              "example": "Housing prices rose sharply in 2025. This rise pushed many families to the suburbs."
+            },
+            {
+              "frame": "Thông tin cũ trước, thông tin mới sau",
+              "example": "Many commuters depend on public transport. Public transport, however, remains underfunded in most cities."
+            },
+            {
+              "frame": "..., which in turn ...",
+              "example": "Automation lowers demand for routine labour, which in turn weakens workers' bargaining power."
+            },
+            {
+              "frame": "In practice, however, ...",
+              "example": "Free education should, in theory, equalise opportunity. In practice, however, wealthier families still hold an advantage."
+            },
+            {
+              "frame": "A case in point is ... / This is evident in ...",
+              "example": "A case in point is Singapore's congestion pricing, which has eased traffic in the city centre."
+            },
+            {
+              "frame": "Admittedly, ... Even so, ...",
+              "example": "Admittedly, remote work can blur work–life boundaries. Even so, most employees value the flexibility it offers."
+            },
+            {
+              "frame": "This is particularly true of / when ...",
+              "example": "This is particularly true of low-income households."
+            },
+            {
+              "frame": "It is for this reason that ... / This is why ...",
+              "example": "It is for this reason that retraining programmes should accompany automation."
+            }
           ]
         },
         {
           "kind": "frames",
           "title": "Thêm từ khóa học",
           "items": [
-            { "frame": "The former … / The latter …", "example": "Cities can expand roads or improve buses. The former tends to attract more traffic, while the latter reduces it.", "note": "Chỉ dùng khi vừa nhắc đúng hai đối tượng." },
-            { "frame": "Thay thế bằng từ cùng nghĩa hoặc khái quát hơn", "example": "Many teenagers leave school early. These young people often struggle to find stable work.", "note": "Tránh lặp nguyên danh từ ở câu kế tiếp." }
+            {
+              "frame": "The former … / The latter …",
+              "example": "Cities can expand roads or improve buses. The former tends to attract more traffic, while the latter reduces it.",
+              "note": "Chỉ dùng khi vừa nhắc đúng hai đối tượng."
+            },
+            {
+              "frame": "Thay thế bằng từ cùng nghĩa hoặc khái quát hơn",
+              "example": "Many teenagers leave school early. These young people often struggle to find stable work.",
+              "note": "Tránh lặp nguyên danh từ ở câu kế tiếp."
+            }
           ]
         },
         {
@@ -284,9 +583,18 @@
           "title": "Câu mở bằng And / But / So: sửa theo thứ tự",
           "core": true,
           "items": [
-            { "title": "Gộp thành một câu", "md": "*This is beneficial. But many people disagree.* → *This is beneficial, although many people disagree.*" },
-            { "title": "Dùng từ quy chiếu", "md": "Nếu không gộp được, cho câu sau bám vào câu trước bằng *this, such, these*." },
-            { "title": "Cuối cùng mới dùng từ nối", "md": "Thay *And / But / So* bằng *However, In addition, Therefore* chỉ khi hai cách trên không hợp. Thay máy móc từng chỗ sẽ thành liên kết máy móc." }
+            {
+              "title": "Gộp thành một câu",
+              "md": "*This is beneficial. But many people disagree.* → *This is beneficial, although many people disagree.*"
+            },
+            {
+              "title": "Dùng từ quy chiếu",
+              "md": "Nếu không gộp được, cho câu sau bám vào câu trước bằng *this, such, these*."
+            },
+            {
+              "title": "Cuối cùng mới dùng từ nối",
+              "md": "Thay *And / But / So* bằng *However, In addition, Therefore* chỉ khi hai cách trên không hợp. Thay máy móc từng chỗ sẽ thành liên kết máy móc."
+            }
           ]
         },
         {
@@ -294,10 +602,26 @@
           "title": "Nên bỏ hoặc hạn chế",
           "source": "supplement",
           "items": [
-            { "wrong": "Moreover / Furthermore ở đầu mọi câu", "right": "Danh từ quy chiếu, *which in turn*, *such + N*", "why": "Liên kết máy móc." },
-            { "wrong": "Last but not least / Besides", "right": "Finally / Beyond this", "why": "Sáo hoặc khẩu ngữ." },
-            { "wrong": "On the other hand khi không đối lập", "right": "In addition / Equally", "why": "Chỉ dùng khi thật sự đối lập hai mặt." },
-            { "wrong": "In my opinion lặp ở mọi đoạn", "right": "Nêu một lần ở mở bài, nhắc lại ở kết bài", "why": "Lặp cụm từ." }
+            {
+              "wrong": "Moreover / Furthermore ở đầu mọi câu",
+              "right": "Danh từ quy chiếu, *which in turn*, *such + N*",
+              "why": "Liên kết máy móc."
+            },
+            {
+              "wrong": "Last but not least / Besides",
+              "right": "Finally / Beyond this",
+              "why": "Sáo hoặc khẩu ngữ."
+            },
+            {
+              "wrong": "On the other hand khi không đối lập",
+              "right": "In addition / Equally",
+              "why": "Chỉ dùng khi thật sự đối lập hai mặt."
+            },
+            {
+              "wrong": "In my opinion lặp ở mọi đoạn",
+              "right": "Nêu một lần ở mở bài, nhắc lại ở kết bài",
+              "why": "Lặp cụm từ."
+            }
           ]
         },
         {
@@ -306,7 +630,10 @@
           "source": "supplement",
           "prompt": "Một đoạn thân bài về tự động hóa và việc làm.",
           "paragraphs": [
-            { "label": "Body", "en": "Automation is rapidly replacing routine jobs in manufacturing. This shift lowers demand for low-skilled labour, which in turn weakens workers' bargaining power. The decline in bargaining power is not merely a theoretical concern: a case in point is the garment sector in Southeast Asia, where wages have stagnated as factories automate. Admittedly, automation also creates new jobs. Even so, these jobs typically require skills that displaced workers lack, and this is particularly true of older workers. It is for this reason that retraining programmes should accompany any push towards automation." }
+            {
+              "label": "Body",
+              "en": "Automation is rapidly replacing routine jobs in manufacturing. This shift lowers demand for low-skilled labour, which in turn weakens workers' bargaining power. The decline in bargaining power is not merely a theoretical concern: a case in point is the garment sector in Southeast Asia, where wages have stagnated as factories automate. Admittedly, automation also creates new jobs. Even so, these jobs typically require skills that displaced workers lack, and this is particularly true of older workers. It is for this reason that retraining programmes should accompany any push towards automation."
+            }
           ],
           "note": "7 câu, không có *Moreover*. Mỗi câu bám vào câu trước bằng danh từ quy chiếu: *this shift*, *the decline in bargaining power*, *these jobs*."
         }
@@ -327,24 +654,64 @@
           "kind": "table",
           "title": "Đề Should: bốn lựa chọn lập trường",
           "core": true,
-          "columns": ["Lập trường", "Thân bài 1", "Thân bài 2"],
+          "columns": [
+            "Lập trường",
+            "Thân bài 1",
+            "Thân bài 2"
+          ],
           "rows": [
-            ["Nên", "Lợi ích cho nhóm A (thường là cá nhân)", "Lợi ích cho nhóm B (thường là xã hội, quốc gia)"],
-            ["Không nên", "Tác hại cho nhóm A", "Tác hại cho nhóm B"],
-            ["Phản biện", "Nhượng bộ ý phía kia, rồi chỉ ra giới hạn ngay trong đoạn", "Lý do chính cho lập trường của mình"],
-            ["Có điều kiện", "Trường hợp không nên", "Trường hợp nên. Chia theo nhóm quốc gia, độ tuổi, hoặc giá trị và tình trạng thực tế"]
+            [
+              "Nên",
+              "Lợi ích cho nhóm A (thường là cá nhân)",
+              "Lợi ích cho nhóm B (thường là xã hội, quốc gia)"
+            ],
+            [
+              "Không nên",
+              "Tác hại cho nhóm A",
+              "Tác hại cho nhóm B"
+            ],
+            [
+              "Phản biện",
+              "Nhượng bộ ý phía kia, rồi chỉ ra giới hạn ngay trong đoạn",
+              "Lý do chính cho lập trường của mình"
+            ],
+            [
+              "Có điều kiện",
+              "Trường hợp không nên",
+              "Trường hợp nên. Chia theo nhóm quốc gia, độ tuổi, hoặc giá trị và tình trạng thực tế"
+            ]
           ]
         },
         {
           "kind": "table",
           "title": "Only way và Best way",
           "core": true,
-          "columns": ["", "Only way", "Best way / most effective"],
+          "columns": [
+            "",
+            "Only way",
+            "Best way / most effective"
+          ],
           "rows": [
-            ["Bản chất", "Hoạt động hay không hoạt động", "Mức độ hiệu quả"],
-            ["Để phản đối", "Chỉ ra **một** cách khác hoạt động được, kể cả kém hơn. Rất dễ.", "Chỉ ra cách khác **ngang bằng** hoặc **tốt hơn**. Chỉ ra cách kém hơn thì chưa đủ."],
-            ["Để đồng ý", "Chứng minh **mọi** cách khác đều không làm được. Rất khó.", "Chứng minh các cách khác **kém hơn**, không cần chứng minh chúng vô dụng."],
-            ["Lời khuyên", "Mặc định chọn phản đối, trừ khi có một chuỗi lập luận đặc biệt", "Cả hai hướng đều viết được"]
+            [
+              "Bản chất",
+              "Hoạt động hay không hoạt động",
+              "Mức độ hiệu quả"
+            ],
+            [
+              "Để phản đối",
+              "Chỉ ra **một** cách khác hoạt động được, kể cả kém hơn. Rất dễ.",
+              "Chỉ ra cách khác **ngang bằng** hoặc **tốt hơn**. Chỉ ra cách kém hơn thì chưa đủ."
+            ],
+            [
+              "Để đồng ý",
+              "Chứng minh **mọi** cách khác đều không làm được. Rất khó.",
+              "Chứng minh các cách khác **kém hơn**, không cần chứng minh chúng vô dụng."
+            ],
+            [
+              "Lời khuyên",
+              "Mặc định chọn phản đối, trừ khi có một chuỗi lập luận đặc biệt",
+              "Cả hai hướng đều viết được"
+            ]
           ]
         },
         {
@@ -356,12 +723,30 @@
           "kind": "frames",
           "title": "Khung câu",
           "items": [
-            { "frame": "[X] would benefit not only [A] but also [B].", "example": "Requiring cyclists to wear helmets would benefit not only riders but also the public health system." },
-            { "frame": "Whether [X] should be done depends largely on [tiêu chí].", "example": "Whether homework should be banned depends largely on the age of the pupils." },
-            { "frame": "[X] can play a part, but it is far from the only way to [mục tiêu].", "example": "Higher taxes on cigarettes can play a part, but they are far from the only way to reduce smoking." },
-            { "frame": "It is true that [X] can help to some extent. However, its effect is limited if …", "example": "It is true that banning junk-food advertising can reduce children's exposure to it. However, its effect is limited if the same products remain cheap and widely available." },
-            { "frame": "A more effective approach would be to [Y], since it targets the cause rather than the symptoms.", "example": "A more effective approach would be to improve public transport, since it targets the cause of congestion rather than its symptoms." },
-            { "frame": "The alternatives are considerably less effective. [Phương án], for instance, …", "example": "The alternatives are considerably less effective. Poster campaigns, for instance, are easily ignored by the teenagers they are meant to reach." }
+            {
+              "frame": "[X] would benefit not only [A] but also [B].",
+              "example": "Requiring cyclists to wear helmets would benefit not only riders but also the public health system."
+            },
+            {
+              "frame": "Whether [X] should be done depends largely on [tiêu chí].",
+              "example": "Whether homework should be banned depends largely on the age of the pupils."
+            },
+            {
+              "frame": "[X] can play a part, but it is far from the only way to [mục tiêu].",
+              "example": "Higher taxes on cigarettes can play a part, but they are far from the only way to reduce smoking."
+            },
+            {
+              "frame": "It is true that [X] can help to some extent. However, its effect is limited if …",
+              "example": "It is true that banning junk-food advertising can reduce children's exposure to it. However, its effect is limited if the same products remain cheap and widely available."
+            },
+            {
+              "frame": "A more effective approach would be to [Y], since it targets the cause rather than the symptoms.",
+              "example": "A more effective approach would be to improve public transport, since it targets the cause of congestion rather than its symptoms."
+            },
+            {
+              "frame": "The alternatives are considerably less effective. [Phương án], for instance, …",
+              "example": "The alternatives are considerably less effective. Poster campaigns, for instance, are easily ignored by the teenagers they are meant to reach."
+            }
           ]
         },
         {
@@ -369,12 +754,36 @@
           "title": "Lỗi thường gặp",
           "core": true,
           "items": [
-            { "wrong": "Đề Best way: A có lợi ích X và Y, vì vậy A là cách tốt nhất.", "right": "So sánh A với ít nhất một phương án khác.", "why": "Có lợi không có nghĩa là tốt nhất. Không so sánh là không trả lời câu hỏi." },
-            { "wrong": "Phản đối Only way bằng cách nêu nhược điểm của A.", "right": "Chỉ ra phương án B cũng hoạt động được.", "why": "Nhược điểm không làm A mất tính duy nhất." },
-            { "wrong": "Đồng ý Only way vì A rất hiệu quả.", "right": "Chứng minh các phương án khác không khả thi.", "why": "Hiệu quả không có nghĩa là duy nhất." },
-            { "wrong": "Nhượng bộ dài ba câu, bẻ gãy một câu.", "right": "Phần bẻ gãy dài và mạnh hơn phần nhượng bộ.", "why": "Đoạn sẽ nghiêng về phía mình không chọn." },
-            { "wrong": "Mở bài nói nên, kết bài lại cân nhắc cả hai phía.", "right": "Kết bài nhắc lại đúng lập trường ở mở bài.", "why": "Lập trường không nhất quán: band 5–6 Task Response." },
-            { "wrong": "Watching television does not require children to think at all.", "right": "Watching television usually requires far less active thinking than reading.", "why": "Mệnh đề tuyệt đối bị một phản ví dụ làm đổ. Chỉ cần chứng minh **kém hơn**." }
+            {
+              "wrong": "Đề Best way: A có lợi ích X và Y, vì vậy A là cách tốt nhất.",
+              "right": "So sánh A với ít nhất một phương án khác.",
+              "why": "Có lợi không có nghĩa là tốt nhất. Không so sánh là không trả lời câu hỏi."
+            },
+            {
+              "wrong": "Phản đối Only way bằng cách nêu nhược điểm của A.",
+              "right": "Chỉ ra phương án B cũng hoạt động được.",
+              "why": "Nhược điểm không làm A mất tính duy nhất."
+            },
+            {
+              "wrong": "Đồng ý Only way vì A rất hiệu quả.",
+              "right": "Chứng minh các phương án khác không khả thi.",
+              "why": "Hiệu quả không có nghĩa là duy nhất."
+            },
+            {
+              "wrong": "Nhượng bộ dài ba câu, bẻ gãy một câu.",
+              "right": "Phần bẻ gãy dài và mạnh hơn phần nhượng bộ.",
+              "why": "Đoạn sẽ nghiêng về phía mình không chọn."
+            },
+            {
+              "wrong": "Mở bài nói nên, kết bài lại cân nhắc cả hai phía.",
+              "right": "Kết bài nhắc lại đúng lập trường ở mở bài.",
+              "why": "Lập trường không nhất quán: band 5–6 Task Response."
+            },
+            {
+              "wrong": "Watching television does not require children to think at all.",
+              "right": "Watching television usually requires far less active thinking than reading.",
+              "why": "Mệnh đề tuyệt đối bị một phản ví dụ làm đổ. Chỉ cần chứng minh **kém hơn**."
+            }
           ]
         },
         {
@@ -382,10 +791,22 @@
           "title": "Bài mẫu: Best way, phản đối",
           "prompt": "Some people believe that the best way to reduce youth unemployment is to increase the number of university places. To what extent do you agree or disagree?",
           "paragraphs": [
-            { "label": "Mở bài", "en": "Youth unemployment remains a persistent concern in many countries, and expanding access to higher education is often proposed as the answer. While more university places may help some young people, I disagree that this is the most effective approach, since it does little to close the gap between what graduates learn and what employers need." },
-            { "label": "Thân bài 1", "en": "It is true that a degree can improve an individual's job prospects. Graduates tend to earn more over their careers, and professions such as medicine and law are closed to those without one. This argument, however, assumes that suitable jobs exist and that degrees prepare students for them. In many economies, neither condition holds. When university places expand faster than the demand for graduate labour, the result is not fewer unemployed young people but more unemployed graduates, many of whom end up in jobs that do not require their qualifications. Expanding universities may therefore shift the problem rather than solve it." },
-            { "label": "Thân bài 2", "en": "A more effective strategy would be to strengthen vocational training and apprenticeships designed together with employers. Take for example a programme in which logistics firms help to write the curriculum and offer paid placements in the final year. Students on such a programme acquire skills that are in demand, and employers gain recruits they have already trained, which lowers the risk of hiring. This approach also reaches young people who are unlikely to attend university at all, a group that further spending on higher education would largely miss." },
-            { "label": "Kết bài", "en": "In conclusion, increasing university places is not the best way to tackle youth unemployment, because it does not ensure that graduates have the skills employers seek. Training linked directly to the labour market offers a more reliable route into work." }
+            {
+              "label": "Mở bài",
+              "en": "Youth unemployment remains a persistent concern in many countries, and expanding access to higher education is often proposed as the answer. While more university places may help some young people, I disagree that this is the most effective approach, since it does little to close the gap between what graduates learn and what employers need."
+            },
+            {
+              "label": "Thân bài 1",
+              "en": "It is true that a degree can improve an individual's job prospects. Graduates tend to earn more over their careers, and professions such as medicine and law are closed to those without one. This argument, however, assumes that suitable jobs exist and that degrees prepare students for them. In many economies, neither condition holds. When university places expand faster than the demand for graduate labour, the result is not fewer unemployed young people but more unemployed graduates, many of whom end up in jobs that do not require their qualifications. Expanding universities may therefore shift the problem rather than solve it."
+            },
+            {
+              "label": "Thân bài 2",
+              "en": "A more effective strategy would be to strengthen vocational training and apprenticeships designed together with employers. Take for example a programme in which logistics firms help to write the curriculum and offer paid placements in the final year. Students on such a programme acquire skills that are in demand, and employers gain recruits they have already trained, which lowers the risk of hiring. This approach also reaches young people who are unlikely to attend university at all, a group that further spending on higher education would largely miss."
+            },
+            {
+              "label": "Kết bài",
+              "en": "In conclusion, increasing university places is not the best way to tackle youth unemployment, because it does not ensure that graduates have the skills employers seek. Training linked directly to the labour market offers a more reliable route into work."
+            }
           ],
           "note": "Thân bài 1 là đoạn phản biện: nhượng bộ (*It is true that*), nêu giả định ngầm (*assumes that*), chỉ ra giả định không đứng vững. Thân bài 2 đưa phương án **tốt hơn**, đúng yêu cầu để phản đối chữ *best*. Lập trường ở mở bài và kết bài trùng khớp."
         }
@@ -406,12 +827,37 @@
           "kind": "table",
           "title": "Bốn lựa chọn lập trường",
           "core": true,
-          "columns": ["Lập trường", "Dùng khi", "Thân bài 1", "Thân bài 2"],
+          "columns": [
+            "Lập trường",
+            "Dùng khi",
+            "Thân bài 1",
+            "Thân bài 2"
+          ],
           "rows": [
-            ["Chọn một bên", "Hai bên so được trên cùng tiêu chí và một bên rõ ràng hơn", "Discussion: vì sao có người theo phía kia, và giới hạn của nó. A–B: tiêu chí 1, viết theo đoạn contrast", "Discussion: lý do chính của mình. A–B: tiêu chí 2"],
-            ["Không bên nào hơn", "Hai bên phục vụ mục đích khác nhau, không có tiêu chí chung", "Giá trị riêng của A", "Giá trị riêng của B"],
-            ["Làm cả hai", "Hai bên không loại trừ nhau", "Vì sao nên làm A", "Vì sao cũng phải làm B"],
-            ["Chia theo hoàn cảnh", "Câu trả lời thay đổi theo nhóm người hoặc điều kiện", "Nhóm hoặc hoàn cảnh mà A hơn", "Nhóm hoặc hoàn cảnh mà B hơn"]
+            [
+              "Chọn một bên",
+              "Hai bên so được trên cùng tiêu chí và một bên rõ ràng hơn",
+              "Discussion: vì sao có người theo phía kia, và giới hạn của nó. A–B: tiêu chí 1, viết theo đoạn contrast",
+              "Discussion: lý do chính của mình. A–B: tiêu chí 2"
+            ],
+            [
+              "Không bên nào hơn",
+              "Hai bên phục vụ mục đích khác nhau, không có tiêu chí chung",
+              "Giá trị riêng của A",
+              "Giá trị riêng của B"
+            ],
+            [
+              "Làm cả hai",
+              "Hai bên không loại trừ nhau",
+              "Vì sao nên làm A",
+              "Vì sao cũng phải làm B"
+            ],
+            [
+              "Chia theo hoàn cảnh",
+              "Câu trả lời thay đổi theo nhóm người hoặc điều kiện",
+              "Nhóm hoặc hoàn cảnh mà A hơn",
+              "Nhóm hoặc hoàn cảnh mà B hơn"
+            ]
           ]
         },
         {
@@ -433,21 +879,48 @@
           "kind": "steps",
           "title": "Đoạn contrast: A hơn B trên một tiêu chí",
           "items": [
-            { "title": "Câu chủ đề nêu tiêu chí", "md": "A tốt hơn ở tiêu chí X." },
-            { "title": "Giải thích", "md": "Vì sao A tốt ở tiêu chí X: cơ chế, ví dụ." },
-            { "title": "Nhượng bộ", "md": "B cũng có tác dụng nhất định ở tiêu chí X." },
-            { "title": "Chỉ ra giới hạn của B", "md": "Chứng minh B **kém hơn**, không cần chứng minh B vô dụng." }
+            {
+              "title": "Câu chủ đề nêu tiêu chí",
+              "md": "A tốt hơn ở tiêu chí X."
+            },
+            {
+              "title": "Giải thích",
+              "md": "Vì sao A tốt ở tiêu chí X: cơ chế, ví dụ."
+            },
+            {
+              "title": "Nhượng bộ",
+              "md": "B cũng có tác dụng nhất định ở tiêu chí X."
+            },
+            {
+              "title": "Chỉ ra giới hạn của B",
+              "md": "Chứng minh B **kém hơn**, không cần chứng minh B vô dụng."
+            }
           ]
         },
         {
           "kind": "frames",
           "title": "Khung câu",
           "items": [
-            { "frame": "Supporters of [X] argue that …, and this view is understandable given …", "example": "Supporters of online learning argue that it saves time, and this view is understandable given how long many students spend commuting." },
-            { "frame": "On the question of [tiêu chí], [A] clearly has the advantage, since …", "example": "On the question of cost, public transport clearly has the advantage, since one bus can replace dozens of cars." },
-            { "frame": "[B] can help in this respect, but only to a limited extent, because …", "example": "Short training videos can help in this respect, but only to a limited extent, because new employees cannot ask questions as they watch." },
-            { "frame": "These options are not mutually exclusive; …", "example": "These options are not mutually exclusive; cities can expand cycle lanes and improve bus services at the same time." },
-            { "frame": "For [nhóm 1], [A] is the better choice. For [nhóm 2], however, …", "example": "For students with a clear career goal, a specialised degree is the better choice. For those who are still undecided, however, a broader programme keeps more options open." }
+            {
+              "frame": "Supporters of [X] argue that …, and this view is understandable given …",
+              "example": "Supporters of online learning argue that it saves time, and this view is understandable given how long many students spend commuting."
+            },
+            {
+              "frame": "On the question of [tiêu chí], [A] clearly has the advantage, since …",
+              "example": "On the question of cost, public transport clearly has the advantage, since one bus can replace dozens of cars."
+            },
+            {
+              "frame": "[B] can help in this respect, but only to a limited extent, because …",
+              "example": "Short training videos can help in this respect, but only to a limited extent, because new employees cannot ask questions as they watch."
+            },
+            {
+              "frame": "These options are not mutually exclusive; …",
+              "example": "These options are not mutually exclusive; cities can expand cycle lanes and improve bus services at the same time."
+            },
+            {
+              "frame": "For [nhóm 1], [A] is the better choice. For [nhóm 2], however, …",
+              "example": "For students with a clear career goal, a specialised degree is the better choice. For those who are still undecided, however, a broader programme keeps more options open."
+            }
           ]
         },
         {
@@ -455,10 +928,26 @@
           "title": "Lỗi thường gặp",
           "core": true,
           "items": [
-            { "wrong": "Đoạn 1 khen A, đoạn 2 khen B, kết luận A hơn.", "right": "Đặt A và B lên cùng tiêu chí trong mỗi đoạn.", "why": "Không có so sánh trực tiếp thì kết luận không có cơ sở." },
-            { "wrong": "Discussion: nêu quan điểm phía kia trong một câu rồi bỏ đó.", "right": "Giải thích vì sao có người nghĩ vậy, rồi mới nêu giới hạn.", "why": "Một view không được bàn tử tế: Task Response bị giới hạn ở band 5–6." },
-            { "wrong": "Discussion: một bên 180 từ, bên kia 50 từ.", "right": "Hai bên tương đối cân bằng.", "why": "Một phần được bàn đầy đủ hơn hẳn phần kia: dấu hiệu band 6." },
-            { "wrong": "Discussion: bàn hai quan điểm nhưng không nêu ý kiến.", "right": "Nêu ý kiến ở mở bài và kết bài.", "why": "Đề hỏi *give your opinion*. Thiếu ý kiến là thiếu một phần đề." }
+            {
+              "wrong": "Đoạn 1 khen A, đoạn 2 khen B, kết luận A hơn.",
+              "right": "Đặt A và B lên cùng tiêu chí trong mỗi đoạn.",
+              "why": "Không có so sánh trực tiếp thì kết luận không có cơ sở."
+            },
+            {
+              "wrong": "Discussion: nêu quan điểm phía kia trong một câu rồi bỏ đó.",
+              "right": "Giải thích vì sao có người nghĩ vậy, rồi mới nêu giới hạn.",
+              "why": "Một view không được bàn tử tế: Task Response bị giới hạn ở band 5–6."
+            },
+            {
+              "wrong": "Discussion: một bên 180 từ, bên kia 50 từ.",
+              "right": "Hai bên tương đối cân bằng.",
+              "why": "Một phần được bàn đầy đủ hơn hẳn phần kia: dấu hiệu band 6."
+            },
+            {
+              "wrong": "Discussion: bàn hai quan điểm nhưng không nêu ý kiến.",
+              "right": "Nêu ý kiến ở mở bài và kết bài.",
+              "why": "Đề hỏi *give your opinion*. Thiếu ý kiến là thiếu một phần đề."
+            }
           ]
         },
         {
@@ -466,10 +955,22 @@
           "title": "Bài mẫu: Discussion, chia theo hoàn cảnh",
           "prompt": "Some people believe that students should go to university immediately after finishing school, while others think they should first spend a year working or travelling. Discuss both views and give your opinion.",
           "paragraphs": [
-            { "label": "Mở bài", "en": "Many school leavers must decide when to begin university. Some argue that students should continue their education without a break, whereas others favour a year spent working or travelling first. In my view, the better choice depends largely on how clear a student's goals are." },
-            { "label": "Thân bài 1", "en": "Those who support starting university immediately have good reasons. Students who leave school with a clear idea of what they want to study benefit from keeping their academic momentum, since the study habits and knowledge they built at school are still fresh. A year away can also be costly. For students from low-income families in particular, a gap year often means low-paid work rather than enriching travel, and it delays the point at which they begin to earn a graduate salary. For this group, the case for continuing directly is strong." },
-            { "label": "Thân bài 2", "en": "On the other hand, a gap year makes considerable sense for students who are uncertain about their future. Many school leavers choose a degree under pressure from their parents or simply because of their exam results, and some later drop out or change courses, which wastes both time and tuition fees. A year of work can help such students discover what they enjoy and what they are good at. Consider a student who works in a small hotel and realises that she is interested in management rather than the engineering degree she had planned to take. For her, the year is not a delay but an investment in a better decision." },
-            { "label": "Kết bài", "en": "In conclusion, students who already know what they want to study should go straight to university, while those who are unsure are likely to benefit from a year of work first. The question is not which option is better in general, but which one suits the individual student." }
+            {
+              "label": "Mở bài",
+              "en": "Many school leavers must decide when to begin university. Some argue that students should continue their education without a break, whereas others favour a year spent working or travelling first. In my view, the better choice depends largely on how clear a student's goals are."
+            },
+            {
+              "label": "Thân bài 1",
+              "en": "Those who support starting university immediately have good reasons. Students who leave school with a clear idea of what they want to study benefit from keeping their academic momentum, since the study habits and knowledge they built at school are still fresh. A year away can also be costly. For students from low-income families in particular, a gap year often means low-paid work rather than enriching travel, and it delays the point at which they begin to earn a graduate salary. For this group, the case for continuing directly is strong."
+            },
+            {
+              "label": "Thân bài 2",
+              "en": "On the other hand, a gap year makes considerable sense for students who are uncertain about their future. Many school leavers choose a degree under pressure from their parents or simply because of their exam results, and some later drop out or change courses, which wastes both time and tuition fees. A year of work can help such students discover what they enjoy and what they are good at. Consider a student who works in a small hotel and realises that she is interested in management rather than the engineering degree she had planned to take. For her, the year is not a delay but an investment in a better decision."
+            },
+            {
+              "label": "Kết bài",
+              "en": "In conclusion, students who already know what they want to study should go straight to university, while those who are unsure are likely to benefit from a year of work first. The question is not which option is better in general, but which one suits the individual student."
+            }
           ],
           "note": "Mở bài 3 câu vì phải giới thiệu cả hai quan điểm. Lập trường chia theo **một tiêu chí rõ ràng** (mức độ chắc chắn về mục tiêu), nêu ngay câu cuối mở bài. Mỗi thân bài vừa trình bày một quan điểm, vừa xác định nhóm học sinh mà quan điểm đó đúng."
         }
@@ -487,12 +988,27 @@
           "title": "Biến thể câu hỏi",
           "core": true,
           "source": "supplement",
-          "columns": ["Câu hỏi", "Bắt buộc phải làm"],
+          "columns": [
+            "Câu hỏi",
+            "Bắt buộc phải làm"
+          ],
           "rows": [
-            ["*Do the advantages outweigh the disadvantages?*", "Trả lời rõ bên nào nặng hơn."],
-            ["*Discuss the advantages and disadvantages.*", "Bàn cả hai vế. Không bắt buộc nêu ý kiến nếu đề không hỏi, nhưng nêu ngắn gọn vẫn an toàn."],
-            ["*Is this a positive or negative development?*", "Chọn một hướng. Được phép kết luận hoàn toàn tích cực hoặc tiêu cực."],
-            ["*To what extent … positive or negative?*", "Nêu thêm mức độ: về cơ bản, phần lớn, chỉ một phần."]
+            [
+              "*Do the advantages outweigh the disadvantages?*",
+              "Trả lời rõ bên nào nặng hơn."
+            ],
+            [
+              "*Discuss the advantages and disadvantages.*",
+              "Bàn cả hai vế. Không bắt buộc nêu ý kiến nếu đề không hỏi, nhưng nêu ngắn gọn vẫn an toàn."
+            ],
+            [
+              "*Is this a positive or negative development?*",
+              "Chọn một hướng. Được phép kết luận hoàn toàn tích cực hoặc tiêu cực."
+            ],
+            [
+              "*To what extent … positive or negative?*",
+              "Nêu thêm mức độ: về cơ bản, phần lớn, chỉ một phần."
+            ]
           ]
         },
         {
@@ -510,32 +1026,75 @@
           "title": "Bố cục",
           "core": true,
           "items": [
-            { "title": "Mở bài", "md": "Paraphrase xu hướng, nêu bên nào nặng hơn hoặc tích cực hay tiêu cực." },
-            { "title": "Thân bài 1: vế yếu", "md": "Phía mình không chọn. Trình bày thật, rồi chỉ ra vì sao nó nhẹ hơn hoặc khắc phục được." },
-            { "title": "Thân bài 2: vế mạnh", "md": "Phía mình chọn, kèm lý do nó nặng hơn. Bài kết thúc ở phía mình." },
-            { "title": "Kết bài", "md": "Nhắc lại phán đoán. Nếu dùng *provided that*, điều kiện phải đã được bàn ở thân bài." }
+            {
+              "title": "Mở bài",
+              "md": "Paraphrase xu hướng, nêu bên nào nặng hơn hoặc tích cực hay tiêu cực."
+            },
+            {
+              "title": "Thân bài 1: vế yếu",
+              "md": "Phía mình không chọn. Trình bày thật, rồi chỉ ra vì sao nó nhẹ hơn hoặc khắc phục được."
+            },
+            {
+              "title": "Thân bài 2: vế mạnh",
+              "md": "Phía mình chọn, kèm lý do nó nặng hơn. Bài kết thúc ở phía mình."
+            },
+            {
+              "title": "Kết bài",
+              "md": "Nhắc lại phán đoán. Nếu dùng *provided that*, điều kiện phải đã được bàn ở thân bài."
+            }
           ]
         },
         {
           "kind": "table",
           "title": "Ba cách xử lý vế yếu",
           "core": true,
-          "columns": ["Cách", "Làm thế nào", "Lưu ý"],
+          "columns": [
+            "Cách",
+            "Làm thế nào",
+            "Lưu ý"
+          ],
           "rows": [
-            ["Bẻ gãy ngay trong đoạn", "Nêu nhược điểm, rồi chỉ ra nó nhỏ hoặc khắc phục được", "Phần bẻ gãy phải đủ mạnh"],
-            ["So mức độ nghiêm trọng", "Lợi ích có thật nhưng nhỏ khi đặt cạnh rủi ro", "Phải nói rõ vì sao rủi ro lớn hơn"],
-            ["Điều kiện ở kết bài", "*Lợi vượt hại, provided that …*", "Điều kiện phải đã bàn ở thân bài và phải khả thi. Điều kiện quá nặng là rào đón trá hình."]
+            [
+              "Bẻ gãy ngay trong đoạn",
+              "Nêu nhược điểm, rồi chỉ ra nó nhỏ hoặc khắc phục được",
+              "Phần bẻ gãy phải đủ mạnh"
+            ],
+            [
+              "So mức độ nghiêm trọng",
+              "Lợi ích có thật nhưng nhỏ khi đặt cạnh rủi ro",
+              "Phải nói rõ vì sao rủi ro lớn hơn"
+            ],
+            [
+              "Điều kiện ở kết bài",
+              "*Lợi vượt hại, provided that …*",
+              "Điều kiện phải đã bàn ở thân bài và phải khả thi. Điều kiện quá nặng là rào đón trá hình."
+            ]
           ]
         },
         {
           "kind": "frames",
           "title": "Khung câu",
           "items": [
-            { "frame": "Although [X] creates certain problems, its overall effect is clearly positive.", "example": "Although the rise of ride-hailing apps creates certain problems, its overall effect on urban travel is clearly positive." },
-            { "frame": "These drawbacks are real, but they are relatively minor compared with …", "example": "These drawbacks are real, but they are relatively minor compared with the time and money that commuters save." },
-            { "frame": "While the benefits of [X] are genuine, they are outweighed by …", "example": "While the benefits of cheap air travel are genuine, they are outweighed by its environmental costs." },
-            { "frame": "On balance, the advantages outweigh the disadvantages, provided that …", "example": "On balance, the advantages of online banking outweigh the disadvantages, provided that customers are protected against fraud." },
-            { "frame": "In the short term, …; in the long term, however, …", "example": "In the short term, building more roads eases congestion; in the long term, however, it tends to attract more traffic." }
+            {
+              "frame": "Although [X] creates certain problems, its overall effect is clearly positive.",
+              "example": "Although the rise of ride-hailing apps creates certain problems, its overall effect on urban travel is clearly positive."
+            },
+            {
+              "frame": "These drawbacks are real, but they are relatively minor compared with …",
+              "example": "These drawbacks are real, but they are relatively minor compared with the time and money that commuters save."
+            },
+            {
+              "frame": "While the benefits of [X] are genuine, they are outweighed by …",
+              "example": "While the benefits of cheap air travel are genuine, they are outweighed by its environmental costs."
+            },
+            {
+              "frame": "On balance, the advantages outweigh the disadvantages, provided that …",
+              "example": "On balance, the advantages of online banking outweigh the disadvantages, provided that customers are protected against fraud."
+            },
+            {
+              "frame": "In the short term, …; in the long term, however, …",
+              "example": "In the short term, building more roads eases congestion; in the long term, however, it tends to attract more traffic."
+            }
           ]
         },
         {
@@ -543,10 +1102,26 @@
           "title": "Lỗi thường gặp",
           "core": true,
           "items": [
-            { "wrong": "Mở bài nói lợi lớn hơn, nhưng thân bài 1 nêu nhược điểm rất nặng và không ai xử lý.", "right": "Chỉ ra vì sao nhược điểm nhẹ hơn hoặc khắc phục được.", "why": "Tuyên bố *outweigh* mà không cân: lập trường thiếu cơ sở, quanh band 6." },
-            { "wrong": "Đề *outweigh*: lợi ngắn hạn, hại dài hạn, kết thúc ở đó.", "right": "Chốt: cái giá dài hạn lớn hơn lợi ích ngắn hạn (hoặc ngược lại).", "why": "Đề hỏi bên nào nặng hơn." },
-            { "wrong": "Kết bài: *provided that* + điều kiện chưa từng nhắc ở thân bài.", "right": "Bàn điều kiện ở thân bài, kết bài chỉ nhắc lại.", "why": "Kết bài không thêm ý mới." },
-            { "wrong": "Mở bài tích cực, kết bài phân vân.", "right": "Kết bài nhắc lại đúng phán đoán ở mở bài.", "why": "Lập trường không nhất quán." }
+            {
+              "wrong": "Mở bài nói lợi lớn hơn, nhưng thân bài 1 nêu nhược điểm rất nặng và không ai xử lý.",
+              "right": "Chỉ ra vì sao nhược điểm nhẹ hơn hoặc khắc phục được.",
+              "why": "Tuyên bố *outweigh* mà không cân: lập trường thiếu cơ sở, quanh band 6."
+            },
+            {
+              "wrong": "Đề *outweigh*: lợi ngắn hạn, hại dài hạn, kết thúc ở đó.",
+              "right": "Chốt: cái giá dài hạn lớn hơn lợi ích ngắn hạn (hoặc ngược lại).",
+              "why": "Đề hỏi bên nào nặng hơn."
+            },
+            {
+              "wrong": "Kết bài: *provided that* + điều kiện chưa từng nhắc ở thân bài.",
+              "right": "Bàn điều kiện ở thân bài, kết bài chỉ nhắc lại.",
+              "why": "Kết bài không thêm ý mới."
+            },
+            {
+              "wrong": "Mở bài tích cực, kết bài phân vân.",
+              "right": "Kết bài nhắc lại đúng phán đoán ở mở bài.",
+              "why": "Lập trường không nhất quán."
+            }
           ]
         },
         {
@@ -554,10 +1129,22 @@
           "title": "Bài mẫu: Outweigh",
           "prompt": "In many countries, cash is being replaced by digital payment methods such as cards and mobile apps. Do the advantages of this development outweigh the disadvantages?",
           "paragraphs": [
-            { "label": "Mở bài", "en": "Digital payments are rapidly replacing cash in shops, markets and public services in many countries, a change accelerated by the spread of smartphones. Although this shift creates real difficulties for some groups, I believe that its advantages clearly outweigh its disadvantages." },
-            { "label": "Thân bài 1", "en": "The main drawback is that a cashless system can exclude people who lack the skills or devices to use it. Elderly people and residents of remote rural areas are particularly affected, as they are less likely to own a smartphone or to have reliable internet access. A second concern is that every digital transaction leaves a record, which raises questions about who can see personal spending data. These problems are serious, but they are largely manageable. Shops and public offices can continue to accept cash alongside digital methods, and data protection laws can limit how payment records are used." },
-            { "label": "Thân bài 2", "en": "The benefits, by contrast, are broad and lasting. For consumers, paying by phone is faster and safer than carrying cash, which can be lost or stolen. For small businesses, digital payments reduce the time spent handling and counting money, and they make it easier to sell to customers in other cities. Governments also gain, since electronic transactions are far harder to hide from tax authorities than cash payments, which helps to widen the tax base. Digital records also make it easier for households to track their own spending, which can encourage better budgeting. Over time, these gains accumulate across millions of daily transactions." },
-            { "label": "Kết bài", "en": "In conclusion, the move towards digital payments brings considerable benefits to consumers, businesses and governments, while its main risks can be reduced through sensible policy. These advantages outweigh the drawbacks, provided that cash remains available to those who still depend on it." }
+            {
+              "label": "Mở bài",
+              "en": "Digital payments are rapidly replacing cash in shops, markets and public services in many countries, a change accelerated by the spread of smartphones. Although this shift creates real difficulties for some groups, I believe that its advantages clearly outweigh its disadvantages."
+            },
+            {
+              "label": "Thân bài 1",
+              "en": "The main drawback is that a cashless system can exclude people who lack the skills or devices to use it. Elderly people and residents of remote rural areas are particularly affected, as they are less likely to own a smartphone or to have reliable internet access. A second concern is that every digital transaction leaves a record, which raises questions about who can see personal spending data. These problems are serious, but they are largely manageable. Shops and public offices can continue to accept cash alongside digital methods, and data protection laws can limit how payment records are used."
+            },
+            {
+              "label": "Thân bài 2",
+              "en": "The benefits, by contrast, are broad and lasting. For consumers, paying by phone is faster and safer than carrying cash, which can be lost or stolen. For small businesses, digital payments reduce the time spent handling and counting money, and they make it easier to sell to customers in other cities. Governments also gain, since electronic transactions are far harder to hide from tax authorities than cash payments, which helps to widen the tax base. Digital records also make it easier for households to track their own spending, which can encourage better budgeting. Over time, these gains accumulate across millions of daily transactions."
+            },
+            {
+              "label": "Kết bài",
+              "en": "In conclusion, the move towards digital payments brings considerable benefits to consumers, businesses and governments, while its main risks can be reduced through sensible policy. These advantages outweigh the drawbacks, provided that cash remains available to those who still depend on it."
+            }
           ],
           "note": "Vế yếu đứng trước và được xử lý ngay trong đoạn (*largely manageable*). Điều kiện *provided that* ở kết bài đã được bàn ở thân bài 1, nên không phải ý mới. Thân bài 2 dùng lăng kính đối tượng: người tiêu dùng, doanh nghiệp nhỏ, chính phủ."
         }
@@ -574,11 +1161,27 @@
           "kind": "table",
           "title": "Ba biến thể",
           "core": true,
-          "columns": ["Câu hỏi", "Thân bài 1", "Thân bài 2"],
+          "columns": [
+            "Câu hỏi",
+            "Thân bài 1",
+            "Thân bài 2"
+          ],
           "rows": [
-            ["Problems + solutions", "Hai vấn đề", "Hai giải pháp, mỗi giải pháp đánh vào một vấn đề"],
-            ["Causes + solutions", "Hai nguyên nhân", "Hai giải pháp, mỗi giải pháp đánh vào một nguyên nhân"],
-            ["Causes + effects", "Hai nguyên nhân", "Hai tác động, nên có một tác động dài hạn"]
+            [
+              "Problems + solutions",
+              "Hai vấn đề",
+              "Hai giải pháp, mỗi giải pháp đánh vào một vấn đề"
+            ],
+            [
+              "Causes + solutions",
+              "Hai nguyên nhân",
+              "Hai giải pháp, mỗi giải pháp đánh vào một nguyên nhân"
+            ],
+            [
+              "Causes + effects",
+              "Hai nguyên nhân",
+              "Hai tác động, nên có một tác động dài hạn"
+            ]
           ]
         },
         {
@@ -596,10 +1199,22 @@
         {
           "kind": "table",
           "title": "Hai bố cục",
-          "columns": ["Bố cục", "Cách chia", "Ghi chú"],
+          "columns": [
+            "Bố cục",
+            "Cách chia",
+            "Ghi chú"
+          ],
           "rows": [
-            ["Theo câu hỏi (khóa học)", "Đoạn 1: vấn đề hoặc nguyên nhân. Đoạn 2: giải pháp hoặc tác động.", "Dùng được cho cả ba biến thể."],
-            ["Theo cặp (bổ sung)", "Mỗi đoạn một cặp vấn đề và giải pháp.", "Ghép 1–1 tự động, hai đoạn tự cân dung lượng. Không dùng cho Causes – Effects."]
+            [
+              "Theo câu hỏi (khóa học)",
+              "Đoạn 1: vấn đề hoặc nguyên nhân. Đoạn 2: giải pháp hoặc tác động.",
+              "Dùng được cho cả ba biến thể."
+            ],
+            [
+              "Theo cặp (bổ sung)",
+              "Mỗi đoạn một cặp vấn đề và giải pháp.",
+              "Ghép 1–1 tự động, hai đoạn tự cân dung lượng. Không dùng cho Causes – Effects."
+            ]
           ]
         },
         {
@@ -607,22 +1222,53 @@
           "title": "Nâng cấp giải pháp",
           "core": true,
           "items": [
-            { "title": "Trả lời HOW", "md": "Giải pháp gồm những việc cụ thể gì, ai làm. *Chính phủ nên giáo dục người dân* chưa phải giải pháp." },
-            { "title": "Nêu điều kiện tiền đề", "md": "Giải pháp cần gì để chạy được, và ai lo phần đó. *For this to work, the government would need to…*" },
-            { "title": "Thừa nhận độ khó, rồi vẫn đề xuất", "md": "Nếu vấn đề khó giải triệt để, nói vì sao, rồi đưa một hướng khả thi hơn. **Dừng ở chỗ 'rất khó' là chưa trả lời câu hỏi.**" }
+            {
+              "title": "Trả lời HOW",
+              "md": "Giải pháp gồm những việc cụ thể gì, ai làm. *Chính phủ nên giáo dục người dân* chưa phải giải pháp."
+            },
+            {
+              "title": "Nêu điều kiện tiền đề",
+              "md": "Giải pháp cần gì để chạy được, và ai lo phần đó. *For this to work, the government would need to…*"
+            },
+            {
+              "title": "Thừa nhận độ khó, rồi vẫn đề xuất",
+              "md": "Nếu vấn đề khó giải triệt để, nói vì sao, rồi đưa một hướng khả thi hơn. **Dừng ở chỗ 'rất khó' là chưa trả lời câu hỏi.**"
+            }
           ]
         },
         {
           "kind": "frames",
           "title": "Khung câu",
           "items": [
-            { "frame": "This problem stems largely from …", "example": "The decline in reading among teenagers stems largely from the time they spend on short-form video." },
-            { "frame": "A second contributing factor is …", "example": "A second contributing factor is the lack of school libraries in poorer districts." },
-            { "frame": "The most direct remedy would be to …, for example by …", "example": "The most direct remedy would be to make healthy food cheaper, for example by subsidising fruit and vegetables in school canteens." },
-            { "frame": "For this to work, [chủ thể] would need to …", "example": "For this to work, the government would need to improve rural roads and internet access." },
-            { "frame": "This is difficult to eliminate because …; a more realistic approach is to …", "example": "Noise pollution is difficult to eliminate because cities depend on constant construction; a more realistic approach is to restrict noisy work to daytime hours." },
-            { "frame": "To address these problems, …", "example": "To address these problems, local councils could …", "note": "Gọn hơn *To address the aforementioned problems*, cụm này dễ bị lạm dụng." },
-            { "frame": "In the long run, this could …", "example": "In the long run, this could slow the pace of innovation and weaken economic growth." }
+            {
+              "frame": "This problem stems largely from …",
+              "example": "The decline in reading among teenagers stems largely from the time they spend on short-form video."
+            },
+            {
+              "frame": "A second contributing factor is …",
+              "example": "A second contributing factor is the lack of school libraries in poorer districts."
+            },
+            {
+              "frame": "The most direct remedy would be to …, for example by …",
+              "example": "The most direct remedy would be to make healthy food cheaper, for example by subsidising fruit and vegetables in school canteens."
+            },
+            {
+              "frame": "For this to work, [chủ thể] would need to …",
+              "example": "For this to work, the government would need to improve rural roads and internet access."
+            },
+            {
+              "frame": "This is difficult to eliminate because …; a more realistic approach is to …",
+              "example": "Noise pollution is difficult to eliminate because cities depend on constant construction; a more realistic approach is to restrict noisy work to daytime hours."
+            },
+            {
+              "frame": "To address these problems, …",
+              "example": "To address these problems, local councils could …",
+              "note": "Gọn hơn *To address the aforementioned problems*, cụm này dễ bị lạm dụng."
+            },
+            {
+              "frame": "In the long run, this could …",
+              "example": "In the long run, this could slow the pace of innovation and weaken economic growth."
+            }
           ]
         },
         {
@@ -630,10 +1276,26 @@
           "title": "Lỗi thường gặp",
           "core": true,
           "items": [
-            { "wrong": "Vấn đề: phá rừng và nước thải công nghiệp. Giải pháp: chiến dịch nâng cao nhận thức.", "right": "Mỗi giải pháp đánh trực tiếp vào một vấn đề, ví dụ: quota khai thác gỗ, phạt theo lượng nước thải.", "why": "Giải pháp không khớp vấn đề: trả lời không sát đề, mất mạch lạc." },
-            { "wrong": "Governments should educate people about this issue.", "right": "Schools could add a short module on household recycling, taught with local waste-collection staff.", "why": "Giải pháp chung chung, không có HOW: khó vượt band 7." },
-            { "wrong": "Đoạn giải pháp kết thúc ở 'vấn đề này rất khó giải quyết'.", "right": "Nêu vì sao khó, rồi đưa một hướng khả thi hơn.", "why": "Câu hỏi *What can be done?* chưa được trả lời." },
-            { "wrong": "Liệt kê bốn nguyên nhân, mỗi nguyên nhân một câu.", "right": "Hai nguyên nhân, mỗi cái có cơ chế và ví dụ.", "why": "Liệt kê làm ý nông: band 6." }
+            {
+              "wrong": "Vấn đề: phá rừng và nước thải công nghiệp. Giải pháp: chiến dịch nâng cao nhận thức.",
+              "right": "Mỗi giải pháp đánh trực tiếp vào một vấn đề, ví dụ: quota khai thác gỗ, phạt theo lượng nước thải.",
+              "why": "Giải pháp không khớp vấn đề: trả lời không sát đề, mất mạch lạc."
+            },
+            {
+              "wrong": "Governments should educate people about this issue.",
+              "right": "Schools could add a short module on household recycling, taught with local waste-collection staff.",
+              "why": "Giải pháp chung chung, không có HOW: khó vượt band 7."
+            },
+            {
+              "wrong": "Đoạn giải pháp kết thúc ở 'vấn đề này rất khó giải quyết'.",
+              "right": "Nêu vì sao khó, rồi đưa một hướng khả thi hơn.",
+              "why": "Câu hỏi *What can be done?* chưa được trả lời."
+            },
+            {
+              "wrong": "Liệt kê bốn nguyên nhân, mỗi nguyên nhân một câu.",
+              "right": "Hai nguyên nhân, mỗi cái có cơ chế và ví dụ.",
+              "why": "Liệt kê làm ý nông: band 6."
+            }
           ]
         },
         {
@@ -641,10 +1303,22 @@
           "title": "Bài mẫu: Causes – Solutions",
           "prompt": "In many cities, small independent shops are closing down. What are the causes of this trend, and what solutions can you suggest?",
           "paragraphs": [
-            { "label": "Mở bài", "en": "Small independent shops are disappearing from the streets of many cities, and with them goes much of the character of local neighbourhoods. This trend stems largely from the growth of online shopping and rising rents, and both causes can be addressed through targeted local policies." },
-            { "label": "Thân bài 1", "en": "The first cause is competition from online retailers. Large e-commerce platforms can offer lower prices and home delivery, so many consumers no longer see a reason to visit a local shop for everyday goods. Even loyal customers find it hard to justify paying more for the same product a few streets away. The second cause is the rising cost of commercial property. As city centres become more attractive to investors, rents increase, and small shops with modest profit margins are often the first to be priced out. Their premises are then taken over by chain stores or banks that can afford higher rents, which further reduces the variety of local high streets." },
-            { "label": "Thân bài 2", "en": "To address the first problem, local authorities could help small shops sell online rather than compete against the internet. For example, a city could fund a shared website and delivery service for independent retailers, together with short courses on digital marketing. The second problem calls for action on rents. Councils could offer reduced business taxes to independent shops, or reserve a share of ground-floor units in new developments for small businesses at controlled rents. For these measures to work, however, they would need stable funding, which could come from a modest levy on large online sellers operating in the city." },
-            { "label": "Kết bài", "en": "In conclusion, independent shops are closing mainly because of online competition and high rents. Helping these shops move online and protecting them from excessive rents would give them a realistic chance of survival." }
+            {
+              "label": "Mở bài",
+              "en": "Small independent shops are disappearing from the streets of many cities, and with them goes much of the character of local neighbourhoods. This trend stems largely from the growth of online shopping and rising rents, and both causes can be addressed through targeted local policies."
+            },
+            {
+              "label": "Thân bài 1",
+              "en": "The first cause is competition from online retailers. Large e-commerce platforms can offer lower prices and home delivery, so many consumers no longer see a reason to visit a local shop for everyday goods. Even loyal customers find it hard to justify paying more for the same product a few streets away. The second cause is the rising cost of commercial property. As city centres become more attractive to investors, rents increase, and small shops with modest profit margins are often the first to be priced out. Their premises are then taken over by chain stores or banks that can afford higher rents, which further reduces the variety of local high streets."
+            },
+            {
+              "label": "Thân bài 2",
+              "en": "To address the first problem, local authorities could help small shops sell online rather than compete against the internet. For example, a city could fund a shared website and delivery service for independent retailers, together with short courses on digital marketing. The second problem calls for action on rents. Councils could offer reduced business taxes to independent shops, or reserve a share of ground-floor units in new developments for small businesses at controlled rents. For these measures to work, however, they would need stable funding, which could come from a modest levy on large online sellers operating in the city."
+            },
+            {
+              "label": "Kết bài",
+              "en": "In conclusion, independent shops are closing mainly because of online competition and high rents. Helping these shops move online and protecting them from excessive rents would give them a realistic chance of survival."
+            }
           ],
           "note": "Không nêu ý kiến vì đề không hỏi. Ghép 1–1: bán hàng online đánh vào cạnh tranh online, chính sách thuế và mặt bằng đánh vào giá thuê. Câu *For these measures to work* là bước điều kiện tiền đề."
         }
@@ -666,20 +1340,47 @@
           "title": "Câu hỏi con → xử lý theo",
           "core": true,
           "source": "supplement",
-          "columns": ["Câu hỏi con", "Xử lý như"],
+          "columns": [
+            "Câu hỏi con",
+            "Xử lý như"
+          ],
           "rows": [
-            ["*Why…? / What are the reasons?*", "Phần nguyên nhân ở *Problem – Solution*"],
-            ["*Is this positive or negative?*", "*Lợi – hại, Tích cực – tiêu cực*"],
-            ["*How can…? / What can be done?*", "Phần giải pháp ở *Problem – Solution*"],
-            ["*What is your opinion…? / Do you think…?*", "*Opinion*"]
+            [
+              "*Why…? / What are the reasons?*",
+              "Phần nguyên nhân ở *Problem – Solution*"
+            ],
+            [
+              "*Is this positive or negative?*",
+              "*Lợi – hại, Tích cực – tiêu cực*"
+            ],
+            [
+              "*How can…? / What can be done?*",
+              "Phần giải pháp ở *Problem – Solution*"
+            ],
+            [
+              "*What is your opinion…? / Do you think…?*",
+              "*Opinion*"
+            ]
           ]
         },
         {
           "kind": "links",
           "items": [
-            { "label": "Problem – Solution, Causes – Effects", "section": "task2", "page": "problem-solution" },
-            { "label": "Lợi – hại, Tích cực – tiêu cực", "section": "task2", "page": "adv-disadv" },
-            { "label": "Opinion", "section": "task2", "page": "opinion" }
+            {
+              "label": "Problem – Solution, Causes – Effects",
+              "section": "task2",
+              "page": "problem-solution"
+            },
+            {
+              "label": "Lợi – hại, Tích cực – tiêu cực",
+              "section": "task2",
+              "page": "adv-disadv"
+            },
+            {
+              "label": "Opinion",
+              "section": "task2",
+              "page": "opinion"
+            }
           ]
         },
         {
@@ -709,10 +1410,22 @@
           "title": "Bài mẫu: Why + Positive or negative",
           "prompt": "Many young people today spend a large share of their income on travel. Why is this the case? Is this a positive or negative development?",
           "paragraphs": [
-            { "label": "Mở bài", "en": "A growing number of young people now devote a large share of their income to travel. Although this spending is sometimes criticised as a lack of financial discipline, its causes are easy to understand, and I believe it is a largely positive development." },
-            { "label": "Thân bài 1", "en": "There are two main reasons for this trend. The first is that travel has become far cheaper and easier to arrange. Low-cost airlines and booking apps allow a young office worker to plan a weekend abroad in minutes, something that would have required a travel agent and considerable expense a generation ago. As a result, a short trip abroad no longer feels like a once-in-a-lifetime event. The second reason is the influence of social media. Images of friends in distant places appear in young people's feeds every day, and this constant exposure encourages them to see travel as a normal part of life rather than a luxury." },
-            { "label": "Thân bài 2", "en": "This development is broadly beneficial. Travel exposes young people to different cultures and ways of thinking, which tends to make them more open-minded and adaptable, qualities that employers increasingly value. It can also build practical skills, such as managing a budget or solving problems in an unfamiliar setting. Many also return with a clearer sense of what they want from their careers. The main concern is that heavy spending on travel may leave some young people without savings. This risk is real, but it is a matter of balance rather than a reason to regard travel itself as harmful." },
-            { "label": "Kết bài", "en": "In conclusion, young people spend more on travel because it has become cheaper and more visible through social media. Provided that they continue to save, this trend is largely positive, as it broadens their outlook and develops useful skills." }
+            {
+              "label": "Mở bài",
+              "en": "A growing number of young people now devote a large share of their income to travel. Although this spending is sometimes criticised as a lack of financial discipline, its causes are easy to understand, and I believe it is a largely positive development."
+            },
+            {
+              "label": "Thân bài 1",
+              "en": "There are two main reasons for this trend. The first is that travel has become far cheaper and easier to arrange. Low-cost airlines and booking apps allow a young office worker to plan a weekend abroad in minutes, something that would have required a travel agent and considerable expense a generation ago. As a result, a short trip abroad no longer feels like a once-in-a-lifetime event. The second reason is the influence of social media. Images of friends in distant places appear in young people's feeds every day, and this constant exposure encourages them to see travel as a normal part of life rather than a luxury."
+            },
+            {
+              "label": "Thân bài 2",
+              "en": "This development is broadly beneficial. Travel exposes young people to different cultures and ways of thinking, which tends to make them more open-minded and adaptable, qualities that employers increasingly value. It can also build practical skills, such as managing a budget or solving problems in an unfamiliar setting. Many also return with a clearer sense of what they want from their careers. The main concern is that heavy spending on travel may leave some young people without savings. This risk is real, but it is a matter of balance rather than a reason to regard travel itself as harmful."
+            },
+            {
+              "label": "Kết bài",
+              "en": "In conclusion, young people spend more on travel because it has become cheaper and more visible through social media. Provided that they continue to save, this trend is largely positive, as it broadens their outlook and develops useful skills."
+            }
           ],
           "note": "Câu 2 mở bài trả lời cả hai câu hỏi: lý do dễ hiểu (câu hỏi 1) và phán đoán *largely positive* (câu hỏi 2). *Largely* nêu mức độ, nên thân bài 2 xử lý rủi ro tiết kiệm; điều kiện ở kết bài đã được bàn ở đó."
         }
@@ -724,22 +1437,76 @@
       "title": "Khung lập luận",
       "summary": "10 cụm dùng cho mọi chủ đề, cả IELTS và GRE, cộng khung phản biện ba bước.",
       "source": "supplement",
-      "uses": ["task2", "gre"],
+      "uses": [
+        "task2",
+        "gre"
+      ],
       "blocks": [
         {
           "kind": "phrases",
           "core": true,
           "items": [
-            { "en": "give rise to", "vi": "gây ra, làm nảy sinh", "note": "give rise to problems / concerns / inequality", "example": "Rapid urbanisation has given rise to severe traffic congestion in many developing cities." },
-            { "en": "exacerbate", "vi": "làm trầm trọng thêm", "heavy": true, "note": "exacerbate inequality / the problem / tensions", "example": "Cutting public funding for schools would only exacerbate existing inequalities." },
-            { "en": "mitigate", "vi": "giảm nhẹ", "note": "mitigate the risks / impact / effects of", "example": "Well-designed safety nets can mitigate the impact of economic shocks on poor households." },
-            { "en": "undermine", "vi": "làm suy yếu dần", "note": "undermine trust / confidence / efforts to", "example": "Frequent policy reversals undermine public trust in government." },
-            { "en": "foster", "vi": "thúc đẩy, nuôi dưỡng", "note": "foster innovation / cooperation / a sense of", "example": "Competitive markets tend to foster innovation." },
-            { "en": "outweigh", "vi": "lớn hơn, vượt trội", "note": "the benefits outweigh the drawbacks", "example": "The benefits of free trade generally outweigh its costs, as long as displaced workers receive support." },
-            { "en": "come at the expense of", "vi": "đánh đổi bằng", "example": "Economic growth should not come at the expense of environmental quality." },
-            { "en": "provided that", "vi": "với điều kiện là", "note": "Dùng để viết thesis có điều kiện.", "example": "Remote work can raise productivity, provided that employees have clear goals." },
-            { "en": "warrant", "vi": "đáng để, biện minh cho", "heavy": true, "note": "warrant attention / intervention / concern", "example": "The scale of the problem warrants government intervention." },
-            { "en": "a compelling case can be made that", "vi": "có lý do vững để cho rằng", "note": "Mở đoạn phản biện trong GRE.", "example": "A compelling case can be made that AI should be regulated more strictly." }
+            {
+              "en": "give rise to",
+              "vi": "gây ra, làm nảy sinh",
+              "note": "give rise to problems / concerns / inequality",
+              "example": "Rapid urbanisation has given rise to severe traffic congestion in many developing cities."
+            },
+            {
+              "en": "exacerbate",
+              "vi": "làm trầm trọng thêm",
+              "heavy": true,
+              "note": "exacerbate inequality / the problem / tensions",
+              "example": "Cutting public funding for schools would only exacerbate existing inequalities."
+            },
+            {
+              "en": "mitigate",
+              "vi": "giảm nhẹ",
+              "note": "mitigate the risks / impact / effects of",
+              "example": "Well-designed safety nets can mitigate the impact of economic shocks on poor households."
+            },
+            {
+              "en": "undermine",
+              "vi": "làm suy yếu dần",
+              "note": "undermine trust / confidence / efforts to",
+              "example": "Frequent policy reversals undermine public trust in government."
+            },
+            {
+              "en": "foster",
+              "vi": "thúc đẩy, nuôi dưỡng",
+              "note": "foster innovation / cooperation / a sense of",
+              "example": "Competitive markets tend to foster innovation."
+            },
+            {
+              "en": "outweigh",
+              "vi": "lớn hơn, vượt trội",
+              "note": "the benefits outweigh the drawbacks",
+              "example": "The benefits of free trade generally outweigh its costs, as long as displaced workers receive support."
+            },
+            {
+              "en": "come at the expense of",
+              "vi": "đánh đổi bằng",
+              "example": "Economic growth should not come at the expense of environmental quality."
+            },
+            {
+              "en": "provided that",
+              "vi": "với điều kiện là",
+              "note": "Dùng để viết thesis có điều kiện.",
+              "example": "Remote work can raise productivity, provided that employees have clear goals."
+            },
+            {
+              "en": "warrant",
+              "vi": "đáng để, biện minh cho",
+              "heavy": true,
+              "note": "warrant attention / intervention / concern",
+              "example": "The scale of the problem warrants government intervention."
+            },
+            {
+              "en": "a compelling case can be made that",
+              "vi": "có lý do vững để cho rằng",
+              "note": "Mở đoạn phản biện trong GRE.",
+              "example": "A compelling case can be made that AI should be regulated more strictly."
+            }
           ]
         },
         {
@@ -747,9 +1514,21 @@
           "title": "Khung phản biện ba bước",
           "core": true,
           "items": [
-            { "frame": "Bước 1, nhượng bộ: It is true that … / Admittedly, … / Some would argue that …", "example": "Some would argue that printed newspapers are no longer necessary.", "note": "Nêu ý phía kia ở dạng mạnh nhất, không bóp méo." },
-            { "frame": "Bước 2, nêu giả định ngầm: This view assumes that … / This argument rests on the idea that …", "example": "This argument rests on the idea that everyone can afford a smartphone and a data plan.", "note": "Bước then chốt: chỉ ra điều phía kia ngầm coi là đúng." },
-            { "frame": "Bước 3, bẻ giả định: In reality, however, … / This overlooks the fact that …", "example": "In reality, however, many older and low-income readers still rely on print for local news.", "note": "Phần này phải dài và mạnh hơn bước 1." }
+            {
+              "frame": "Bước 1, nhượng bộ: It is true that … / Admittedly, … / Some would argue that …",
+              "example": "Some would argue that printed newspapers are no longer necessary.",
+              "note": "Nêu ý phía kia ở dạng mạnh nhất, không bóp méo."
+            },
+            {
+              "frame": "Bước 2, nêu giả định ngầm: This view assumes that … / This argument rests on the idea that …",
+              "example": "This argument rests on the idea that everyone can afford a smartphone and a data plan.",
+              "note": "Bước then chốt: chỉ ra điều phía kia ngầm coi là đúng."
+            },
+            {
+              "frame": "Bước 3, bẻ giả định: In reality, however, … / This overlooks the fact that …",
+              "example": "In reality, however, many older and low-income readers still rely on print for local news.",
+              "note": "Phần này phải dài và mạnh hơn bước 1."
+            }
           ]
         },
         {
@@ -764,82 +1543,223 @@
       "title": "Từ vựng theo chủ đề",
       "summary": "8 chủ đề, 3–4 cụm mỗi chủ đề, chọn theo tiêu chí dùng chéo được.",
       "source": "supplement",
-      "uses": ["task2", "gre"],
+      "uses": [
+        "task2",
+        "gre"
+      ],
       "blocks": [
         {
           "kind": "phrases",
           "title": "Giáo dục",
           "items": [
-            { "en": "rote learning", "vi": "học vẹt", "example": "Exam-oriented systems often reward rote learning rather than critical thinking." },
-            { "en": "equip sb with", "vi": "trang bị cho ai", "example": "Schools should equip students with skills that remain valuable as technology changes." },
-            { "en": "equitable access to", "vi": "tiếp cận công bằng", "tags": ["đa chủ đề"], "example": "Equitable access to quality education is essential for social mobility." }
+            {
+              "en": "rote learning",
+              "vi": "học vẹt",
+              "example": "Exam-oriented systems often reward rote learning rather than critical thinking."
+            },
+            {
+              "en": "equip sb with",
+              "vi": "trang bị cho ai",
+              "example": "Schools should equip students with skills that remain valuable as technology changes."
+            },
+            {
+              "en": "equitable access to",
+              "vi": "tiếp cận công bằng",
+              "tags": [
+                "đa chủ đề"
+              ],
+              "example": "Equitable access to quality education is essential for social mobility."
+            }
           ]
         },
         {
           "kind": "phrases",
           "title": "Công nghệ",
           "items": [
-            { "en": "ubiquitous", "vi": "phổ biến khắp nơi", "heavy": true, "example": "Smartphones have become ubiquitous, even in rural areas." },
-            { "en": "render sth obsolete", "vi": "làm cho lỗi thời", "heavy": true, "example": "Automation may render some routine jobs obsolete." },
-            { "en": "unintended consequences", "vi": "hệ quả ngoài ý muốn", "tags": ["đa chủ đề"], "example": "Even well-intentioned regulations can have unintended consequences." }
+            {
+              "en": "ubiquitous",
+              "vi": "phổ biến khắp nơi",
+              "heavy": true,
+              "example": "Smartphones have become ubiquitous, even in rural areas."
+            },
+            {
+              "en": "render sth obsolete",
+              "vi": "làm cho lỗi thời",
+              "heavy": true,
+              "example": "Automation may render some routine jobs obsolete."
+            },
+            {
+              "en": "unintended consequences",
+              "vi": "hệ quả ngoài ý muốn",
+              "tags": [
+                "đa chủ đề"
+              ],
+              "example": "Even well-intentioned regulations can have unintended consequences."
+            }
           ]
         },
         {
           "kind": "phrases",
           "title": "Chính phủ và chính sách",
           "items": [
-            { "en": "allocate resources", "vi": "phân bổ nguồn lực", "example": "Governments must allocate limited resources between immediate needs and long-term investments." },
-            { "en": "curb", "vi": "kiềm chế", "example": "Taxes on sugary drinks are designed to curb unhealthy consumption." },
-            { "en": "hold sb accountable", "vi": "buộc ai chịu trách nhiệm", "example": "Independent media help hold public officials accountable." },
-            { "en": "remedy the situation", "vi": "khắc phục tình trạng", "tags": ["đa chủ đề"], "example": "Free evening courses for adults who left school early could help remedy the situation." }
+            {
+              "en": "allocate resources",
+              "vi": "phân bổ nguồn lực",
+              "example": "Governments must allocate limited resources between immediate needs and long-term investments."
+            },
+            {
+              "en": "curb",
+              "vi": "kiềm chế",
+              "example": "Taxes on sugary drinks are designed to curb unhealthy consumption."
+            },
+            {
+              "en": "hold sb accountable",
+              "vi": "buộc ai chịu trách nhiệm",
+              "example": "Independent media help hold public officials accountable."
+            },
+            {
+              "en": "remedy the situation",
+              "vi": "khắc phục tình trạng",
+              "tags": [
+                "đa chủ đề"
+              ],
+              "example": "Free evening courses for adults who left school early could help remedy the situation."
+            }
           ]
         },
         {
           "kind": "phrases",
           "title": "Môi trường",
           "items": [
-            { "en": "irreversible damage", "vi": "thiệt hại không thể đảo ngược", "example": "Delaying climate action risks causing irreversible damage to ecosystems." },
-            { "en": "shift the burden onto", "vi": "đẩy gánh nặng sang", "tags": ["đa chủ đề"], "example": "Weak environmental rules shift the burden of pollution onto future generations." },
-            { "en": "deplete", "vi": "làm cạn kiệt", "example": "Overfishing has depleted fish stocks in many coastal areas." },
-            { "en": "energy-hungry lifestyles", "vi": "lối sống tiêu tốn nhiều năng lượng", "example": "Energy-hungry lifestyles in wealthy cities place heavy demands on power grids." }
+            {
+              "en": "irreversible damage",
+              "vi": "thiệt hại không thể đảo ngược",
+              "example": "Delaying climate action risks causing irreversible damage to ecosystems."
+            },
+            {
+              "en": "shift the burden onto",
+              "vi": "đẩy gánh nặng sang",
+              "tags": [
+                "đa chủ đề"
+              ],
+              "example": "Weak environmental rules shift the burden of pollution onto future generations."
+            },
+            {
+              "en": "deplete",
+              "vi": "làm cạn kiệt",
+              "example": "Overfishing has depleted fish stocks in many coastal areas."
+            },
+            {
+              "en": "energy-hungry lifestyles",
+              "vi": "lối sống tiêu tốn nhiều năng lượng",
+              "example": "Energy-hungry lifestyles in wealthy cities place heavy demands on power grids."
+            }
           ]
         },
         {
           "kind": "phrases",
           "title": "Kinh tế và việc làm",
           "items": [
-            { "en": "disproportionately affect", "vi": "ảnh hưởng không cân xứng", "tags": ["đa chủ đề"], "example": "Economic downturns disproportionately affect low-skilled workers." },
-            { "en": "widen the gap between", "vi": "nới rộng khoảng cách", "tags": ["đa chủ đề"], "example": "Automation could widen the gap between high- and low-income workers." },
-            { "en": "job security", "vi": "sự ổn định việc làm", "example": "The gig economy offers flexibility but little job security." },
-            { "en": "stifle innovation / growth", "vi": "kìm hãm đổi mới, tăng trưởng", "tags": ["đa chủ đề"], "example": "Excessive regulation can stifle innovation among small firms." }
+            {
+              "en": "disproportionately affect",
+              "vi": "ảnh hưởng không cân xứng",
+              "tags": [
+                "đa chủ đề"
+              ],
+              "example": "Economic downturns disproportionately affect low-skilled workers."
+            },
+            {
+              "en": "widen the gap between",
+              "vi": "nới rộng khoảng cách",
+              "tags": [
+                "đa chủ đề"
+              ],
+              "example": "Automation could widen the gap between high- and low-income workers."
+            },
+            {
+              "en": "job security",
+              "vi": "sự ổn định việc làm",
+              "example": "The gig economy offers flexibility but little job security."
+            },
+            {
+              "en": "stifle innovation / growth",
+              "vi": "kìm hãm đổi mới, tăng trưởng",
+              "tags": [
+                "đa chủ đề"
+              ],
+              "example": "Excessive regulation can stifle innovation among small firms."
+            }
           ]
         },
         {
           "kind": "phrases",
           "title": "Văn hóa và truyền thông",
           "items": [
-            { "en": "erode", "vi": "bào mòn", "example": "Globalisation may gradually erode local cultural traditions." },
-            { "en": "shape public opinion", "vi": "định hình dư luận", "example": "The media play a powerful role in shaping public opinion." },
-            { "en": "misinformation", "vi": "thông tin sai lệch", "example": "The rapid spread of misinformation online threatens informed public debate." }
+            {
+              "en": "erode",
+              "vi": "bào mòn",
+              "example": "Globalisation may gradually erode local cultural traditions."
+            },
+            {
+              "en": "shape public opinion",
+              "vi": "định hình dư luận",
+              "example": "The media play a powerful role in shaping public opinion."
+            },
+            {
+              "en": "misinformation",
+              "vi": "thông tin sai lệch",
+              "example": "The rapid spread of misinformation online threatens informed public debate."
+            }
           ]
         },
         {
           "kind": "phrases",
           "title": "Khoa học và y tế",
           "items": [
-            { "en": "empirical evidence", "vi": "bằng chứng thực nghiệm", "tags": ["đa chủ đề"], "example": "Policy decisions should be grounded in empirical evidence." },
-            { "en": "breakthrough", "vi": "bước đột phá", "example": "Scientific breakthroughs often result from long-term, curiosity-driven research." },
-            { "en": "preventive measures", "vi": "biện pháp phòng ngừa", "example": "Investing in preventive measures is often cheaper than treating diseases later." }
+            {
+              "en": "empirical evidence",
+              "vi": "bằng chứng thực nghiệm",
+              "tags": [
+                "đa chủ đề"
+              ],
+              "example": "Policy decisions should be grounded in empirical evidence."
+            },
+            {
+              "en": "breakthrough",
+              "vi": "bước đột phá",
+              "example": "Scientific breakthroughs often result from long-term, curiosity-driven research."
+            },
+            {
+              "en": "preventive measures",
+              "vi": "biện pháp phòng ngừa",
+              "example": "Investing in preventive measures is often cheaper than treating diseases later."
+            }
           ]
         },
         {
           "kind": "phrases",
           "title": "Đô thị và xã hội",
           "items": [
-            { "en": "place a strain on", "vi": "gây áp lực lên", "example": "Rapid population growth places a heavy strain on urban infrastructure." },
-            { "en": "social cohesion", "vi": "sự gắn kết xã hội", "example": "Shared public spaces can strengthen social cohesion in large cities." },
-            { "en": "affordable housing", "vi": "nhà ở giá phải chăng", "example": "A shortage of affordable housing pushes young families to the outskirts." },
-            { "en": "ease congestion", "vi": "giảm ùn tắc", "example": "Dedicated bus lanes can ease congestion without building new roads." }
+            {
+              "en": "place a strain on",
+              "vi": "gây áp lực lên",
+              "example": "Rapid population growth places a heavy strain on urban infrastructure."
+            },
+            {
+              "en": "social cohesion",
+              "vi": "sự gắn kết xã hội",
+              "example": "Shared public spaces can strengthen social cohesion in large cities."
+            },
+            {
+              "en": "affordable housing",
+              "vi": "nhà ở giá phải chăng",
+              "example": "A shortage of affordable housing pushes young families to the outskirts."
+            },
+            {
+              "en": "ease congestion",
+              "vi": "giảm ùn tắc",
+              "example": "Dedicated bus lanes can ease congestion without building new roads."
+            }
           ]
         }
       ]
@@ -856,57 +1776,165 @@
           "title": "Nêu lập trường",
           "core": true,
           "items": [
-            { "en": "I firmly believe that", "vi": "tôi tin chắc rằng", "example": "I firmly believe that public libraries remain worth funding." },
-            { "en": "I would argue that", "vi": "tôi cho rằng", "example": "I would argue that this policy treats the symptoms rather than the cause." },
-            { "en": "I largely agree that", "vi": "tôi phần lớn đồng ý", "note": "Hợp với đề *To what extent*.", "example": "I largely agree that schools should teach financial skills." },
-            { "en": "I only partly agree, since", "vi": "tôi chỉ đồng ý một phần", "example": "I only partly agree, since the policy would help cities but not rural areas." },
-            { "en": "This essay will argue that", "vi": "bài viết này sẽ lập luận rằng", "example": "This essay will argue that both measures are needed." }
+            {
+              "en": "I firmly believe that",
+              "vi": "tôi tin chắc rằng",
+              "example": "I firmly believe that public libraries remain worth funding."
+            },
+            {
+              "en": "I would argue that",
+              "vi": "tôi cho rằng",
+              "example": "I would argue that this policy treats the symptoms rather than the cause."
+            },
+            {
+              "en": "I largely agree that",
+              "vi": "tôi phần lớn đồng ý",
+              "note": "Hợp với đề *To what extent*.",
+              "example": "I largely agree that schools should teach financial skills."
+            },
+            {
+              "en": "I only partly agree, since",
+              "vi": "tôi chỉ đồng ý một phần",
+              "example": "I only partly agree, since the policy would help cities but not rural areas."
+            },
+            {
+              "en": "This essay will argue that",
+              "vi": "bài viết này sẽ lập luận rằng",
+              "example": "This essay will argue that both measures are needed."
+            }
           ]
         },
         {
           "kind": "phrases",
           "title": "Nhượng bộ và phản bác",
           "items": [
-            { "en": "It is true that … However, …", "vi": "đúng là … tuy nhiên …", "example": "It is true that online courses are cheaper. However, completion rates tend to be low." },
-            { "en": "Admittedly", "vi": "phải thừa nhận rằng", "example": "Admittedly, the policy would be expensive to introduce." },
-            { "en": "This overlooks the fact that", "vi": "điều này bỏ qua thực tế rằng", "example": "This overlooks the fact that many rural areas lack reliable internet." },
-            { "en": "be far inferior to", "vi": "kém xa", "heavy": true, "example": "Learning a language from an app is far inferior to speaking with native speakers." },
-            { "en": "pale in comparison with", "vi": "lu mờ khi đặt cạnh", "heavy": true, "example": "These savings pale in comparison with the cost of treating the resulting illnesses." }
+            {
+              "en": "It is true that … However, …",
+              "vi": "đúng là … tuy nhiên …",
+              "example": "It is true that online courses are cheaper. However, completion rates tend to be low."
+            },
+            {
+              "en": "Admittedly",
+              "vi": "phải thừa nhận rằng",
+              "example": "Admittedly, the policy would be expensive to introduce."
+            },
+            {
+              "en": "This overlooks the fact that",
+              "vi": "điều này bỏ qua thực tế rằng",
+              "example": "This overlooks the fact that many rural areas lack reliable internet."
+            },
+            {
+              "en": "be far inferior to",
+              "vi": "kém xa",
+              "heavy": true,
+              "example": "Learning a language from an app is far inferior to speaking with native speakers."
+            },
+            {
+              "en": "pale in comparison with",
+              "vi": "lu mờ khi đặt cạnh",
+              "heavy": true,
+              "example": "These savings pale in comparison with the cost of treating the resulting illnesses."
+            }
           ]
         },
         {
           "kind": "phrases",
           "title": "Nguyên nhân và hệ quả",
           "items": [
-            { "en": "stem from", "vi": "bắt nguồn từ", "example": "Much of the stress among students stems from high-stakes examinations." },
-            { "en": "be attributed to", "vi": "được quy cho", "example": "The rise in obesity can be partly attributed to cheaper processed food." },
-            { "en": "…, leading to / resulting in", "vi": "dẫn đến", "note": "Có dấu phẩy trước *leading*; chủ thể của *leading* là cả mệnh đề trước.", "example": "Fines for speeding have increased, leading to fewer accidents on major roads." },
-            { "en": "enable sb to", "vi": "giúp ai có thể", "example": "Flexible hours enable parents to share childcare more evenly." },
-            { "en": "prolong", "vi": "kéo dài", "example": "Delays in research funding may prolong the search for effective treatments." }
+            {
+              "en": "stem from",
+              "vi": "bắt nguồn từ",
+              "example": "Much of the stress among students stems from high-stakes examinations."
+            },
+            {
+              "en": "be attributed to",
+              "vi": "được quy cho",
+              "example": "The rise in obesity can be partly attributed to cheaper processed food."
+            },
+            {
+              "en": "…, leading to / resulting in",
+              "vi": "dẫn đến",
+              "note": "Có dấu phẩy trước *leading*; chủ thể của *leading* là cả mệnh đề trước.",
+              "example": "Fines for speeding have increased, leading to fewer accidents on major roads."
+            },
+            {
+              "en": "enable sb to",
+              "vi": "giúp ai có thể",
+              "example": "Flexible hours enable parents to share childcare more evenly."
+            },
+            {
+              "en": "prolong",
+              "vi": "kéo dài",
+              "example": "Delays in research funding may prolong the search for effective treatments."
+            }
           ]
         },
         {
           "kind": "phrases",
           "title": "Đưa ví dụ",
           "items": [
-            { "en": "Take for example + N + in which", "vi": "lấy ví dụ", "example": "Take for example a village in which the only school closes." },
-            { "en": "in the form of", "vi": "dưới dạng", "example": "Support could come in the form of tax relief or cheaper loans." },
-            { "en": "This is evident in the way", "vi": "điều này thể hiện rõ ở cách", "example": "This is evident in the way young voters now follow politics through social media." },
-            { "en": "Consider + N", "vi": "hãy xem trường hợp", "example": "Consider a family that spends a third of its income on rent." }
+            {
+              "en": "Take for example + N + in which",
+              "vi": "lấy ví dụ",
+              "example": "Take for example a village in which the only school closes."
+            },
+            {
+              "en": "in the form of",
+              "vi": "dưới dạng",
+              "example": "Support could come in the form of tax relief or cheaper loans."
+            },
+            {
+              "en": "This is evident in the way",
+              "vi": "điều này thể hiện rõ ở cách",
+              "example": "This is evident in the way young voters now follow politics through social media."
+            },
+            {
+              "en": "Consider + N",
+              "vi": "hãy xem trường hợp",
+              "example": "Consider a family that spends a third of its income on rent."
+            }
           ]
         },
         {
           "kind": "frames",
           "title": "Cấu trúc ngữ pháp ăn điểm (mỗi bài một, hai lần)",
           "items": [
-            { "frame": "Only by + V-ing + trợ động từ + S + V", "example": "Only by investing in public transport can cities reduce car dependence." },
-            { "frame": "Rarely / Hardly ever + trợ động từ + S + V", "example": "Rarely do young people read printed newspapers today." },
-            { "frame": "Not only … but also …", "example": "A ban would not only fail to protect local culture but also cost many jobs." },
-            { "frame": "It is essential that + S + V nguyên mẫu (giả định cách)", "example": "It is essential that every child have access to clean water.", "note": "Động từ nguyên mẫu, không chia: *have*, không phải *has*." },
-            { "frame": "By + V-ing, S + V", "example": "By building metro lines, several Asian cities have reduced traffic in their centres." },
-            { "frame": "Mệnh đề, which + V (nối cả mệnh đề trước)", "example": "Many graduates move abroad, which deprives their home country of skilled workers.", "note": "Không xếp chồng nhiều mệnh đề *which* trong một câu." },
-            { "frame": "Were + S + to + V, S + would + V (điều kiện loại 2 đảo ngữ)", "example": "Were the government to raise fuel taxes, many drivers would switch to public transport.", "note": "Nghĩa là *nếu S làm V*. Không dùng để diễn đạt *để X thì cần Y*: câu đó dùng *For X to …, Y would be required*." },
-            { "frame": "Danh từ hóa: the provision of / the decline in / the depletion of", "example": "The decline in rural populations has left many schools half empty.", "note": "Dùng vừa phải; quá nhiều danh từ hóa làm câu nặng." }
+            {
+              "frame": "Only by + V-ing + trợ động từ + S + V",
+              "example": "Only by investing in public transport can cities reduce car dependence."
+            },
+            {
+              "frame": "Rarely / Hardly ever + trợ động từ + S + V",
+              "example": "Rarely do young people read printed newspapers today."
+            },
+            {
+              "frame": "Not only … but also …",
+              "example": "A ban would not only fail to protect local culture but also cost many jobs."
+            },
+            {
+              "frame": "It is essential that + S + V nguyên mẫu (giả định cách)",
+              "example": "It is essential that every child have access to clean water.",
+              "note": "Động từ nguyên mẫu, không chia: *have*, không phải *has*."
+            },
+            {
+              "frame": "By + V-ing, S + V",
+              "example": "By building metro lines, several Asian cities have reduced traffic in their centres."
+            },
+            {
+              "frame": "Mệnh đề, which + V (nối cả mệnh đề trước)",
+              "example": "Many graduates move abroad, which deprives their home country of skilled workers.",
+              "note": "Không xếp chồng nhiều mệnh đề *which* trong một câu."
+            },
+            {
+              "frame": "Were + S + to + V, S + would + V (điều kiện loại 2 đảo ngữ)",
+              "example": "Were the government to raise fuel taxes, many drivers would switch to public transport.",
+              "note": "Nghĩa là *nếu S làm V*. Không dùng để diễn đạt *để X thì cần Y*: câu đó dùng *For X to …, Y would be required*."
+            },
+            {
+              "frame": "Danh từ hóa: the provision of / the decline in / the depletion of",
+              "example": "The decline in rural populations has left many schools half empty.",
+              "note": "Dùng vừa phải; quá nhiều danh từ hóa làm câu nặng."
+            }
           ]
         },
         {
@@ -945,50 +1973,178 @@
           "title": "Văn phong",
           "core": true,
           "items": [
-            { "wrong": "can't, don't, it's", "right": "cannot, do not, it is", "why": "Dạng rút gọn là văn nói." },
-            { "wrong": "And this is good. But people disagree.", "right": "This is beneficial, although many people disagree.", "why": "Mở câu bằng *And / But / So* là văn nói. Ưu tiên gộp câu, xem *Liên kết tự nhiên*." },
-            { "wrong": "kids, stuff, reckon, a lot of", "right": "children, items, believe, many / much", "why": "Khẩu ngữ." },
-            { "wrong": "schools, hospitals, parks, etc.", "right": "schools, hospitals and parks", "why": "*etc.*, *and so on*, dấu ba chấm cho thấy liệt kê chưa xong." },
-            { "wrong": "Idiom thông dụng (a piece of cake, every cloud has a silver lining)", "right": "Diễn đạt trực tiếp", "why": "Dễ sai văn phong học thuật, nghe gượng." },
-            { "wrong": "Một khuôn câu học thuộc dùng y hệt qua mọi bài", "right": "Giữ bước lập luận, đổi cách diễn đạt", "why": "Giám khảo trừ điểm ngôn ngữ học thuộc." }
+            {
+              "wrong": "can't, don't, it's",
+              "right": "cannot, do not, it is",
+              "why": "Dạng rút gọn là văn nói."
+            },
+            {
+              "wrong": "And this is good. But people disagree.",
+              "right": "This is beneficial, although many people disagree.",
+              "why": "Mở câu bằng *And / But / So* là văn nói. Ưu tiên gộp câu, xem *Liên kết tự nhiên*."
+            },
+            {
+              "wrong": "kids, stuff, reckon, a lot of",
+              "right": "children, items, believe, many / much",
+              "why": "Khẩu ngữ."
+            },
+            {
+              "wrong": "schools, hospitals, parks, etc.",
+              "right": "schools, hospitals and parks",
+              "why": "*etc.*, *and so on*, dấu ba chấm cho thấy liệt kê chưa xong."
+            },
+            {
+              "wrong": "Idiom thông dụng (a piece of cake, every cloud has a silver lining)",
+              "right": "Diễn đạt trực tiếp",
+              "why": "Dễ sai văn phong học thuật, nghe gượng."
+            },
+            {
+              "wrong": "Một khuôn câu học thuộc dùng y hệt qua mọi bài",
+              "right": "Giữ bước lập luận, đổi cách diễn đạt",
+              "why": "Giám khảo trừ điểm ngôn ngữ học thuộc."
+            }
           ]
         },
         {
           "kind": "pitfalls",
           "title": "Ngữ pháp",
           "items": [
-            { "wrong": "There are difficult to find a job without experience.", "right": "It is difficult to find a job without experience.", "why": "Chủ ngữ giả trước tính từ là *it*, không phải *there*." },
-            { "wrong": "despite they enjoy it or not", "right": "regardless of whether they enjoy it", "why": "*Despite* đi với danh từ; ý 'dù có hay không' dùng *regardless of whether*." },
-            { "wrong": "…, thereby failure to develop", "right": "…, thereby failing to develop", "why": "Sau *thereby* là V-ing." },
-            { "wrong": "Firstly, the causes of the problem of unemployment.", "right": "Firstly, unemployment creates several problems.", "why": "Câu thiếu động từ chính." },
-            { "wrong": "both producers, retailers and consumers", "right": "producers, retailers and consumers alike", "why": "*Both* chỉ đi với hai đối tượng." },
-            { "wrong": "Reading enables children to build vocabulary and promote creativity.", "right": "Reading builds children's vocabulary and promotes their creativity.", "why": "Sai song song: chủ thể của *promote* là *reading*, không phải *children*." },
-            { "wrong": "Were education to be effective, huge sums would be required.", "right": "For education to be effective, huge sums would be required.", "why": "Đảo ngữ *Were…* nghĩa là *nếu*; câu muốn nói *để… thì cần*." },
-            { "wrong": "when they have financial", "right": "when they have the financial means", "why": "*Financial* là tính từ, cần danh từ đi kèm." },
-            { "wrong": "Fines have increased leading to fewer accidents.", "right": "Fines have increased, leading to fewer accidents.", "why": "Cần dấu phẩy trước mệnh đề V-ing chỉ kết quả." }
+            {
+              "wrong": "There are difficult to find a job without experience.",
+              "right": "It is difficult to find a job without experience.",
+              "why": "Chủ ngữ giả trước tính từ là *it*, không phải *there*."
+            },
+            {
+              "wrong": "despite they enjoy it or not",
+              "right": "regardless of whether they enjoy it",
+              "why": "*Despite* đi với danh từ; ý 'dù có hay không' dùng *regardless of whether*."
+            },
+            {
+              "wrong": "…, thereby failure to develop",
+              "right": "…, thereby failing to develop",
+              "why": "Sau *thereby* là V-ing."
+            },
+            {
+              "wrong": "Firstly, the causes of the problem of unemployment.",
+              "right": "Firstly, unemployment creates several problems.",
+              "why": "Câu thiếu động từ chính."
+            },
+            {
+              "wrong": "both producers, retailers and consumers",
+              "right": "producers, retailers and consumers alike",
+              "why": "*Both* chỉ đi với hai đối tượng."
+            },
+            {
+              "wrong": "Reading enables children to build vocabulary and promote creativity.",
+              "right": "Reading builds children's vocabulary and promotes their creativity.",
+              "why": "Sai song song: chủ thể của *promote* là *reading*, không phải *children*."
+            },
+            {
+              "wrong": "Were education to be effective, huge sums would be required.",
+              "right": "For education to be effective, huge sums would be required.",
+              "why": "Đảo ngữ *Were…* nghĩa là *nếu*; câu muốn nói *để… thì cần*."
+            },
+            {
+              "wrong": "when they have financial",
+              "right": "when they have the financial means",
+              "why": "*Financial* là tính từ, cần danh từ đi kèm."
+            },
+            {
+              "wrong": "Fines have increased leading to fewer accidents.",
+              "right": "Fines have increased, leading to fewer accidents.",
+              "why": "Cần dấu phẩy trước mệnh đề V-ing chỉ kết quả."
+            }
           ]
         },
         {
           "kind": "pitfalls",
           "title": "Từ vựng và collocation",
           "items": [
-            { "wrong": "Chief of these is", "right": "Chief among these is", "why": "Giới từ đúng là *among*." },
-            { "wrong": "pray on people's insecurities", "right": "prey on", "why": "*Pray* là cầu nguyện; *prey on* là lợi dụng." },
-            { "wrong": "elixers", "right": "elixirs", "why": "Chính tả." },
-            { "wrong": "not as diversed as", "right": "not as diverse as", "why": "*Diverse* là tính từ, không thêm *-ed*." },
-            { "wrong": "emphasize with others", "right": "empathize with others", "why": "*Empathize* là đồng cảm; *emphasize* là nhấn mạnh." },
-            { "wrong": "curve traffic volume", "right": "curb traffic volume", "why": "*Curb* là kiềm chế." },
-            { "wrong": "stifying effects", "right": "stifling effects", "why": "Chính tả." },
-            { "wrong": "my-numbing", "right": "mind-numbing", "why": "Chính tả." },
-            { "wrong": "luxuries preserved for the wealthy", "right": "luxuries reserved for the wealthy", "why": "*Reserved for* là dành riêng cho." },
-            { "wrong": "no longer a reserve for the rich", "right": "no longer the preserve of the rich", "why": "Thành ngữ là *the preserve of*. Cặp này dễ nhầm theo cả hai chiều." },
-            { "wrong": "impart experiences in tourists", "right": "impart experiences to tourists", "why": "*Impart sth to sb*." },
-            { "wrong": "cause challenges to the government", "right": "pose challenges for the government", "why": "Collocation là *pose a challenge*." },
-            { "wrong": "Research should be sponsored by private firms.", "right": "Research should be funded by private firms.", "why": "*Fund* là cấp kinh phí cho nghiên cứu; *sponsor* thiên về tài trợ sự kiện, quảng bá." },
-            { "wrong": "the more toys, the more educational their children", "right": "the better educated their children", "why": "*Educational* mô tả vật, không mô tả người." },
-            { "wrong": "with an access to the internet", "right": "with access to the internet", "why": "*Access* không đếm được trong nghĩa này." },
-            { "wrong": "practise their working skills", "right": "develop job-related skills / practise skills at work", "why": "Collocation tự nhiên hơn." },
-            { "wrong": "foreign morays", "right": "foreign mores", "why": "*Mores* là phong tục, chuẩn mực." }
+            {
+              "wrong": "Chief of these is",
+              "right": "Chief among these is",
+              "why": "Giới từ đúng là *among*."
+            },
+            {
+              "wrong": "pray on people's insecurities",
+              "right": "prey on",
+              "why": "*Pray* là cầu nguyện; *prey on* là lợi dụng."
+            },
+            {
+              "wrong": "elixers",
+              "right": "elixirs",
+              "why": "Chính tả."
+            },
+            {
+              "wrong": "not as diversed as",
+              "right": "not as diverse as",
+              "why": "*Diverse* là tính từ, không thêm *-ed*."
+            },
+            {
+              "wrong": "emphasize with others",
+              "right": "empathize with others",
+              "why": "*Empathize* là đồng cảm; *emphasize* là nhấn mạnh."
+            },
+            {
+              "wrong": "curve traffic volume",
+              "right": "curb traffic volume",
+              "why": "*Curb* là kiềm chế."
+            },
+            {
+              "wrong": "stifying effects",
+              "right": "stifling effects",
+              "why": "Chính tả."
+            },
+            {
+              "wrong": "my-numbing",
+              "right": "mind-numbing",
+              "why": "Chính tả."
+            },
+            {
+              "wrong": "luxuries preserved for the wealthy",
+              "right": "luxuries reserved for the wealthy",
+              "why": "*Reserved for* là dành riêng cho."
+            },
+            {
+              "wrong": "no longer a reserve for the rich",
+              "right": "no longer the preserve of the rich",
+              "why": "Thành ngữ là *the preserve of*. Cặp này dễ nhầm theo cả hai chiều."
+            },
+            {
+              "wrong": "impart experiences in tourists",
+              "right": "impart experiences to tourists",
+              "why": "*Impart sth to sb*."
+            },
+            {
+              "wrong": "cause challenges to the government",
+              "right": "pose challenges for the government",
+              "why": "Collocation là *pose a challenge*."
+            },
+            {
+              "wrong": "Research should be sponsored by private firms.",
+              "right": "Research should be funded by private firms.",
+              "why": "*Fund* là cấp kinh phí cho nghiên cứu; *sponsor* thiên về tài trợ sự kiện, quảng bá."
+            },
+            {
+              "wrong": "the more toys, the more educational their children",
+              "right": "the better educated their children",
+              "why": "*Educational* mô tả vật, không mô tả người."
+            },
+            {
+              "wrong": "with an access to the internet",
+              "right": "with access to the internet",
+              "why": "*Access* không đếm được trong nghĩa này."
+            },
+            {
+              "wrong": "practise their working skills",
+              "right": "develop job-related skills / practise skills at work",
+              "why": "Collocation tự nhiên hơn."
+            },
+            {
+              "wrong": "foreign morays",
+              "right": "foreign mores",
+              "why": "*Mores* là phong tục, chuẩn mực."
+            }
           ]
         },
         {
@@ -996,10 +2152,26 @@
           "title": "Lập luận",
           "core": true,
           "items": [
-            { "wrong": "All teenagers are addicted to social media.", "right": "Many teenagers spend several hours a day on social media.", "why": "Quy chụp tuyệt đối: dấu hiệu band 7 trở xuống." },
-            { "wrong": "Emissions from private cars are negligible.", "right": "Private cars account for a relatively small share of emissions compared with industry.", "why": "Nói quá. Không cần số liệu, chỉ cần mức độ hợp lý." },
-            { "wrong": "A 2023 survey found that 73% of workers prefer remote work.", "right": "Many workers now say they prefer at least some remote work.", "why": "Số liệu bịa cụ thể làm bài kém tin cậy." },
-            { "wrong": "Toys are advertised as educational, so buying more toys makes children smarter.", "right": "Some toys can support learning, but the amount matters less than how children use them.", "why": "Lập luận dựa trên tiền đề yếu: rào cản từ 7.5 lên 8." }
+            {
+              "wrong": "All teenagers are addicted to social media.",
+              "right": "Many teenagers spend several hours a day on social media.",
+              "why": "Quy chụp tuyệt đối: dấu hiệu band 7 trở xuống."
+            },
+            {
+              "wrong": "Emissions from private cars are negligible.",
+              "right": "Private cars account for a relatively small share of emissions compared with industry.",
+              "why": "Nói quá. Không cần số liệu, chỉ cần mức độ hợp lý."
+            },
+            {
+              "wrong": "A 2023 survey found that 73% of workers prefer remote work.",
+              "right": "Many workers now say they prefer at least some remote work.",
+              "why": "Số liệu bịa cụ thể làm bài kém tin cậy."
+            },
+            {
+              "wrong": "Toys are advertised as educational, so buying more toys makes children smarter.",
+              "right": "Some toys can support learning, but the amount matters less than how children use them.",
+              "why": "Lập luận dựa trên tiền đề yếu: rào cản từ 7.5 lên 8."
+            }
           ]
         }
       ]

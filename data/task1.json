@@ -113,6 +113,73 @@
       ]
     },
     {
+      "id": "tieu-chi",
+      "group": "nen-tang",
+      "title": "Tiêu chí chấm điểm",
+      "summary": "4 tiêu chí của band descriptor, khác biệt giữa band 6, 7 và 8, và các mức trần dễ dính.",
+      "source": "supplement",
+      "blocks": [
+        {
+          "kind": "text",
+          "md": "Điểm bài = trung bình 4 tiêu chí, mỗi tiêu chí 25%. Điểm Writing tổng: Task 2 nặng gấp đôi Task 1. Bảng dưới diễn đạt lại ý chính của band descriptor công khai (bản cập nhật 2023), không phải nguyên văn."
+        },
+        {
+          "kind": "table",
+          "title": "Band 6, 7, 8 khác nhau ở đâu",
+          "core": true,
+          "columns": [
+            "Tiêu chí",
+            "Band 6",
+            "Band 7",
+            "Band 8",
+            "Ghi chú"
+          ],
+          "rows": [
+            [
+              "**Task Achievement**",
+              "Có overview nhưng chọn ý chưa chuẩn; main features có nêu nhưng thiếu, hoặc lẫn chi tiết thừa, sai số liệu.",
+              "Overview rõ về xu hướng, khác biệt hoặc giai đoạn chính; main features nổi bật, có số liệu minh họa, đôi chỗ chưa khai thác hết.",
+              "Đủ mọi yêu cầu; main features được chọn, làm nổi bật và minh họa rõ, chỉ thiếu sót nhỏ.",
+              "Không có overview (liệt kê máy móc) thì TA thường không quá 5. Dưới 150 từ bị trừ ở tiêu chí này."
+            ],
+            [
+              "**Coherence & Cohesion**",
+              "Bố cục mạch lạc, có tiến trình chung; từ nối dùng được nhưng máy móc hoặc sai; quy chiếu (*it, this, the former*) đôi chỗ không rõ.",
+              "Sắp xếp logic, tiến trình rõ xuyên suốt; dùng nhiều phương tiện liên kết hợp lý, đôi khi thừa hoặc thiếu.",
+              "Sắp xếp logic, kiểm soát tốt mọi mặt liên kết; chia đoạn hợp lý.",
+              "Từ nối đặt đầu mọi câu là dấu hiệu band 6. Xem trang **Liên kết tự nhiên** (Task 2)."
+            ],
+            [
+              "**Lexical Resource**",
+              "Vốn từ đủ dùng; thử từ ít phổ biến nhưng còn sai; lỗi chính tả, cấu tạo từ chưa cản trở hiểu.",
+              "Đủ rộng để diễn đạt linh hoạt, chính xác; dùng từ ít phổ biến có ý thức về văn phong và collocation; lỗi chọn từ, chính tả thỉnh thoảng.",
+              "Vốn từ rộng, dùng trôi chảy, linh hoạt; lỗi collocation hiếm.",
+              "Paraphrase đề (không chép nguyên cụm), đa dạng cách nói tăng giảm và so sánh."
+            ],
+            [
+              "**Grammatical Range & Accuracy**",
+              "Kết hợp câu đơn và câu phức; có lỗi nhưng hiếm khi gây khó hiểu.",
+              "Nhiều cấu trúc phức; phần lớn câu không lỗi; kiểm soát tốt, còn vài lỗi.",
+              "Cấu trúc rộng; đa số câu không lỗi; lỗi rất hiếm.",
+              "Mệnh đề quan hệ rút gọn, *with* + N + V-ing, so sánh, bị động (process). Ưu tiên đúng hơn khó."
+            ]
+          ]
+        },
+        {
+          "kind": "list",
+          "title": "Các mức trần dễ dính",
+          "core": true,
+          "items": [
+            "Không có overview: TA thường bị chặn ở 5.",
+            "Số liệu sai hoặc mô tả sai biểu đồ: trừ TA.",
+            "Nêu ý kiến cá nhân, lý giải nguyên nhân không có trong biểu đồ: trừ TA.",
+            "Dưới 150 từ: trừ TA. Từ chép nguyên từ đề không được tính.",
+            "Không có số liệu minh họa cho main features: khó lên 6."
+          ]
+        }
+      ]
+    },
+    {
       "id": "main-features",
       "group": "nen-tang",
       "title": "6 main features",
@@ -760,6 +827,78 @@
               "example": "Some 19% of household income in Germany went on entertainment, in comparison with 15% in Spain and 13% in France."
             }
           ]
+        },
+        {
+          "kind": "essay",
+          "title": "Bài mẫu",
+          "prompt": "The table shows how much money five organisations spent on four areas in 2010.",
+          "figure": {
+            "type": "table",
+            "title": "Spending by five organisations, 2010 ($ million)",
+            "columns": [
+              "Organisation",
+              "Staff",
+              "Buildings",
+              "Marketing",
+              "Research"
+            ],
+            "rows": [
+              [
+                "Charity",
+                "12",
+                "3",
+                "4",
+                "1"
+              ],
+              [
+                "Hospital",
+                "40",
+                "15",
+                "2",
+                "8"
+              ],
+              [
+                "University",
+                "35",
+                "20",
+                "5",
+                "25"
+              ],
+              [
+                "Museum",
+                "10",
+                "8",
+                "3",
+                "2"
+              ],
+              [
+                "Sports club",
+                "7",
+                "5",
+                "6",
+                "0.5"
+              ]
+            ]
+          },
+          "paragraphs": [
+            {
+              "label": "Introduction",
+              "en": "The table compares how much five organisations spent on staff, buildings, marketing and research in 2010."
+            },
+            {
+              "label": "Overview",
+              "en": "Overall, staff costs made up the largest share of spending at every organisation, while marketing and research generally received the least. The university spent the most in total and was the only organisation to invest heavily in research."
+            },
+            {
+              "label": "Body 1",
+              "en": "Staff was the largest item of expenditure across the board. The hospital and the university spent the most on staff, at $40 million and $35 million respectively, whereas the figures for the charity and the museum were far lower, at $12 million and $10 million. The sports club spent just $7 million. Spending on buildings followed a similar pattern, ranging from $20 million at the university to only $3 million at the charity."
+            },
+            {
+              "label": "Body 2",
+              "en": "Marketing budgets were modest and relatively even, between $2 million and $6 million, with the sports club spending the most. Research spending, by contrast, varied enormously. The university allocated $25 million to research, roughly three times the hospital's $8 million, while the other three organisations spent $2 million or less."
+            }
+          ],
+          "note": "Thân bài chia theo **hạng mục** (staff và buildings, rồi marketing và research), không theo tổ chức. Mỗi hạng mục chỉ nêu cao nhất, thấp nhất, phần giữa gom bằng *ranging from... to...* hoặc *$2 million or less*."
         }
       ]
     },

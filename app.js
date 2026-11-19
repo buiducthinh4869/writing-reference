@@ -276,6 +276,8 @@
     return figTitle(f) + o + '</svg>' + (series.length > 1 ? legend(series) : '');
   };
 
+  FIG.table = function (f) { return figTitle(f) + R.table(f); };
+
   FIG.multi = function (f) {
     return '<div class="fig-multi">' + arr(f.charts, 'figure.charts').map(function (c) {
       return '<div class="fig-cell">' + figureHtml(c) + '</div>';
