@@ -79,7 +79,7 @@ Thêm một mục mới (file JSON thứ tư): tạo `data/<id>.json` và thêm 
 Trình duyệt chặn `fetch` khi mở file trực tiếp, nên cần một máy chủ tĩnh:
 
 ```
-cd writing-web
+cd writing-reference
 python -m http.server 8000
 ```
 

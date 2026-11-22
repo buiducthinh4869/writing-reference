@@ -203,7 +203,7 @@
           "kind": "list",
           "title": "Hệ quả về điểm",
           "items": [
-            "Thiếu overview hoặc overview không rõ: Task Achievement bị giới hạn khoảng band 5–6, dù thân bài tốt.",
+            "Thiếu overview hoặc overview không rõ: Task Achievement bị giới hạn khoảng band 5, dù thân bài tốt.",
             "Liệt kê máy móc từng số liệu, không gom nhóm: Task Achievement bị giới hạn khoảng band 5.",
             "Overview chỉ nêu đặc điểm tổng quát; số liệu cụ thể để dành cho thân bài."
           ]
@@ -377,7 +377,7 @@
               "example": "The figure for the History Museum started at 5 million, after which it saw a steady rise to 7 million in 2010 before ending the period at 6 million."
             },
             {
-              "frame": "[Số liệu] + S + V in [năm], with a subsequent [adj] rise to [B] and a final drop to [C].",
+              "frame": "[Số liệu] + S + V in [năm], with a subsequent [adj] rise to [B] (and a final drop to [C]).",
               "example": "Around 2 million people visited the Science Museum in 2000, with a subsequent sharp rise to 8 million in 2020.",
               "note": "Sau *with* là danh từ hoặc V-ing, không chia động từ."
             },
@@ -764,7 +764,7 @@
             },
             {
               "label": "Body 2",
-              "en": "This upward trend is projected to continue. By 2040, the figure for Country A is expected to reach 35%, meaning that more than a third of its population will be aged 65 or over. The steepest relative increase, however, is forecast for Country C, where the proportion is set to double from 9% to 18%. Country B is likely to see a similar climb, to almost a quarter (24%)."
+              "en": "This upward trend is projected to continue. By 2040, the figure for Country A is expected to reach 35%, meaning that more than a third of its population will be aged 65 or over. The steepest relative increase, however, is forecast for Country C, where the proportion is set to double from 9% to 18%. Country B is likely to see a smaller but still marked rise, to almost a quarter (24%)."
             }
           ],
           "note": "**Vì sao đạt band cao.** (1) Overview nói cả quá khứ và dự báo, mỗi câu một ý lớn. (2) Thân bài chia theo **mốc thời gian**: Body 1 là số liệu đã qua (thì quá khứ), Body 2 là dự báo, nên không lẫn thì. (3) Ngôn ngữ dự báo luân phiên: *is projected to*, *is expected to*, *is forecast for*, *is set to*, *is likely to*. (4) Chi tiết được chọn lọc: điểm giao nhau năm 1990, mức tăng gấp đôi của C. (5) *The steepest relative increase* chính xác hơn *the fastest growth*: C tăng 100%, còn A chỉ tăng 25% dù cộng thêm nhiều điểm phần trăm hơn."
@@ -1577,7 +1577,7 @@
             },
             {
               "label": "Overview",
-              "en": "Overall, the village has become considerably more developed, the most significant changes being the expansion of housing and the loss of farmland to commercial and leisure facilities."
+              "en": "Overall, the village has become considerably more developed, the most significant changes being the spread of housing and the conversion of farmland and riverside shops into commercial and leisure facilities."
             },
             {
               "label": "Body 1",
@@ -1585,7 +1585,7 @@
             },
             {
               "label": "Body 2",
-              "en": "To the south, the primary school was extended, and the playing field next to it was converted into a sports centre. There used to be a row of shops along the river in the south-east, but they were later redeveloped into a café and a small marina, which was accompanied by a footpath being built along the riverbank."
+              "en": "To the south, the school was extended, and the playing field next to it was converted into a sports centre. There used to be a row of shops along the river in the south-east, but they were later redeveloped into a café and a small marina, which was accompanied by a footpath being built along the riverbank."
             }
           ]
         }
