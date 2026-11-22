@@ -449,7 +449,7 @@
     }
     var head = '';
     if (b.title || b.source === 'supplement') {
-      head = '<div class="block-head">' + (b.title ? '<h2>' + md(b.title) + '</h2>' : '<span></span>') +
+      head = '<div class="block-head">' + (b.title ? '<h2>' + num(ctx && ctx.num) + md(b.title) + '</h2>' : '<span></span>') +
         (b.source === 'supplement' ? supplementBadge() : '') + '</div>';
     }
     return '<section class="block kind-' + esc(kind) + (b.core ? ' is-core' : '') + '" id="b' + idx + '" data-kind="' + esc(kind) + '">' +
@@ -483,10 +483,19 @@
       pages.forEach(function (p) { if ((p._group || p.group) === g.id) ordered.push(p); });
     });
     pages.forEach(function (p) {
-      Object.keys(p).forEach(function (k) { if (PAGE_FIELDS.indexOf(k) === -1 && k !== '_group') warn(sec.id + '/' + p.id + ': trường trang lạ "' + k + '"'); });
+      Object.keys(p).forEach(function (k) { if (PAGE_FIELDS.indexOf(k) === -1 && k.charAt(0) !== '_') warn(sec.id + '/' + p.id + ': trường trang lạ "' + k + '"'); });
+    });
+    // Đánh số theo lộ trình: nhóm 1, 2, 3…; trang 1.1, 1.2…
+    var gn = 0;
+    groups.forEach(function (g) {
+      var ps = ordered.filter(function (p) { return (p._group || p.group) === g.id; });
+      if (!ps.length) return;
+      g._num = String(++gn);
+      ps.forEach(function (p, i) { p._num = g._num + '.' + (i + 1); });
     });
     state.order[sec.id] = ordered;
   }
+  function num(n) { return n ? '<span class="num">' + esc(n) + '</span>' : ''; }
 
   function loadAll() {
     return Promise.all(SECTIONS.map(function (s) {
@@ -592,9 +601,9 @@
     sec._groups.forEach(function (g) {
       var ps = pagesInGroup(secId, g);
       if (!ps.length) return;
-      h += '<div class="side-group"><div class="side-title">' + esc(g.title) + '</div><ul>' + ps.map(function (p) {
+      h += '<div class="side-group"><div class="side-title">' + num(g._num) + esc(g.title) + '</div><ul>' + ps.map(function (p) {
         var cur = p.id === pageId;
-        return '<li><a href="#/' + secId + '/' + esc(p.id) + '"' + (cur ? ' aria-current="page" class="current"' : '') + '>' + esc(plain(p.title)) + '</a></li>';
+        return '<li><a href="#/' + secId + '/' + esc(p.id) + '"' + (cur ? ' aria-current="page" class="current"' : '') + '>' + num(p._num) + '<span>' + esc(plain(p.title)) + '</span></a></li>';
       }).join('') + '</ul></div>';
     });
     // Trang dùng chung từ mục khác (uses chứa mục này)
@@ -638,11 +647,12 @@
     sec._groups.forEach(function (g) {
       var ps = pagesInGroup(secId, g);
       if (!ps.length) return;
-      h += '<h2 class="group-title">' + esc(g.title) + '</h2><div class="page-list">' + ps.map(function (p) {
-        return '<a class="page-item" href="#/' + secId + '/' + esc(p.id) + '"><span class="pi-title">' + esc(plain(p.title)) +
+      h += '<section class="group"><header class="group-head"><span class="group-num">' + esc(g._num) + '</span><div><h2 class="group-title">' + esc(g.title) + '</h2>' +
+        (g.intro ? '<p class="group-intro">' + md(g.intro) + '</p>' : '') + '</div></header><ol class="page-list">' + ps.map(function (p) {
+        return '<li><a class="page-item" href="#/' + secId + '/' + esc(p.id) + '"><span class="pi-num">' + esc(p._num) + '</span><span class="pi-body"><span class="pi-title">' + esc(plain(p.title)) +
           (p.source === 'supplement' ? ' ' + badge('bổ sung', TIP_SUPPLEMENT, 'badge-supp') : '') + '</span>' +
-          (p.summary ? '<span class="pi-sum">' + md(p.summary) + '</span>' : '') + '</a>';
-      }).join('') + '</div>';
+          (p.summary ? '<span class="pi-sum">' + md(p.summary) + '</span>' : '') + '</span></a></li>';
+      }).join('') + '</ol></section>';
     });
     main.innerHTML = h + '</div>';
   }
@@ -656,23 +666,33 @@
     var blocks = arr(page.blocks, secId + '/' + page.id + '.blocks');
     var nCore = blocks.filter(function (b) { return b && b.core; }).length;
     var ctxBase = secId + '/' + page.id;
+    // Số mục trong trang: 1.1.1, 1.1.2… cho các khối có tiêu đề
+    var bnums = {}, bk = 0, tocItems = [];
+    blocks.forEach(function (b, bi) {
+      if (b && b.title) {
+        bnums[bi] = (page._num ? page._num + '.' : '') + (++bk);
+        tocItems.push('<li' + (b.core ? ' class="is-core"' : '') + '><a href="#/' + secId + '/' + esc(page.id) + '?b=' + bi + '">' + num(bnums[bi]) + '<span>' + md(b.title) + '</span></a></li>');
+      }
+    });
+    var toc = tocItems.length >= 3 ? '<nav class="page-toc" aria-label="Trong trang này"><div class="toc-title">Trong trang này</div><ol>' + tocItems.join('') + '</ol></nav>' : '';
 
     var h = '<article class="page' + (state.coreOnly && nCore ? ' core-only' : '') + '">' +
       '<nav class="crumbs" aria-label="Vị trí"><a href="#/' + secId + '">' + esc(sectionShort(secId)) + '</a>' +
-      (group ? ' <span aria-hidden="true">›</span> ' + esc(group.title) : '') + '</nav>' +
-      '<h1>' + esc(plain(page.title)) + '</h1>' +
+      (group ? ' <span aria-hidden="true">›</span> <a href="#/' + secId + '">' + esc((group._num ? group._num + '. ' : '') + group.title) + '</a>' : '') + '</nav>' +
+      '<h1>' + num(page._num) + esc(plain(page.title)) + '</h1>' +
       '<div class="page-meta">' + (page.source === 'supplement' ? supplementBadge() : '') + usesLabel(page) + '</div>' +
       (page.summary ? '<p class="summary">' + md(page.summary) + '</p>' : '') +
       '<div class="page-tools"><label class="switch switch-sm" title="Chỉ hiện các khối lõi để liếc 2 phút trước khi viết">' +
       '<input type="checkbox" id="coreToggle"' + (state.coreOnly && nCore ? ' checked' : '') + (nCore ? '' : ' disabled') + '>' +
       '<span class="switch-track" aria-hidden="true"></span><span class="switch-label">Trước khi viết</span></label>' +
       '<span class="core-info">' + (nCore ? 'Phần lõi: ' + nCore + '/' + blocks.length + ' khối' : 'Trang này không đánh dấu phần lõi') + '</span></div>' +
+      toc +
       '<div class="blocks">' + blocks.map(function (b, bi) {
-        return renderBlock(b, bi, { key: ctxBase + ':' + bi, where: ctxBase + ' block #' + bi });
+        return renderBlock(b, bi, { key: ctxBase + ':' + bi, where: ctxBase + ' block #' + bi, num: bnums[bi] });
       }).join('') + '</div>' +
       '<nav class="pager" aria-label="Trang trước / sau">' +
-      (prev ? '<a class="pager-prev" href="#/' + secId + '/' + esc(prev.id) + '"><span class="pager-dir">← Trang trước</span><span class="pager-title">' + esc(plain(prev.title)) + '</span></a>' : '<span></span>') +
-      (next ? '<a class="pager-next" href="#/' + secId + '/' + esc(next.id) + '"><span class="pager-dir">Trang sau →</span><span class="pager-title">' + esc(plain(next.title)) + '</span></a>' : '<span></span>') +
+      (prev ? '<a class="pager-prev" href="#/' + secId + '/' + esc(prev.id) + '"><span class="pager-dir">← Trang trước</span><span class="pager-title">' + num(prev._num) + esc(plain(prev.title)) + '</span></a>' : '<span></span>') +
+      (next ? '<a class="pager-next" href="#/' + secId + '/' + esc(next.id) + '"><span class="pager-dir">Trang sau →</span><span class="pager-title">' + num(next._num) + esc(plain(next.title)) + '</span></a>' : '<span></span>') +
       '</nav></article>';
     main.innerHTML = h;
 

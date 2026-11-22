@@ -5,24 +5,19 @@
   "groups": [
     {
       "id": "nen-tang",
-      "title": "Nền tảng"
-    },
+      "title": "Nền tảng", "intro": "Đọc trước tiên. Quy trình, tiêu chí chấm và cách mở bài dùng cho mọi dạng." },
     {
       "id": "change",
-      "title": "Có thay đổi theo thời gian"
-    },
+      "title": "Có thay đổi theo thời gian", "intro": "Dữ liệu có nhiều mốc thời gian. Overview = xu hướng chung + khác biệt chính." },
     {
       "id": "static",
-      "title": "Không thay đổi theo thời gian"
-    },
+      "title": "Không thay đổi theo thời gian", "intro": "Dữ liệu tại một thời điểm. Overview = khác biệt + tương đồng; không dùng ngôn ngữ xu hướng." },
     {
       "id": "dac-biet",
-      "title": "Dạng đặc biệt"
-    },
+      "title": "Dạng đặc biệt", "intro": "Mixed charts, map, process và vật thể. Mỗi dạng có bố cục riêng." },
     {
       "id": "cong-cu",
-      "title": "Công cụ"
-    }
+      "title": "Công cụ", "intro": "Tra cứu khi viết và soát bài: ngân hàng ngôn ngữ, lỗi cần tránh, checklist." }
   ],
   "pages": [
     {
