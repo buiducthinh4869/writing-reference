@@ -23,7 +23,7 @@ Toàn bộ nội dung nằm trong `data/*.json`. Code chỉ hiển thị đúng 
 Mỗi file là một mục:
 
 ```
-{ id, title, description, groups: [{id, title}], pages: [Page] }
+{ id, title, description, groups: [{id, title, intro?}], pages: [Page] }
 
 Page = {
   id,                       // dùng trong đường dẫn: #/task1/<id>
@@ -68,6 +68,7 @@ Thêm một mục mới (file JSON thứ tư): tạo `data/<id>.json` và thêm 
 
 ## Tính năng
 
+- Đánh số tự động theo thứ tự `groups` và `pages`: nhóm 1, 2…; trang 1.1, 1.2…; mục có tiêu đề trong trang 1.1.1… Trang có từ 3 mục trở lên hiện khung *Trong trang này*. `intro` của nhóm hiện dưới tiêu đề nhóm ở trang mục lục.
 - Điều hướng: thanh trên chuyển mục, thanh bên theo nhóm (trên điện thoại là menu gập), nút trang trước / sau. Đường dẫn dạng `#/task1/change-over-time`.
 - Tìm kiếm (biểu tượng kính lúp hoặc phím `/`): tìm trong `en`, `vi`, `frame`, `example`, `wrong`, `right` và tiêu đề trang của cả 3 mục; gõ có dấu hay không dấu đều được.
 - Tự kiểm tra: ẩn `en` của cụm từ và `frame` của khung câu, ví dụ hiện ở dạng đã che chỗ trùng với đáp án (nếu không che được thì ẩn ví dụ). Bấm vào thẻ để xem đáp án.

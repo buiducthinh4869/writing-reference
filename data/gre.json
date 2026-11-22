@@ -3,9 +3,9 @@
   "title": "GRE Writing (Issue)",
   "description": "Mục tiêu 4.0–4.5: một bài Issue 30 phút. Khung Task 2 cộng thesis có điều kiện, một đoạn phản biện và ví dụ thật. Dùng chung kỹ năng và từ vựng với Task 2.",
   "groups": [
-    { "id": "nen-tang", "title": "Nền tảng" },
-    { "id": "viet-bai", "title": "Viết bài" },
-    { "id": "luyen-tap", "title": "Luyện tập" }
+    { "id": "nen-tang", "title": "Nền tảng", "intro": "Đọc trước tiên. Đề thi, bố cục bài, và những gì cần thêm khi chuyển từ IELTS sang GRE." },
+    { "id": "viet-bai", "title": "Viết bài", "intro": "Theo đúng thứ tự trong phòng thi: đọc instruction, chốt thesis, viết thân bài và phản biện, chọn ví dụ, soát bài." },
+    { "id": "luyen-tap", "title": "Luyện tập", "intro": "Bài mẫu để đối chiếu và kế hoạch luyện 5 tuần." }
   ],
   "pages": [
     {
@@ -178,7 +178,7 @@
     },
     {
       "id": "instructions",
-      "group": "nen-tang",
+      "group": "viet-bai",
       "title": "6 dạng instruction",
       "summary": "Mỗi đề kèm một instruction riêng; phải làm đúng việc instruction yêu cầu.",
       "source": "supplement",
@@ -227,7 +227,7 @@
     },
     {
       "id": "thesis",
-      "group": "nen-tang",
+      "group": "viet-bai",
       "title": "Thesis có điều kiện",
       "summary": "Ba cách đặt điều kiện; thesis có lập trường, điều kiện và cơ chế.",
       "source": "supplement",
@@ -402,7 +402,7 @@
     },
     {
       "id": "bai-mau",
-      "group": "viet-bai",
+      "group": "luyen-tap",
       "title": "Bài mẫu",
       "summary": "Một bài Statement khoảng 480 từ, dùng ví dụ từ ngân hàng ví dụ.",
       "source": "supplement",
@@ -424,7 +424,7 @@
     },
     {
       "id": "soat-bai",
-      "group": "luyen-tap",
+      "group": "viet-bai",
       "title": "Soát bài",
       "summary": "Checklist 3 phút cuối, lỗi riêng của GRE, từ hay gõ sai khi không có spell-check.",
       "source": "supplement",

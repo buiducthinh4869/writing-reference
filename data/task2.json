@@ -5,20 +5,16 @@
   "groups": [
     {
       "id": "nen-tang",
-      "title": "Nền tảng"
-    },
+      "title": "Nền tảng", "intro": "Đọc trước tiên. Khung bài, tiêu chí chấm, cách đọc đề, phát triển ý và liên kết." },
     {
       "id": "dang-de",
-      "title": "Dạng đề"
-    },
+      "title": "Dạng đề", "intro": "Năm nhóm dạng đề. Mỗi trang: lựa chọn lập trường, bố cục, khung câu, lỗi thường gặp, bài mẫu." },
     {
       "id": "tu-vung",
-      "title": "Từ vựng và ngôn ngữ"
-    },
+      "title": "Từ vựng và ngôn ngữ", "intro": "Cụm từ dùng chéo nhiều chủ đề và ngôn ngữ theo chức năng." },
     {
       "id": "soat-bai",
-      "title": "Soát bài"
-    }
+      "title": "Soát bài", "intro": "Dùng trong 5–10 phút cuối: lỗi cần tránh và checklist." }
   ],
   "pages": [
     {
